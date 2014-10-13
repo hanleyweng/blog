@@ -12,7 +12,5 @@ I had a really fun time taking this subject. It really opens up the possibilitie
 
 Here were my exam notes:
 
-- AI Notes final version 2 (2 pages) [PDF]({{ post.url }}/Content/Exam Notes/AI Notes 2.pdf)
-- AI Notes draft version 1 (4 pages)
-
-
+- AI Notes final version 2 (2 pages) [PDF]({% asset_path /../content/Exam Notes/AI Notes v2.pdf %}), [Pages]({% asset_path /../content/Exam Notes/AI Notes v2.pages.zip %})
+- AI Notes draft version 1 (4 pages) [PDF]({% asset_path /../content/Exam Notes/AI Notes v1.pdf %}), [Pages]({% asset_path /../content/Exam Notes/AI Notes v1.pages.zip %})
