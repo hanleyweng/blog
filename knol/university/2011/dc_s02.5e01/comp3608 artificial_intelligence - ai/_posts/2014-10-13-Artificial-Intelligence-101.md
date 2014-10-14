@@ -11,6 +11,6 @@ I had a really fun time taking this subject. It really opens up the possibilitie
 
 Here were my exam notes:
 
-- AI Notes final version 2 (2 pages) [pdf](content/exam notes/AI Notes v2.pdf)
+- AI Notes final version 2 (2 pages) [[PDF]](content/exam notes/AI Notes v2.pdf) [[pages]](content/exam notes/AI Notes v2.pages.zip)
 
-- AI Notes draft version 1 (4 pages)
+- AI Notes draft version 1 (4 pages) [[PDF]](content/exam notes/AI Notes v1.pdf) [[pages]](content/exam notes/AI Notes v1.pages.zip)
