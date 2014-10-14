@@ -11,3 +11,6 @@ github_username:  hanleyweng
 
 # Build settings
 markdown: kramdown
+
+# Permalink
+permalink: /:categories/:title.html

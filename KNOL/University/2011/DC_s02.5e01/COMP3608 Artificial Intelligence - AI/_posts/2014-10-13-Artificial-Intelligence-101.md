@@ -2,7 +2,6 @@
 layout: post
 title:  "Artificial Intelligence - A course summary"
 date:   2014-10-13 20:06:40
-categories: message hello
 tags: Artificial Intelligence, AI, Student, Class, COMP3608, USYD, University of Sydney
 ---
 
@@ -12,5 +11,5 @@ I had a really fun time taking this subject. It really opens up the possibilitie
 
 Here were my exam notes:
 
-- AI Notes final version 2 (2 pages) [PDF]({% asset_path /../content/Exam Notes/AI Notes v2.pdf %}), [Pages]({% asset_path /../content/Exam Notes/AI Notes v2.pages.zip %})
-- AI Notes draft version 1 (4 pages) [PDF]({% asset_path /../content/Exam Notes/AI Notes v1.pdf %}), [Pages]({% asset_path /../content/Exam Notes/AI Notes v1.pages.zip %})
+- AI Notes final version 2 (2 pages) [PDF]({/../content/Exam Notes/AI Notes v2.pdf)
+- AI Notes draft version 1 (4 pages)
