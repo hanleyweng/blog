@@ -11,5 +11,12 @@ I had a really fun time taking this subject. It really opens up the possibilitie
 
 Here were my exam notes:
 
-- AI Notes final version 2 (2 pages) [PDF]({/../content/Exam Notes/AI Notes v2.pdf)
+- AI Notes final version 2 (2 pages) 
+
+[PDF]({/../content/Exam Notes/AI Notes v2.pdf)
+
+[PDF](/KNOL/University/2011/DC_s02.5e01/COMP3608 Artificial Intelligence - AI/content/Exam Notes/AI Notes v2.pdf)
+
+[PDF](content/Exam Notes/AI Notes v2.pdf)
+
 - AI Notes draft version 1 (4 pages)
