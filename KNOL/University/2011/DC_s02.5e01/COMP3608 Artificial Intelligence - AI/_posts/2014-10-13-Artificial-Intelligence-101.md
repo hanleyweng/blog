@@ -19,4 +19,11 @@ Here were my exam notes:
 
 [PDF](content/Exam Notes/AI Notes v2.pdf)
 
+[PDF]({{ site.baseurl }}{{ post.url }}/content/Exam Notes/AI Notes v2.pdf)
+
+[PDF]({{ site.baseurl }}{{ post.url }}/../content/Exam Notes/AI Notes v2.pdf)
+
+[PDF]({{ site.baseurl }}{{ post.dir }}/content/Exam Notes/AI Notes v2.pdf)
+
+
 - AI Notes draft version 1 (4 pages)
