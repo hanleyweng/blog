@@ -12,4 +12,17 @@ layout: default
     {{ content }}
   </article>
 
+  <footer class="post-footer">
+  	<hr>
+  	<p class="post-meta">
+  		Tags: {{ page.tags | join: ', ' }}
+  		
+  		<br/>
+  		Categories: {{ page.categories | join: ' > ' }}
+  	</p>
+  	<p class="post-meta">
+  		
+  	</p>
+  </footer>
+
 </div>
