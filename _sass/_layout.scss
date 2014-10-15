@@ -233,4 +233,15 @@
             font-size: 18px;
         }
     }
+
+    img {
+        max-height: 300px;
+        display: block;
+        margin: auto;
+    }
+
+    iframe {
+        display: block;
+        margin: auto;
+    }
 }
