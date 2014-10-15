@@ -1,0 +1,139 @@
+Rethinking Idea
+?
+
+Proposed Alterations.
+Focusing more on Habbits - Recurrence.
+Reward and Punishment
+
+Implementation
+Bit more of a focus on the pervasiveness - pico-projected ocr.
+
+----------------------------------------------------------------------------
+
+~ encouragement to keep entering
+	/ automatically get that data
+	/ might already have calendar
+	
+integration from twitter or facebook.
+like the i feel fine project.
+
+yes / no this is a goal
+
+aid for auto-aggregation.
+
+twitter calendar blackboard.
+
+aggregate from existing
+address the input automatically, and just address management. don't have to deal with input anymore.
+
+can describe / demonstrate the nfc integration, task done prompt confirm
+
+- transition between different display spaces, the flicking, different visual aesthetics using existing metaphors.
+- e.g. if on wall, it's a wall calendar, if desk it's like a notebook
+
+- don't think about input, just think about output
+
+
+personal information experience, not management.
+focus on the expirience.
+
+all this data is in one central pot and visualizing 
+
+one device (with projector) over multiple surfaces.
+
+try to understand what is the difference between projecting on different surfaces.
+[ e.g. what's the purpose of projecting from phone to arm/palm ]
+
+moving to guestural form.
+
+move on from goals 
+
+
+think about visualization on different projection surfaces.
+
+maybe that's your only input, the distance, and the projection surface.
+
+see what their overall day would look like, not only tasks, things everything ... 
+
+projection - public and private
+
+project something close - more personal info perhaps.
+
+pick one possibility.
+
+perhaps don't get rid of personal informatics screen, but work out the context and situation to show that.
+
+~ projecting on fridge? living room?
+
+----------------------------------------------------------------------------
+[ some more talk with Martin ]
+
+do have some technical implementation - the pico projector etc.
+
+would like to see code that utilizes the data and then turns it into some visualization (don't do illustrator mockups)
+
+look at the aspect of TRANSFERING! - flicking. initially the screen is on the phone still (so code for that). but it can be transfered!
+
+could use combination of objective-c and processing
+
+can transfer to tv - can put it into context of tv (like a movie!)
++ other ones, like different surfaces and multitouch tables tablets.
+
+have the zooming effect. - fake around.
+
+interface on iphone can be done in objective c
+	- phone could be portal where you manage everything that is aggregated
+	- think about what are the interactions that are happening on the phone.
+	- some visualizations might be wanted to be seen on the phone rather than anywhere else.
+
+develop for other surfaces too!
+	put a sheet on the wall and sketch it!
+	e.g. if we really want to make a calendar on the wall, then can do in different languages, different video
+	
+though different languages.
+	- should all look the same (undistinguishable that it was done in different languages).
+	
+if don't have enough time, it's ok to do the wall mockup, doesn't have to be coded.
+
+spend more time on the video than the creation of app.
+
+social memories platform
+	- using the metaphor of data - book metaphor
+
+- don't loose the reflection aspect! the concept is still good.
+
+------------------------------------------------------------------------------
+
+don't focus on data entry, focus on data representation
+
+still want a design on the iphone with transfering aspects (iOS)
+
+possible judge of distance; augmented reality, 
+
+------------------------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+WHAT TO DO 
+
+Blog for later.
+
+On Last Blogged Concept:
+The aggregated feedback from classmates and other peoples.
+
+Thoughts, Progress, Conclusions = Re-Focus - Hence a Re-Design
+
+-------
+
+Blog on the Redesigned Concept
+
+[ The Entire Concept ]
+
+What parts i plan to implement.
+Plan of Implementation.
+
+What I've done so far, in terms of refinement, testing and implementation.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
