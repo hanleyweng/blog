@@ -35,7 +35,27 @@ Video "DNA Java Tryoud d" shows toggling dissuading hubs in the forceAtlas2 layo
 
 ---
 
+## 1. First Blueprint
 
+The following blueprint was created as an early draft of how network events could be represented with animated effects.
 
+<video controls>
+  <source src="1 blueprint/0 blueprint alpha/NetworkAnim-alpha.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
+[[Source: FLA]](1 blueprint/0 blueprint alpha/NetworkAnim-alpha.fla)
+
+A slower version was then requested, resulting in a less elastic, but more 'step-by-step' animation.
+
+<video controls>
+  <source src="1 blueprint/1 blueprint slower/NetworkAnim-alpha-2-slowedDown (Converted).mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+[[Source: FLA]](1 blueprint/1 blueprint slower/NetworkAnim-alpha-2-slowedDown.fla)
+
+---
+
+...
 
