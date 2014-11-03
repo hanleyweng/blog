@@ -1,11 +1,11 @@
 ---
 layout:	post
-title:	"Data Visualization of Temporal Networks - Progress Documentation "
+title:	"Data Visualization of Temporal Networks (Progress Documentation)"
 date:	2014-02-01
 tags:	[data visualisation, network, animation]
 ---
 
-![network cover image](post_content/cover_image.jpg "network cover image")
+![network cover image](-post_content/cover_image.jpg "network cover image")
 
 ## About
 
@@ -37,7 +37,7 @@ Video "DNA Java Tryoud d" shows toggling dissuading hubs in the forceAtlas2 layo
 
 ## 1. First Blueprint
 
-The following blueprint was created as an early draft of how network events could be represented with animated effects.
+The following blueprint was created as an early draft of how network events could be represented with animated effects. Created in Adobe Flash.
 
 <video controls>
   <source src="1 blueprint/0 blueprint alpha/NetworkAnim-alpha.mov" type="video/mp4">
