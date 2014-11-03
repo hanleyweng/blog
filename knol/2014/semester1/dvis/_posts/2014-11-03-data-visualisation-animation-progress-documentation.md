@@ -57,5 +57,22 @@ A slower version was then requested, resulting in a less elastic, but more 'step
 
 ---
 
-...
+## 3. Draft K-Core Animation
+
+Next an animation was created with a 'halo' representing a node's kshell (its maximum kcore value). KCore represents a node's resilience within a network. For more information on KCore see [wiki here](http://en.wikipedia.org/wiki/Degeneracy_(graph_theory)).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/bLIb4cQ4YSM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+The darker the halo, the higher the kshell.
+The colors of the individual nodes here represent their statically computed discrete modularity class.
+
+Data Source: This was done using the java network from earlier (0). 
+
+Process:
+
+- Using Gephi, Nodes were filtered at kshell 2, 3, and 4 (the maximum in this network). The higher the kshell, the darker and smaller the node was represented as. 
+- Each layer, including a base layer (kshell 0, colorful nodes) was played in Gephi and screen recorded.
+- Using Adobe After effects; these layers were overlayed on top of one another. Color Key was used to make each layer transparent, and tinting was used to ensure the nodes (and their outlines) were all one color. The combination of color key and Tinting produced a nice glow effect around each layer.
+
+---
 
