@@ -23,6 +23,8 @@ Note: Videos on youtube can be adjusted to up to 2x their normal speed which may
 
 ## 0. Early tests.
 
+3rd February, 2014
+
 Observing how a program like Gephi represents temporal networks. Datasets tested was a basic Java Repo that's part of Gephi's collection and Gephi's own Dynamic Network generator. 
 
 With Gephi's Dynamic Network Generator, it usually follows the pattern of generating new nodes and edges, changing the edge weights, then removing themselves.
@@ -36,6 +38,8 @@ Video "DNA Java Tryoud d" shows toggling dissuading hubs in the forceAtlas2 layo
 ---
 
 ## 1. First Blueprint
+
+9th February, 2014
 
 The following blueprint was created as an early draft of how network events could be represented with animated effects. Created in Adobe Flash.
 
@@ -59,6 +63,8 @@ A slower version was then requested, resulting in a less elastic, but more 'step
 
 ## 3. Draft K-Core Animation
 
+14th February 2014
+
 Next an animation was created with a 'halo' representing a node's kshell (its maximum kcore value). KCore represents a node's resilience within a network. For more information on KCore see [wiki here](http://en.wikipedia.org/wiki/Degeneracy_(graph_theory)).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/bLIb4cQ4YSM?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -77,6 +83,8 @@ Process:
 ---
 
 ## 4. Marvel Events Network
+
+18th February 2014
 
 Digging into some Marvel data, a temporal network of characters and their interactions with other characters was created. [[0 Network File GEXF]](4 marvel transformation files/0 MarvelEventsExport.gexf)
 
