@@ -204,3 +204,31 @@ It required some cleaning, for example, the removal of nodes that were predomina
 <iframe width="560" height="315" src="//www.youtube.com/embed/OLC23rWu8uw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+## 19. Immersion Email Data Visualisation
+
+19th April 2014
+
+Taking a subset of the immersion email data, a series of renders were made that varied the metrics (kshell, betweenness, degree, global modularity) of a node and the visual attributes it mapped too (color, size, outline).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/L5gLw3uiR2M?list=PLFdSJeh0yOsnlK-oXVuA5GpivU1E48NAL" frameborder="0" allowfullscreen></iframe>
+
+Videos
+
+- A - Color-kcoremax ~.mov
+- B - Size-Betweenness, Color-KCoreMax.mov
+- C - Color-Betweenness, Size-Degree.mov
+- E - Color-globalModularity, Size-kcoremax.mov
+- F - Color-kcoremax, Size-degree, Hull-globalModularity.mov
+- G0 - Color-kcoremax.mov
+- G1 - Color-kcoremax, Size-kcoremax.mov
+- G2 - Color-kcoremax, Size-kcoremax, Staging-1Edges2Nodes.mov
+
+Notes:
+
+- B. Tried a different dark themed color palette with this one - actually looks nicer - though potentially not as clear as the rest. 
+- G0. G1. Visual comparison of mapping just color to kshell, or both color and size.
+- G1. G2. Differences in the Staging of elements was also played with (comparing version G1 and G2).
+
+---
+
