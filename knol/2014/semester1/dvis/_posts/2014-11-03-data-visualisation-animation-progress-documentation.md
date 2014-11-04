@@ -17,7 +17,9 @@ Supervised by Seokhee Hong, at the School of Information Technologies, Universit
 
 ---
 
-Note: Videos on youtube can be adjusted to up to 2x their normal speed which may be appropriate for some of the screen recordings here to overcome the lag within them. Most videos are simple links, the more significant videos will be embedded in this post.
+Note: Videos on youtube can be adjusted to up to 2x their normal speed which may be appropriate for some of the screen recordings here to overcome the lag within them. Most videos are simple links, the more significant videos will be embedded in this post. 
+
+All datasets seen here are available.
 
 ---
 
@@ -151,9 +153,11 @@ Just playing a bit more with Unity hoping that different methods could produce a
 
 Wrote a program to generate a Scale Free Network (SFN).
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/bqQjNg07cBM?list=PLFdSJeh0yOslpp85Q9BKwgbMm6sdxiOeo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/bqQjNg07cBM?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Unfortunately with this implementation the maximum kcore value is only 2. We're presently interested in networks with higher kcore numbers.
+
+A modified version with higher preferential probability constant was also generated that resulted in higher maximum kcore [[video]](https://www.youtube.com/watch?v=RyfisGn8_IE&feature=youtu.be).
 
 ---
 
