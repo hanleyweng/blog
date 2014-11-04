@@ -144,3 +144,17 @@ A video showing a snapshot of the Bunt network filtered at varying edge weights:
 Just playing a bit more with Unity hoping that different methods could produce a nicer looking network. It seems best to opt for an alternative tool.
 
 ---
+
+## 11. Scale Free Network Generator
+
+27th February 2014
+
+Wrote a program to generate a Scale Free Network (SFN).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/bqQjNg07cBM?list=PLFdSJeh0yOslpp85Q9BKwgbMm6sdxiOeo" frameborder="0" allowfullscreen></iframe>
+
+Unfortunately with this implementation the maximum kcore value is only 2. We're presently interested in networks with higher kcore numbers.
+
+---
+
+---
