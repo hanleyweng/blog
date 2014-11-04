@@ -178,3 +178,27 @@ Or color nodes based on kshell.
 <iframe width="420" height="315" src="//www.youtube.com/embed/_hGUdnSb9JY?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+## 16. 911 Network Data
+
+30th March 2014
+
+As part of the search for more network data - 911 network data was also explored. [[Youtube Playlist]](https://www.youtube.com/playlist?list=PLFdSJeh0yOsmqnwU870y06oaD8bZq888-)
+
+[[Pajek: Reuter Terror news network data]](http://vlado.fmf.uni-lj.si/pub/networks/data/CRA/terror.htm)
+
+---
+
+## 17. Immersion Email Data
+
+31st March 2014
+
+Coming across [MIT's Immersion](https://immersion.media.mit.edu) visualisation of email networks, I used it to mine my own email network to visualise.
+
+![Email Network before Filtering](17 immersion data experiment - temporal data compressed incorrectly/Screen Shot 2014-03-31 at 8.45.43 pm.png "Email Network before Filtering")
+
+It required some cleaning, for example, the removal of nodes that were predominantly one way communications (low in-degree) such as mailing lists.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/OLC23rWu8uw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
