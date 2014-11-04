@@ -123,6 +123,8 @@ When visualised, we can see the progression of character interactions throughout
 
 ## 9. RSiena Bunt Network Exploration
 
+25th February 2014
+
 Still searching for temporal scale free networks of significant sizes - [RSiena](http://www.stats.ox.ac.uk/~snijders/siena/) looked promising. Notably the student networks such as ['Gerhard van de Bunt students'](http://www.stats.ox.ac.uk/~snijders/siena/vdBunt_data.htm).
 
 Students can be connected by the strength of their relationship to one another - with a certain threshold edge strength producing a nice Scale Free Network. Unfortunately this network didn't prove to be sufficiently large (in terms of number of nodes) for animation.
@@ -134,6 +136,8 @@ A video showing a snapshot of the Bunt network filtered at varying edge weights:
 ---
 
 ## 10. Unity Outline Experiment
+
+27th February 2014
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/s5YqSAWcY6A?rel=0" frameborder="0" allowfullscreen></iframe>
 
