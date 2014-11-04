@@ -1,4 +1,12 @@
 /**
+ * General
+ */
+ hr {
+    margin: 20px auto;
+ }
+
+
+/**
  * Site header
  */
 .site-header {
@@ -243,5 +251,6 @@
     iframe {
         display: block;
         margin: auto;
+        margin-bottom: 20px;
     }
 }
