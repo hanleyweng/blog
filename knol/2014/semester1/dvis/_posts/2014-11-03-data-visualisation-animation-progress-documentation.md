@@ -104,3 +104,20 @@ It was later decided that the project would opt for a more 2-dimensional route.
 
 ---
 
+## 8. Movie Scripts Exploration
+
+21st February 2014
+
+Continuing the search for different temporal networks, movie scripts from [IMSDB](http://www.imsdb.com) were explored. 
+
+The scripts for Lord of the Rings 1, Wall-E, Star Trek, and Futurama Season 1 were downloaded as html. A short java program was written to transform these scripts into a network of characters talking with one another. 
+
+When visualised, we can see the progression of character interactions throughout a movie such as Star Trek:
+
+- static layout [[2 youtube video]](https://www.youtube.com/watch?v=X9_tOv_mAec)
+- dynamic layout: 
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/iP8FMSHJ6fQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+

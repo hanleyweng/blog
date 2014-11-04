@@ -1,0 +1,231 @@
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2"><graph mode="dynamic" defaultedgetype="undirected" timeformat="double">
+<edges>
+<edge id="172" source="BUY N LARGE CEO" target="BILLBOARD ANNOUNCER" label="" start="172" end="172" />
+<edge id="615" source="EVE" target="EVE" label="" start="615" end="615" />
+<edge id="634" source="WALL-E" target="EVE" label="" start="634" end="634" />
+<edge id="749" source="EVE" target="EVE" label="" start="749" end="749" />
+<edge id="755" source="WALL-E" target="EVE" label="" start="755" end="755" />
+<edge id="758" source="EVE" target="WALL-E" label="" start="758" end="758" />
+<edge id="764" source="WALL-E" target="EVE" label="" start="764" end="764" />
+<edge id="780" source="WALL-E" target="EVE" label="" start="780" end="780" />
+<edge id="784" source="EVE" target="WALL-E" label="" start="784" end="784" />
+<edge id="789" source="EVE" target="EVE" label="" start="789" end="789" />
+<edge id="792" source="WALL-E" target="EVE" label="" start="792" end="792" />
+<edge id="798" source="EVE" target="WALL-E" label="" start="798" end="798" />
+<edge id="801" source="WALL-E" target="EVE" label="" start="801" end="801" />
+<edge id="805" source="EVE" target="WALL-E" label="" start="805" end="805" />
+<edge id="813" source="EVE" target="EVE" label="" start="813" end="813" />
+<edge id="820" source="WALL-E" target="EVE" label="" start="820" end="820" />
+<edge id="823" source="EVE" target="WALL-E" label="" start="823" end="823" />
+<edge id="834" source="EVE" target="WALL-E" label="" start="834" end="834" />
+<edge id="837" source="WALL-E" target="EVE" label="" start="837" end="837" />
+<edge id="843" source="WALL-E" target="WALL-E" label="" start="843" end="843" />
+<edge id="846" source="EVE" target="WALL-E" label="" start="846" end="846" />
+<edge id="853" source="WALL-E" target="EVE" label="" start="853" end="853" />
+<edge id="856" source="EVE" target="WALL-E" label="" start="856" end="856" />
+<edge id="868" source="EVE" target="EVE" label="" start="868" end="868" />
+<edge id="907" source="WALL-E" target="WALL-E" label="" start="907" end="907" />
+<edge id="917" source="WALL-E" target="WALL-E" label="" start="917" end="917" />
+<edge id="927" source="WALL-E" target="WALL-E" label="" start="927" end="927" />
+<edge id="1025" source="WALL-E" target="WALL-E" label="" start="1025" end="1025" />
+<edge id="1030" source="WALL-E" target="WALL-E" label="" start="1030" end="1030" />
+<edge id="1151" source="WALL-E" target="WALL-E" label="" start="1151" end="1151" />
+<edge id="1217" source="WALL-E" target="WALL-E" label="" start="1217" end="1217" />
+<edge id="1287" source="M-O" target="WALL-E" label="" start="1287" end="1287" />
+<edge id="1343" source="M-O" target="M-O" label="" start="1343" end="1343" />
+<edge id="1505" source="PASSENGER #2 (ON SCREEN)" target="PASSENGER #1" label="" start="1505" end="1505" />
+<edge id="1509" source="PASSENGER #1" target="PASSENGER #2 (ON SCREEN)" label="" start="1509" end="1509" />
+<edge id="1561" source="MISC. PASSENGERS" target="MISC. FEMALE PASSENGER" label="" start="1561" end="1561" />
+<edge id="1587" source="JOHN" target="SHIP'S COMPUTER" label="" start="1587" end="1587" />
+<edge id="1593" source="JOHN" target="JOHN" label="" start="1593" end="1593" />
+<edge id="1609" source="JOHN" target="JOHN" label="" start="1609" end="1609" />
+<edge id="1612" source="STEWARD" target="JOHN" label="" start="1612" end="1612" />
+<edge id="1618" source="JOHN" target="STEWARD" label="" start="1618" end="1618" />
+<edge id="1626" source="WALL-E" target="JOHN" label="" start="1626" end="1626" />
+<edge id="1629" source="JOHN" target="WALL-E" label="" start="1629" end="1629" />
+<edge id="1639" source="JOHN" target="WALL-E" label="" start="1639" end="1639" />
+<edge id="1647" source="WALL-E" target="JOHN" label="" start="1647" end="1647" />
+<edge id="1650" source="JOHN" target="WALL-E" label="" start="1650" end="1650" />
+<edge id="1699" source="BEAUTICIAN-BOTS" target="SHIP'S COMPUTER" label="" start="1699" end="1699" />
+<edge id="1707" source="SHIP'S COMPUTER" target="BEAUTICIAN-BOTS" label="" start="1707" end="1707" />
+<edge id="1711" source="MONORAIL PASSENGERS" target="SHIP'S COMPUTER" label="" start="1711" end="1711" />
+<edge id="1717" source="WALL-E" target="MONORAIL PASSENGERS" label="" start="1717" end="1717" />
+<edge id="1744" source="MARY" target="MARY" label="" start="1744" end="1744" />
+<edge id="1766" source="WALL-E" target="MARY" label="" start="1766" end="1766" />
+<edge id="1769" source="MARY" target="WALL-E" label="" start="1769" end="1769" />
+<edge id="1773" source="WALL-E" target="MARY" label="" start="1773" end="1773" />
+<edge id="1780" source="MARY" target="WALL-E" label="" start="1780" end="1780" />
+<edge id="1787" source="WALL-E" target="MARY" label="" start="1787" end="1787" />
+<edge id="1940" source="BEAUTICIAN-BOT" target="CAPTAIN" label="" start="1940" end="1940" />
+<edge id="1947" source="CAPTAIN" target="BEAUTICIAN-BOT" label="" start="1947" end="1947" />
+<edge id="1971" source="CAPTAIN" target="AUTOPILOT" label="" start="1971" end="1971" />
+<edge id="1985" source="AUTOPILOT" target="CAPTAIN" label="" start="1985" end="1985" />
+<edge id="1991" source="CAPTAIN" target="AUTOPILOT" label="" start="1991" end="1991" />
+<edge id="2023" source="CAPTAIN" target="AUTOPILOT" label="" start="2023" end="2023" />
+<edge id="2026" source="AUTOPILOT" target="CAPTAIN" label="" start="2026" end="2026" />
+<edge id="2031" source="CAPTAIN" target="AUTOPILOT" label="" start="2031" end="2031" />
+<edge id="2082" source="CAPTAIN (INTERCOM)" target="CAPTAIN (ON INTERCOM)" label="" start="2082" end="2082" />
+<edge id="2108" source="AUTOPILOT" target="AUTOPILOT" label="" start="2108" end="2108" />
+<edge id="2111" source="CAPTAIN" target="AUTOPILOT" label="" start="2111" end="2111" />
+<edge id="2122" source="CAPTAIN" target="CAPTAIN" label="" start="2122" end="2122" />
+<edge id="2138" source="BUY N LARGE CEO" target="CAPTAIN" label="" start="2138" end="2138" />
+<edge id="2151" source="BUY N LARGE CEO" target="BUY N LARGE CEO" label="" start="2151" end="2151" />
+<edge id="2163" source="BUY N LARGE CEO" target="CAPTAIN" label="" start="2163" end="2163" />
+<edge id="2180" source="BUY N LARGE CEO" target="BUY N LARGE CEO" label="" start="2180" end="2180" />
+<edge id="2220" source="BUY N LARGE CEO" target="CAPTAIN" label="" start="2220" end="2220" />
+<edge id="2229" source="CAPTAIN" target="BUY N LARGE CEO" label="" start="2229" end="2229" />
+<edge id="2241" source="CAPTAIN" target="CAPTAIN" label="" start="2241" end="2241" />
+<edge id="2252" source="WALL-E" target="EVE" label="" start="2252" end="2252" />
+<edge id="2259" source="EVE" target="WALL-E" label="" start="2259" end="2259" />
+<edge id="2286" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="2286" end="2286" />
+<edge id="2299" source="SHIP'S COMPUTER" target="SHIP'S COMPUTER" label="" start="2299" end="2299" />
+<edge id="2302" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="2302" end="2302" />
+<edge id="2305" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="2305" end="2305" />
+<edge id="2316" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="2316" end="2316" />
+<edge id="2319" source="AUTOPILOT" target="CAPTAIN" label="" start="2319" end="2319" />
+<edge id="2322" source="CAPTAIN" target="AUTOPILOT" label="" start="2322" end="2322" />
+<edge id="2347" source="WALL-E" target="EVE" label="" start="2347" end="2347" />
+<edge id="2350" source="EVE" target="WALL-E" label="" start="2350" end="2350" />
+<edge id="2357" source="CAPTAIN" target="EVE" label="" start="2357" end="2357" />
+<edge id="2364" source="AUTOPILOT" target="CAPTAIN" label="" start="2364" end="2364" />
+<edge id="2368" source="CAPTAIN" target="AUTOPILOT" label="" start="2368" end="2368" />
+<edge id="2371" source="AUTOPILOT" target="CAPTAIN" label="" start="2371" end="2371" />
+<edge id="2375" source="CAPTAIN" target="AUTOPILOT" label="" start="2375" end="2375" />
+<edge id="2379" source="AUTOPILOT" target="CAPTAIN" label="" start="2379" end="2379" />
+<edge id="2382" source="CAPTAIN" target="AUTOPILOT" label="" start="2382" end="2382" />
+<edge id="2398" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="2398" end="2398" />
+<edge id="2408" source="CAPTAIN" target="CAPTAIN" label="" start="2408" end="2408" />
+<edge id="2418" source="WALL-E" target="CAPTAIN" label="" start="2418" end="2418" />
+<edge id="2425" source="CAPTAIN" target="WALL-E" label="" start="2425" end="2425" />
+<edge id="2460" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="2460" end="2460" />
+<edge id="2469" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="2469" end="2469" />
+<edge id="2474" source="CAPTAIN" target="CAPTAIN" label="" start="2474" end="2474" />
+<edge id="2477" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="2477" end="2477" />
+<edge id="2486" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="2486" end="2486" />
+<edge id="2489" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="2489" end="2489" />
+<edge id="2548" source="BEAUTICIAN-BOT" target="WALL-E" label="" start="2548" end="2548" />
+<edge id="2576" source="WALL-E" target="BEAUTICIAN-BOT" label="" start="2576" end="2576" />
+<edge id="2653" source="WALL-E" target="WALL-E" label="" start="2653" end="2653" />
+<edge id="2664" source="EVE" target="WALL-E" label="" start="2664" end="2664" />
+<edge id="2702" source="EVE" target="EVE" label="" start="2702" end="2702" />
+<edge id="2746" source="EVE" target="STEWARD" label="" start="2746" end="2746" />
+<edge id="2821" source="WALL-E" target="SHIP'S COMPUTER (SCREEN)" label="" start="2821" end="2821" />
+<edge id="2877" source="EVE" target="EVE" label="" start="2877" end="2877" />
+<edge id="2891" source="EVE" target="EVE" label="" start="2891" end="2891" />
+<edge id="2900" source="WALL-E" target="EVE" label="" start="2900" end="2900" />
+<edge id="2910" source="EVE" target="WALL-E" label="" start="2910" end="2910" />
+<edge id="2921" source="EVE" target="EVE" label="" start="2921" end="2921" />
+<edge id="2978" source="WALL-E" target="EVE" label="" start="2978" end="2978" />
+<edge id="2982" source="EVE" target="WALL-E" label="" start="2982" end="2982" />
+<edge id="3018" source="SHIP'S COMPUTER" target="SHIP'S COMPUTER" label="" start="3018" end="3018" />
+<edge id="3040" source="SHIP'S COMPUTER" target="WALL-E" label="" start="3040" end="3040" />
+<edge id="3069" source="SHIP'S COMPUTER" target="SHIP'S COMPUTER" label="" start="3069" end="3069" />
+<edge id="3093" source="WALL-E" target="EVE" label="" start="3093" end="3093" />
+<edge id="3120" source="WALL-E" target="WALL-E" label="" start="3120" end="3120" />
+<edge id="3127" source="EVE" target="WALL-E" label="" start="3127" end="3127" />
+<edge id="3163" source="WALL-E" target="EVE" label="" start="3163" end="3163" />
+<edge id="3166" source="EVE" target="WALL-E" label="" start="3166" end="3166" />
+<edge id="3174" source="WALL-E" target="EVE" label="" start="3174" end="3174" />
+<edge id="3222" source="MARY" target="MARY" label="" start="3222" end="3222" />
+<edge id="3230" source="JOHN" target="MARY" label="" start="3230" end="3230" />
+<edge id="3237" source="MARY" target="JOHN" label="" start="3237" end="3237" />
+<edge id="3240" source="JOHN" target="MARY" label="" start="3240" end="3240" />
+<edge id="3248" source="JOHN" target="JOHN" label="" start="3248" end="3248" />
+<edge id="3269" source="JOHN" target="MARY" label="" start="3269" end="3269" />
+<edge id="3272" source="MARY" target="JOHN" label="" start="3272" end="3272" />
+<edge id="3324" source="AUTOPILOT" target="CAPTAIN" label="" start="3324" end="3324" />
+<edge id="3327" source="CAPTAIN" target="AUTOPILOT" label="" start="3327" end="3327" />
+<edge id="3335" source="CAPTAIN" target="CAPTAIN" label="" start="3335" end="3335" />
+<edge id="3400" source="MARY" target="JOHN" label="" start="3400" end="3400" />
+<edge id="3403" source="JOHN" target="MARY" label="" start="3403" end="3403" />
+<edge id="3409" source="LIFEGUARD-BOT" target="JOHN" label="" start="3409" end="3409" />
+<edge id="3412" source="JOHN &amp; MARY" target="LIFEGUARD-BOT" label="" start="3412" end="3412" />
+<edge id="3457" source="EVE" target="WALL-E" label="" start="3457" end="3457" />
+<edge id="3465" source="EVE" target="EVE" label="" start="3465" end="3465" />
+<edge id="3517" source="CAPTAIN" target="CAPTAIN" label="" start="3517" end="3517" />
+<edge id="3525" source="CAPTAIN" target="CAPTAIN" label="" start="3525" end="3525" />
+<edge id="3555" source="CAPTAIN" target="CAPTAIN" label="" start="3555" end="3555" />
+<edge id="3591" source="CAPTAIN" target="CAPTAIN" label="" start="3591" end="3591" />
+<edge id="3653" source="WALL-E" target="WALL-E" label="" start="3653" end="3653" />
+<edge id="3695" source="CAPTAIN" target="CAPTAIN" label="" start="3695" end="3695" />
+<edge id="3701" source="CAPTAIN" target="CAPTAIN" label="" start="3701" end="3701" />
+<edge id="3704" source="AUTOPILOT (ON SPEAKER)" target="CAPTAIN" label="" start="3704" end="3704" />
+<edge id="3713" source="EVE" target="AUTOPILOT (ON SPEAKER)" label="" start="3713" end="3713" />
+<edge id="3716" source="(MORE)" target="EVE" label="" start="3716" end="3716" />
+<edge id="3737" source="AUTOPILOT" target="CAPTAIN" label="" start="3737" end="3737" />
+<edge id="3741" source="CAPTAIN" target="AUTOPILOT" label="" start="3741" end="3741" />
+<edge id="3747" source="AUTOPILOT" target="CAPTAIN" label="" start="3747" end="3747" />
+<edge id="3754" source="AUTOPILOT" target="AUTOPILOT" label="" start="3754" end="3754" />
+<edge id="3757" source="CAPTAIN" target="AUTOPILOT" label="" start="3757" end="3757" />
+<edge id="3760" source="AUTOPILOT" target="CAPTAIN" label="" start="3760" end="3760" />
+<edge id="3763" source="CAPTAIN" target="AUTOPILOT" label="" start="3763" end="3763" />
+<edge id="3766" source="AUTOPILOT" target="CAPTAIN" label="" start="3766" end="3766" />
+<edge id="3770" source="CAPTAIN" target="AUTOPILOT" label="" start="3770" end="3770" />
+<edge id="3782" source="CAPTAIN" target="AUTOPILOT" label="" start="3782" end="3782" />
+<edge id="3785" source="AUTOPILOT" target="CAPTAIN" label="" start="3785" end="3785" />
+<edge id="3788" source="CAPTAIN" target="AUTOPILOT" label="" start="3788" end="3788" />
+<edge id="3794" source="AUTOPILOT" target="CAPTAIN" label="" start="3794" end="3794" />
+<edge id="3808" source="BUY N LARGE CEO" target="AUTOPILOT" label="" start="3808" end="3808" />
+<edge id="3818" source="CAPTAIN" target="BUY N LARGE CEO" label="" start="3818" end="3818" />
+<edge id="3821" source="BUY N LARGE CEO" target="CAPTAIN" label="" start="3821" end="3821" />
+<edge id="3830" source="CAPTAIN" target="BUY N LARGE CEO" label="" start="3830" end="3830" />
+<edge id="3841" source="BUY N LARGE CEO" target="CEO ADVISOR" label="" start="3841" end="3841" />
+<edge id="3858" source="AUTOPILOT" target="BUY N LARGE CEO" label="" start="3858" end="3858" />
+<edge id="3861" source="CAPTAIN" target="AUTOPILOT" label="" start="3861" end="3861" />
+<edge id="3870" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="3870" end="3870" />
+<edge id="3873" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="3873" end="3873" />
+<edge id="3878" source="AUTOPILOT" target="CAPTAIN" label="" start="3878" end="3878" />
+<edge id="3882" source="CAPTAIN" target="AUTOPILOT" label="" start="3882" end="3882" />
+<edge id="3887" source="AUTOPILOT" target="CAPTAIN" label="" start="3887" end="3887" />
+<edge id="3903" source="AUTOPILOT" target="CAPTAIN" label="" start="3903" end="3903" />
+<edge id="3906" source="CAPTAIN" target="AUTOPILOT" label="" start="3906" end="3906" />
+<edge id="3909" source="AUTOPILOT" target="CAPTAIN" label="" start="3909" end="3909" />
+<edge id="3912" source="CAPTAIN" target="AUTOPILOT" label="" start="3912" end="3912" />
+<edge id="3928" source="CAPTAIN" target="CAPTAIN" label="" start="3928" end="3928" />
+<edge id="3965" source="CAPTAIN" target="CAPTAIN" label="" start="3965" end="3965" />
+<edge id="3974" source="CAPTAIN" target="CAPTAIN" label="" start="3974" end="3974" />
+<edge id="3977" source="EVE" target="CAPTAIN" label="" start="3977" end="3977" />
+<edge id="3995" source="CAPTAIN &amp; EVE" target="WALL-E" label="" start="3995" end="3995" />
+<edge id="4002" source="WALL-E" target="CAPTAIN &amp; EVE" label="" start="4002" end="4002" />
+<edge id="4018" source="AUTOPILOT" target="CAPTAIN &amp; EVE" label="" start="4018" end="4018" />
+<edge id="4028" source="WALL-E" target="AUTOPILOT" label="" start="4028" end="4028" />
+<edge id="4108" source="SHIP'S COMPUTER" target="EVE" label="" start="4108" end="4108" />
+<edge id="4118" source="EVE" target="SHIP'S COMPUTER" label="" start="4118" end="4118" />
+<edge id="4263" source="WALL-E" target="EVE" label="" start="4263" end="4263" />
+<edge id="4271" source="M-O" target="WALL-E" label="" start="4271" end="4271" />
+<edge id="4276" source="WALL-E" target="M-O" label="" start="4276" end="4276" />
+<edge id="4280" source="M-O" target="WALL-E" label="" start="4280" end="4280" />
+<edge id="4283" source="WALL-E" target="M-O" label="" start="4283" end="4283" />
+<edge id="4295" source="WALL-E" target="WALL-E" label="" start="4295" end="4295" />
+<edge id="4323" source="WALL-E" target="EVE" label="" start="4323" end="4323" />
+<edge id="4334" source="EVE" target="WALL-E" label="" start="4334" end="4334" />
+<edge id="4339" source="WALL-E" target="EVE" label="" start="4339" end="4339" />
+<edge id="4348" source="EVE" target="WALL-E" label="" start="4348" end="4348" />
+<edge id="4363" source="M-O" target="WALL-E" label="" start="4363" end="4363" />
+<edge id="4498" source="SHIP'S COMPUTER" target="CAPTAIN" label="" start="4498" end="4498" />
+<edge id="4508" source="CAPTAIN" target="SHIP'S COMPUTER" label="" start="4508" end="4508" />
+<edge id="4516" source="CAPTAIN" target="CAPTAIN" label="" start="4516" end="4516" />
+<edge id="4523" source="CAPTAIN" target="CAPTAIN" label="" start="4523" end="4523" />
+<edge id="4575" source="STEWARDS" target="CAPTAIN (OVER INTERCOM)" label="" start="4575" end="4575" />
+<edge id="4624" source="AUTO" target="CAPTAIN (ON SCREEN)" label="" start="4624" end="4624" />
+<edge id="4627" source="CAPTAIN (ON SCREEN)" target="AUTO" label="" start="4627" end="4627" />
+<edge id="4631" source="AUTO" target="CAPTAIN (ON SCREEN)" label="" start="4631" end="4631" />
+<edge id="4682" source="CAPTAIN" target="AUTO" label="" start="4682" end="4682" />
+<edge id="4735" source="CAPTAIN" target="CAPTAIN" label="" start="4735" end="4735" />
+<edge id="4864" source="MARY" target="MARY" label="" start="4864" end="4864" />
+<edge id="4978" source="CAPTAIN" target="CAPTAIN" label="" start="4978" end="4978" />
+<edge id="4982" source="AUTO" target="CAPTAIN" label="" start="4982" end="4982" />
+<edge id="5030" source="SHIP'S COMPUTER" target="M-O" label="" start="5030" end="5030" />
+<edge id="5052" source="EVE" target="SHIP'S COMPUTER" label="" start="5052" end="5052" />
+<edge id="5068" source="SHIP'S COMPUTER" target="MARY" label="" start="5068" end="5068" />
+<edge id="5245" source="EVE" target="WALL-E" label="" start="5245" end="5245" />
+<edge id="5254" source="EVE" target="EVE" label="" start="5254" end="5254" />
+<edge id="5261" source="EVE" target="EVE" label="" start="5261" end="5261" />
+<edge id="5270" source="EVE" target="EVE" label="" start="5270" end="5270" />
+<edge id="5276" source="EVE" target="EVE" label="" start="5276" end="5276" />
+<edge id="5318" source="EVE" target="EVE" label="" start="5318" end="5318" />
+<edge id="5331" source="EVE" target="EVE" label="" start="5331" end="5331" />
+<edge id="5364" source="EVE" target="WALL-E" label="" start="5364" end="5364" />
+<edge id="5370" source="WALL-E" target="EVE" label="" start="5370" end="5370" />
+</edges>
+</graph></gexf>
