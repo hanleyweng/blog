@@ -177,6 +177,8 @@ Or color nodes based on kshell.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/_hGUdnSb9JY?rel=0" frameborder="0" allowfullscreen></iframe>
 
+18. A different version with fading edges was also later generated. [[Youtube Video]](https://www.youtube.com/watch?v=xEleMt859pg)
+
 ---
 
 ## 16. 911 Network Data
