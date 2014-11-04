@@ -94,3 +94,21 @@ For a better view of the network, the network was layed out with 'Fruchterman-Re
 
 ---
 
+## 5. Network Visualisation with Unity
+
+20th February 2014
+
+A few explorations were done into visualising the Marvel Events Network with Unity.
+
+- First the z-axis of a node was mapped to its dynamic centrality [[video 5]](https://www.youtube.com/watch?v=9GsG1o2uBTY)
+- Next node size was mapped to degree centrality and edge thickness mapped to its weight [[video 6]](https://www.youtube.com/watch?v=fOdkvHYbCq8)
+- Lastly smooth transitions were applied [video 7]
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/RpGsnxuak7M?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Unity didn't result in the smoothest of interactions for this network. In future, interactive 3d alternatives such as Cinder or openFrameworks should be considered. Houdini was also considered - however that would shut the door on the potential for an interactive system.
+
+It was later decided that the project would opt for a more 2-dimensional route.
+
+---
+
