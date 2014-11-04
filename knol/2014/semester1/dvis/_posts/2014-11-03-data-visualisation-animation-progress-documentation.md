@@ -157,8 +157,24 @@ Wrote a program to generate a Scale Free Network (SFN).
 
 Unfortunately with this implementation the maximum kcore value is only 2. We're presently interested in networks with higher kcore numbers.
 
-A modified version with higher preferential probability constant was also generated that resulted in higher maximum kcore [[video]](https://www.youtube.com/watch?v=RyfisGn8_IE&feature=youtu.be).
+A modified version with higher preferential probability constant was also generated that resulted in higher maximum kcore [[12 video]](https://www.youtube.com/watch?v=RyfisGn8_IE&feature=youtu.be).
 
 ---
+
+## 13. Custom rendering of kshell.
+
+29th March 2014
+
+Starting to write a program to visualise temporal networks. 
+
+Data Set: Generated Scale Free Network.
+
+Highlighting the maximum kcore (KShell) with halos (following the earlier prototype (3)). 
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/ugURtFdas7k?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Or color nodes based on kshell.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/_hGUdnSb9JY?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
