@@ -378,7 +378,7 @@ Compared two variations of the animation with different time intervals (10% left
 
 As part of this project, an attempt is being made to visualise the propogation of metrics within a network. For example, when an edge is added or deleted - how that effects adjacent nodes, and how those effected nodes in turn effect nodes adjacent to them and so on.
 
-### 23.0 Staging Propogation
+### 23.0 Staging Propagation
 
 A series of initial animations were done to explore these different propagation (or hop levels) within the network under the metrics of, and visualising, kshell, betweenness or both. It should be noted that 'degree' does not propagate as a node's degree is only directly effected by its own edges. 
 
@@ -400,3 +400,44 @@ Comparing Prop4 to Prop2 however; Prop2 appears to show more as few propogations
 
 ---
 
+## 23b. Propagation for NCBI dataset
+
+21st June 2014
+
+Exploring propagation on the NCBI dataset.
+
+[[Youtube Playlist]](https://www.youtube.com/playlist?list=PLFdSJeh0yOsl60sqXkvwoEzfFYgwXcEl7)
+
+Comparing maximum visualised propagations at 1, 4, and 8.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/uQSX-NB0rNk?list=PLFdSJeh0yOsl60sqXkvwoEzfFYgwXcEl7" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 24. NCBI Renders
+
+21st June 2014
+
+Having agreed that a propagation level of 4 looked decent, a few additional renders of the NCBI bio network were created of it exploring different mappings and metrics.
+
+Video playlist below:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/oEzHJVxVwV0?list=PLFdSJeh0yOsk7EoOFzYLCUop_JeVfAsc5" frameborder="0" allowfullscreen></iframe>
+
+Videos:
+
+- combo (a montage of videos within the playlist)
+- 0 singleVar - general
+- 1 singleVar - degree
+- 2 singleVar - betweenness
+- 3 singleVar - kshell
+- 4 singleVar - staticModularity
+- 5 degree, betweenness
+- 6 mod, betweenness
+- 7 mod, kshell
+- 8 mod, degree
+- 9 kshell, degree
+- 10 kshell, betweenness
+
+
+---
