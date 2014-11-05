@@ -465,3 +465,53 @@ Here is an animation of the email network with 'hulls' (outlines around groups o
 
 ---
 
+## 28. Visualising Modularity
+
+11th July 2014
+
+So we can get the static modularity (classifications of a node) at any given timestamp, however, these classifications can change over time and are not tracked since the algorithm is meant for static networks. A preliminary 'tracking' of modularity classes can be done by applying jarcadian distances between different modularity sets. 
+
+Next came the question of how to visualise these modularity sets. In the past, the use of hulls / outlines around nodes appeared promising, however this could be misinterpreted especially with overlapping modules. Modules don't map linearly to size. That leaves color. 
+
+Visualising the modules (or communities) is interesting since the communities change over time. As such, so should their color mapping - changing slightly to small events, and vice versa. A community is influenced by the characteristics (modularity) of the nodes that join it and leave it. This need for non-discrete color representation is perhaps explained best with the thought experiment of 'the Ship of Theseus', known as Thesus' paradox. 
+
+"The ship wherein Theseus and the youth of Athens returned from Crete had thirty oars, and was preserved by the Athenians down even to the time of Demetrius Phalereus, for they took away the old planks as they decayed, putting in new and stronger timber in their place, in so much that this ship became a standing example among the philosophers, for the logical question of things that grow; one side holding that the ship remained the same, and the other contending that it was not the same." — Plutarch, Theseus
+
+The below is a visualisation of the network with untracked modularity, tracked modularity (first iteration), tracked modularity (second iteration i.e. a couple bug fixes).
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/lVFh5D9ykZI?list=PLFdSJeh0yOsmcwMjUnap4ZY5ES6dzZPB4" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 29. Different Layouts
+
+14th July 2014
+
+With the email network, a few different layouts were explored. Seen below in the video playlist.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/GxT4EnQR6os?list=PLFdSJeh0yOsmdlMht0bgi0LI8K2FuRv5i" frameborder="0" allowfullscreen></iframe>
+
+Layouts
+
+- 0 layout [default] - Fruchterman
+- 1 layout - Force Atlas
+- 2 layout - Yifan Hu
+- 3 layout - Radial Axis
+- 4 layout - Circular
+- 5 layout - MultiCircular
+
+--- 
+
+## 30. GUI Additions
+
+17th July 2014
+
+Used ControlP5 to add some essential UI elements, i.e. timeline. [[Youtube Video 30]]()
+
+22nd July 2014
+
+And also an additional visual attribute; highlights and backlights:
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/rqZgMuXykcI?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
