@@ -265,7 +265,66 @@ An additional movie dataset of [american actors were found via freebase](http://
 
 ### 3. Science Fiction - IMDB
 
+Began exploring [a list of science fiction films on IMDB "Genre: Sci-Fi, 1500 Titles: 1970-2013"](http://www.imdb.com/list/ls051626175/).
 
+[Playlist of process videos.](https://www.youtube.com/playlist?list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy)
+
+#### 3.2 Early look at the first page of data
+
+30th April 2014
+
+[[Youtube Video]](https://www.youtube.com/watch?v=-p4xFohwgnw&feature=youtu.be)
+
+#### 3.3 Looking a bit further (up to item 301 of the list).
+
+2nd May 2014
+
+At this point in time I was also trying out import.io as a web scraping tool. It's a bit clunky, but it is fairly user friendly - taking out any of the coding required in traditional web scrapers.
+
+![import io snapshot](20 movie dataset exploration/3 scifi imdb - tesb b - first page/3 more pages - up to 301 view - made dynamic/3 Screen Shot 2014-05-02 at 6.58.00 pm.png "import io snapshot")
+
+A few video snapshots of the network during this time:
+
+- [static layout](https://www.youtube.com/watch?v=EyJHvj5W1lM&list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy&index=3)
+- [static fruchterman layout](https://www.youtube.com/watch?v=-rUoNdjBE_A&list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy&index=4)
+- [live force atlas 2 layout](https://www.youtube.com/watch?v=k2c7saU0dsE&list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy&index=5) 
+
+#### 3.4 Adventure & Action exploration
+
+3rd May 2014
+
+Sticking with the SciFi Genre of the IMDB list. Films were then further filtered for Feature Films, ordered by IMDB Rating, and made after 1990. Adventure was initially selected as a sub-genre.
+
+![adventure scifi films](20 movie dataset exploration/3 scifi imdb - tesb b - first page/4 adventure exploration/4 adventure1.jpg "adventure scifi films")
+
+However, the 'Adventure' subcategory in this list proved quite small (only up to 3 pages to potentially pull from, with lower pages being significantly bad ratings), hence the 'Action' subcategory was tried instead.
+
+![action scifi films](20 movie dataset exploration/3 scifi imdb - tesb b - first page/4b static - different data - action123/4b - action123main - 2 .jpg "action scifi films")
+
+A custom layout was built with concentric circles representing the kshell value of a node. The inner the circle, the higher its maximum kcore value.
+
+![action scifi network with concentric kshell circles](20 movie dataset exploration/3 scifi imdb - tesb b - first page/4c - dynamic/4c kcoreConcentric.jpg "action scifi network with concentric kshell circles")
+
+Here is that same layout animated [[Youtube Video]](https://www.youtube.com/watch?v=XXv6wAj04xw&feature=youtu.be).
+
+And a different representation of the network, with a dynamic force atlas layout, accumulating over time. [[Youtube Video]](https://www.youtube.com/watch?v=sZFyOg1mGjM&list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy&index=7)
+
+#### 3.5 Unipartite Network
+
+5th May 2014
+
+A few different methods were attempted to transform this bipartite actor-movie network into a unipartite network. There's even a gephi plugin for doing this, however, that plugin doesn't retain the temporal nature of the edges - hence, more manual methods would have to be considered
+
+![film-film unipartite action scifi network](20 movie dataset exploration/3 scifi imdb - tesb b - first page/5 making bipartite & unipartite/5c snaps.png "film-film unipartite action scifi network")
+
+#### 3.6 Custom Rendering
+
+23rd May 2014
+
+Finally, a version of the bipartite movie network was plugged into the custom rendering program to see what it would look like. Here both size and color of nodes are mapped to its kshell value.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/LFpPHHZucJU?list=PLFdSJeh0yOslfgBtEdgX4XtRlcYSEkBWy" frameborder="0" allowfullscreen></iframe>
 
 ---
 
+---
