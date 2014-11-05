@@ -327,4 +327,28 @@ Finally, a version of the bipartite movie network was plugged into the custom re
 
 ---
 
+## 21. NCBI May Renders
+
+I had previously received some NCBI network datasets in late April. New ones were received in May. After processing this data into a GEXF format, a few renders were made.
+
+The applied layout was force-directed.
+
+The renders explore the NCBI network with various metrics (betweenness, degree, kshell, static modularity) mapped too the color or size of a node.
+
+Here is the playlist of renders: 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/tLDrf2Z5Vgo?list=PLFdSJeh0yOsnPJVa-NIZjG0u_T7sf5Dfh" frameborder="0" allowfullscreen></iframe>
+
+Videos
+
+- A betweenness,kshell.mov
+- B degree,kshell.mov
+- B2 kshell, degree.mov
+- C betweenness, degree.mov
+- D statmod, kshell.mov
+- D2 statmod, kshell, hulls.mov
+- E statmod, degree.mov
+- F statmod, betweenness.mov
+- NCBI render 1 - colorAndSize-kcoreMax - withText - staged.mov
+
 ---
