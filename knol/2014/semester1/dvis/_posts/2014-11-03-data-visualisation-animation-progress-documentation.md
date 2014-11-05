@@ -363,8 +363,40 @@ Looking back at the email network and processing it so graph elements are tempor
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/1pjnhUWUDEw?rel=0" frameborder="0" allowfullscreen></iframe>
 
+17th June 2014
+
+Colored the nodes by KShell and mapped size to degree.
+Compared two variations of the animation with different time intervals (10% left, and 100% right). It appears the 10% one on the left appears as if it's more detailed. 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/Sg99b4UOcKc?list=PLFdSJeh0yOslA8ju-gNpAHi3UG0R5Pin9" frameborder="0" allowfullscreen></iframe>
+
 ---
 
+## 23. Exploring Propagation
 
+21st June 2014
+
+As part of this project, an attempt is being made to visualise the propogation of metrics within a network. For example, when an edge is added or deleted - how that effects adjacent nodes, and how those effected nodes in turn effect nodes adjacent to them and so on.
+
+### 23.0 Staging Propogation
+
+A series of initial animations were done to explore these different propagation (or hop levels) within the network under the metrics of, and visualising, kshell, betweenness or both. It should be noted that 'degree' does not propagate as a node's degree is only directly effected by its own edges. 
+
+[Process Playlist of a visual check of Propogation Staging](https://www.youtube.com/playlist?list=PLFdSJeh0yOskwPhyNTwxnWnh61W6J_Tub)
+
+A clearer visualisation of the hops involved in a network. (Here the maximum number of hops visualised was increased from 3 to 5. Betweenness was also the more visually obvious propogating metric compared to kshell.)
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/LNmKLDJSpdU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+### 23.2
+
+A visual comparison was made of how many maximum hops were visualised 1, 2, or 4. Youtube playlist below.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/BuGrviDT2_M?list=PLFdSJeh0yOsmCILrrEAjHHn1tLWToFZ9t" frameborder="0" allowfullscreen></iframe>
+
+The differences are a bit more obvious when comparing 1 (left) and 2 (right) maximum hops - towards the very end of the video 'prop1 vs prop2'. The latter appears to be faster and more incremental in its changes.
+
+Comparing Prop4 to Prop2 however; Prop2 appears to show more as few propogations reach the prop4 level and since all increments are currently of equal duration, prop4 has larger periods where nothing visually happens as a result.
 
 ---
+

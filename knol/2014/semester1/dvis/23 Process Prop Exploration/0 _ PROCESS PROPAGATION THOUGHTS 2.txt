@@ -1,0 +1,99 @@
+PROCESS PROPAGATION THOUGHTS 2
+
+DETERMINE APPEARANCE ORDER OF NODES
+	// Still have to consider different states
+		// well - guess it's edges if there's any change basicaly - appear / dissappear
+
+	// Get All edges that are changing
+		// Get all nodes tied to them
+			// set 'hierarchy' (h) of these nodes to 0
+
+	// for increasing curH;
+		// get all nodes at h=curH
+			// find all nodes adjacent to these with no h,
+				// set their h to h++
+			// if no nodes found;
+				// list all remaining nodes with h; - 1
+				// break
+
+DETERMINE APPEARANCE ORDER OF EDGES
+	// Without the help of nodes above
+
+	// Get All edges that are changing, set their h=0
+
+	// for increasing curH
+		// for all edges
+			// edges adjacent to edges with curH
+				// set their h to h++
+			// if no edges find
+				// list all remaining edges with h; -1
+				// break
+
+	// Nodes can determine their order by looking at the smallest h-value of their edges.
+
+	Wait. Edges won't have an appearance order. Since process-propogation is dependent on an edge appearing and edges have no additional attributes that we're currently exploring (besides weight at least). 
+	ACTUALLY. Then again - edges visually update their color width and alpha - they probably actually do in fact need to be updated similarly.
+
+ANIMATION METHODS:
+	- propagation can take multiple steps; e.g.
+		- sometimes propagation may be 1 step
+		- sometimes propagation may take 4 steps
+	- methods of animating:
+		- 1. each step takes the same duration (with no pauses inbetween)
+		- 2. each collection of steps take the same amount of time
+			- a. steps are stretched out evenly
+			- b. steps are the same duration - with pauses in between
+	- with the current implementation, it is easier if each collection of steps take the same amount of time (2.).
+		- a.
+			- the varying duration can be misleading
+		- b.
+			+ remains true to the number of steps
+			- introduces more pauses
+				^ - we could cap this however
+	- CONCLUSION: 
+		- Animation Method:
+			- each collection of edge transitions will be the same duration
+			- each 'step' will be the same duration (pauses are allowed)
+				// this could be set to a global cap of say 3 - depending on data
+
+-
+
+We actually have to consider both Nodes and Edges - for now, let's just consider updating Nodes. Edges would be the same process.
+
+-
+
+We have each hierarchical-step.
+	Collections-of-nodes at h0
+	Collections-of-nodes at h1
+	Collections-of-nodes at h2
+	Collections-of-nodes at h-1
+
+	let's say we have a hierarchicalPropogationCap of 3
+	basically we'll show;
+		Collections-of-nodes at h0
+		Collections-of-nodes at h1
+		Collections-of-nodes at h2 & h-1
+
+	we currently have progressThroughEdgeChange [0.0 - 1.0]
+
+	so each propogationStep can be divided into:
+		Collections-of-nodes at h0			0.00 - 0.33
+		Collections-of-nodes at h1 			0.33 - 0.67
+		Collections-of-nodes at h2 & h-1	0.67 - 1.00
+	(with min,max caps)
+
+	each hierarchical step has its own progress [0.0 - 1.0]
+		as such they can be animated in the same manner the current one is animating.
+
+	// to start off, we can start with a manual hierarchicalPropogationCap of 2.
+		- and then easily expand from there once that's working.
+
+-------
+
+To start off; let's do a hierarchicalPropogationCap of 2.
+	- group edges and nodes into h0 and hRemainder
+	- work on drawing h0 first then hRemainder - nodes and edges
+
+// Could also make the timestep of the graph much more evident (e.g. just 5 total steps)
+
+-------
