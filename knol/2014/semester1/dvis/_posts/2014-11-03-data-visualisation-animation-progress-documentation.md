@@ -329,6 +329,8 @@ Finally, a version of the bipartite movie network was plugged into the custom re
 
 ## 21. NCBI May Renders
 
+9th June 2014
+
 I had previously received some NCBI network datasets in late April. New ones were received in May. After processing this data into a GEXF format, a few renders were made.
 
 The applied layout was force-directed.
@@ -355,10 +357,14 @@ Videos
 
 ## 22. Immersion Spells
 
+11th June 2014
+
 Looking back at the email network and processing it so graph elements are temporal i.e. giving them 'spells'.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/1pjnhUWUDEw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+
 
 ---
