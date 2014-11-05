@@ -352,3 +352,13 @@ Videos
 - NCBI render 1 - colorAndSize-kcoreMax - withText - staged.mov
 
 ---
+
+## 22. Immersion Spells
+
+Looking back at the email network and processing it so graph elements are temporal i.e. giving them 'spells'.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/1pjnhUWUDEw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+---
