@@ -439,5 +439,29 @@ Videos:
 - 9 kshell, degree
 - 10 kshell, betweenness
 
+---
+
+## 25. Twitter Dataset Exploration
+
+4th July 2014
+
+As a brief detour - a quick program was written to mine for some basic twitter data such as the most recent 100, or most popular tweets that involved #tech .
+
+![twitter subnet](25 twitter dataset exploration - quicki/1 twitter tech popular using max-id/6 staticGexf - removedCommonWords.png "twitter subnet")
+
+A few hundred nodes certainly wasn't enough to form a connected network of words. However, the skeleton of the network program is now written and available for future use.
+
+--- 
+
+## 27. Rendering Dynamic Untracked Modularity
+
+6th July 2014
+
+Gephi is currently being used to compute the metric modularity. However, it can't do dynamic modularity - for that, often custom applications or algorithms are built. There are two predominant methods when calculating dynamic modularity: either consider the network one timestep at a time, computing static modularity that accumulates into dynamic modularity, or consider the whole longitudinal network during the computation. The latter method is more refined but takes longer to accomplish. Since dynamic modularity isn't a high priority in this project, the easier method (using slices of static modularity) is preffered. 
+
+Here is an animation of the email network with 'hulls' (outlines around groups of nodes) showing the changing modularity of the network.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/DAKFk6eytfM?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
+
