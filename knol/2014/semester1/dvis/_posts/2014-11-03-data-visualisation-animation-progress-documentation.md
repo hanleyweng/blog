@@ -232,3 +232,40 @@ Notes:
 
 ---
 
+## 20. Movie Datasets Exploration
+
+25th April 2014
+
+### 0. IMDB GD05
+
+Looked into the [IMDB dataset of Graph Drawing 2005](http://www3.ul.ie/gd2005/dataset.html). However this was later discarded as it had been previously analysed.
+
+### 1. 2010s SciFi. 
+
+Science Fiction films from 2010 were gathered from [wikipedia](http://en.wikipedia.org/wiki/List_of_science_fiction_films_of_the_2010s) and transformed into networks.
+
+A bipartite network of actors and movies.
+
+![Actors and Movies - 2010 Science Fiction](20 movie dataset exploration/1 2010s scifi/Screen Shot 2014-04-26 at 11.19.07 pm.png "Actors and Movies - 2010 Science Fiction")
+
+Which could also be transformed into a unipartite network of actors.
+
+![Just Actors - 2010 Science Fiction](20 movie dataset exploration/1 2010s scifi/Screen Shot 2014-04-26 at 11.36.40 pm.png "Just Actors - 2010 Science ")
+
+
+### 2. American Actors / Movies
+
+2nd May 2014
+
+An additional movie dataset of [american actors were found via freebase](http://graphlab.com/learn/gallery/notebooks/graph_analytics_movies.html). 
+
+![American Actors - Freebase](20 movie dataset exploration/2 american_actors_movie_years - data/2 freebase.jpg "American Actors - Freebase")
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/qxjGX6WG8sc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+### 3. Science Fiction - IMDB
+
+
+
+---
+
