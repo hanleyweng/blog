@@ -624,3 +624,26 @@ The Sugiyama Layout was also rotated so nodes were layed out top to bottom rathe
 <iframe width="420" height="315" src="//www.youtube.com/embed/N6_segOTdso?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+## 50. Immersion Data Refresh
+
+9th September 2014
+
+Before warping the Email data into a series of linear events, a rende were made with the current program to remember what the current state of the email network was.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/a5yLqeq7E10?list=PLFdSJeh0yOsnNQtIkiOrGqZNk_Po6B7Zx" frameborder="0" allowfullscreen></iframe>
+
+After this, the Email data was manipulated into a linear series of events;
+
+with a window step of 1 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/-gsU0e8Dhw8?list=PLFdSJeh0yOsnNQtIkiOrGqZNk_Po6B7Zx" frameborder="0" allowfullscreen></iframe>
+
+and as processed - with a window length of 200.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/rn54tU_FXxQ?list=PLFdSJeh0yOsnNQtIkiOrGqZNk_Po6B7Zx" frameborder="0" allowfullscreen></iframe>
+
+P.S. The above videos can be found in [[Youtube Playlist 50]](https://www.youtube.com/playlist?list=PLFdSJeh0yOsnNQtIkiOrGqZNk_Po6B7Zx).
+
+---
+
