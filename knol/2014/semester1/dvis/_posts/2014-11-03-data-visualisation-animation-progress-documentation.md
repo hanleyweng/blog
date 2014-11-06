@@ -716,6 +716,8 @@ Videos:
 
 ## 56. Email Renders
 
+4th October 2014
+
 Rendered a set of new email animations across the available metrics. There are two types of animations; one that maps a metric to just color, or to both color and node size.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/bjMvZLbFHws?list=PLFdSJeh0yOslVnJu_UbG8khN9TLABqYRD" frameborder="0" allowfullscreen></iframe>
@@ -743,3 +745,27 @@ Videos:
 - mod (color)
 
 ---
+
+## 62. NCBI November Renders
+
+1st November 2014
+
+Just a few fixes and visual tweaks like an updated color palette. 
+
+[[Series 62 - Youtube Playlist]](https://www.youtube.com/playlist?list=PLFdSJeh0yOslcLqpj2BleknkjbPTvOx55): Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+The following render version was requested: 
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/Qce1he5mXPQ?list=PLFdSJeh0yOslcLqpj2BleknkjbPTvOx55" frameborder="0" allowfullscreen></iframe>
+
+A few additional renders were also made to compare a few different visual attributes, 
+
+such as the order of the appearance of nodes
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/cV6AkiJ2mMk?list=PLFdSJeh0yOslcLqpj2BleknkjbPTvOx55" frameborder="0" allowfullscreen></iframe>
+
+or the animation with and without transitional edges.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/MQIG2rJKVHs?list=PLFdSJeh0yOslcLqpj2BleknkjbPTvOx55" frameborder="0" allowfullscreen></iframe>
+
+--- 
