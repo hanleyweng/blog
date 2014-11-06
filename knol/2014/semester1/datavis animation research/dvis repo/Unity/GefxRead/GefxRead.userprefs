@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DynamicNetworkClasses/DynamicNetwork.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MainScript.cs" Line="137" Column="42" />
+      <File FileName="Assets/Scripts/DynamicNetworkClasses/DynamicNetwork.cs" Line="52" Column="3" />
+      <File FileName="Assets/Scripts/DynamicNetworkClasses/Node.cs" Line="48" Column="74" />
+      <File FileName="Assets/Scripts/DynamicNetworkClasses/Edge.cs" Line="120" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="DynamicNetworkClasses" expanded="True">
+                <Node name="DynamicNetwork.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
