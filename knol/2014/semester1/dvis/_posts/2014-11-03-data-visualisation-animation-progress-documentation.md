@@ -647,3 +647,36 @@ P.S. The above videos can be found in [[Youtube Playlist 50]](https://www.youtub
 
 ---
 
+## 51. Linear Warping Process
+
+8th September 2014
+
+Process of mapping the timeline so individual edge events would be linear:
+
+[[Youtube Playlist of Process]](https://www.youtube.com/playlist?list=PLFdSJeh0yOskOAcJTZE4Zwt4aJpc0BoCU)
+
+The program had to be rewritten. 
+
+An early comparison was made of a subset of the longitudinal email network [[without (0)]](https://www.youtube.com/watch?v=c1Qt2W_ABPY&feature=youtu.be) and [[with (1)]](https://www.youtube.com/watch?v=A2ZiwrNo0u4&feature=youtu.be) linear mapping. Less gaps were evident. 
+
+A comparison of all edge events having a duration of 1 [[video 3]](http://youtu.be/DsGvEOTM_-c), or event durations that scale with the number of hops involved within an event [[video 4]](http://youtu.be/3qzdy6zrECA), [[video 5]](http://youtu.be/AdIA_2oeNVM) (below).
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/AdIA_2oeNVM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Eventually the previous draw code was reimplemented.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/sAto2p2YHc4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 52. Clarification of Bio Data
+
+9th September 2014
+
+Had a meeting with Falk about the Bio (NCBI) dataset which provided some very help contextual information.
+
+Notes from that meeting:
+
+![bio meeting notes](52 - falk meeting/52 DVis - Meeting (Sk, Falk) (Bio).jpg "bio meeting notes")
+
+---
