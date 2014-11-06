@@ -612,3 +612,15 @@ A few additional renders were done comparing metrics besides just kshell in this
 <iframe width="560" height="315" src="//www.youtube.com/embed/XL3ejoCcwW4?list=PLFdSJeh0yOskTWfRYaEGRKLn51jHhHKSD" frameborder="0" allowfullscreen></iframe>
 
 ---
+
+## 46. Visual Additions
+
+28th August 2014
+
+Added a couple new visual elements to the animation: crosses to focus attention on important nodes, highlighting the nodes of most significant change per hop level, tweaked the look of the transitional effect of propogation along edges. [[Youtube Video]](https://www.youtube.com/watch?v=JJ60841SNnQ&feature=youtu.be)
+
+The Sugiyama Layout was also rotated so nodes were layed out top to bottom rather than left to right.
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/N6_segOTdso?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
