@@ -587,3 +587,28 @@ Videos:
 
 ---
 
+## 38. KShell Case Scenario
+
+4th August 2014
+
+Created a small temporal network as a case scenario for emphasising kshell. 
+
+Below is a comparison of the network with and without additional visual elements (rings and propagation lines) to highlight changing nodes.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/KDUPdUfX2Ac?list=PLFdSJeh0yOskP7Uk427ZR-A-bzSI8jw_0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 42. Small Case Renders
+
+14th August 2014
+
+Continuing on from 38, a few additional renders were done with kshell, varying the visual elements utilised in the render.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/FbYdOS0le_s?list=PLFdSJeh0yOskTWfRYaEGRKLn51jHhHKSD" frameborder="0" allowfullscreen></iframe>
+
+A few additional renders were done comparing metrics besides just kshell in this small case scenario network.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/XL3ejoCcwW4?list=PLFdSJeh0yOskTWfRYaEGRKLn51jHhHKSD" frameborder="0" allowfullscreen></iframe>
+
+---
