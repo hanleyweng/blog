@@ -1,0 +1,20 @@
+34 DVIS Propagation Obvservations, Notes
+
+Notes
+	In order of propagation amount:
+		1. Mod Angle
+		2. Betweenness
+		3. KShell
+
+	- Briefly noted significant points (pctg):
+		6
+		36
+		41
+		45
+		68
+		69
+		96
+
+Potential Future Additions
+	- add stocks-like textual changes on nodes
+	- add slight ripple-like displacement to nodes (as if they were buoys)

@@ -506,7 +506,7 @@ Layouts
 
 17th July 2014
 
-Used ControlP5 to add some essential UI elements, i.e. timeline. [[Youtube Video 30]]()
+Used ControlP5 to add some essential UI elements, i.e. timeline. [[Youtube Video 30]](https://www.youtube.com/watch?v=3ASv8VUTflI)
 
 22nd July 2014
 
@@ -514,4 +514,76 @@ And also an additional visual attribute; highlights and backlights:
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/rqZgMuXykcI?rel=0" frameborder="0" allowfullscreen></iframe>
 
+24th July 2014
+
+Also looked into highlighting edges if they were added (green highlight) or deleted (red highlight).
+
+![edge events highlighted](33 highlight edges/Screen Shot 2014-07-23 at 4.10.40 pm.png "edge events highlighted")
+
 ---
+
+## 34. Renders of Change Propagation
+
+28th July
+
+In addition to highlighting the hop level of nodes from an edge event (represented by their number of concentric circles), the propagation of changing metrics were also represented with a moving black line. This was tested with a few different metrics and visual representations:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/1Qp9MU2QTOU?list=PLFdSJeh0yOslcnev8LBNsAZ6dxBSNV7ui" frameborder="0" allowfullscreen></iframe>
+
+Videos:
+
+- A colorSizeBetween
+- B colorSizeKshell
+- C colorMod sizeDegree(NilChange)
+- D colorMod sizeBetween
+- Ω Combo ABCD changePropRenders
+
+---
+
+## 36. NCBI Renders
+
+31st July 2014
+
+A series of renders were made of the NCBI network. (Playlists below)
+
+First under a force-directed layout: 
+
+[(Playlist: DVis 36 1)](https://www.youtube.com/playlist?list=PLFdSJeh0yOsnXUPUxsSqrhHVzz3g9SLQ-)
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/ZC6Bsn8o71k?list=PLFdSJeh0yOsnXUPUxsSqrhHVzz3g9SLQ-" frameborder="0" allowfullscreen></iframe>
+
+Then under a Sugiyama layout: 
+
+[(Playlist: DVis 36 0)](https://www.youtube.com/playlist?list=PLFdSJeh0yOsnhlfvTKyMIZ0JTB6z6nnYB)
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/-QMmRTVXlUM?list=PLFdSJeh0yOsnhlfvTKyMIZ0JTB6z6nnYB" frameborder="0" allowfullscreen></iframe>
+
+Note - the Sugiyama Layout is positioned Left to Right in these videos, i.e. most edges are directed left to right.
+
+
+Here's a video montage of the above two collections: 
+
+[(Playlist: DVis 36)](https://www.youtube.com/playlist?list=PLFdSJeh0yOslXmRPj6HXSyYprhXXu6ppH)
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/9weUwz3qruk?list=PLFdSJeh0yOslXmRPj6HXSyYprhXXu6ppH" frameborder="0" allowfullscreen></iframe>
+
+Videos:
+
+- 0 _combo_default
+- 0 btwn, degree
+- 0 btwn
+- 0 degree
+- 0 kshell, btwn
+- 0 kshell
+- 0 mod
+- 1 _Combo_Sugiyama
+- 1 betweenness, degree
+- 1 betweenness
+- 1 degree
+- 1 kshell, btwn
+- 1 kshell
+- 1 mod
+- _combo_default+sugiyama
+
+---
+
