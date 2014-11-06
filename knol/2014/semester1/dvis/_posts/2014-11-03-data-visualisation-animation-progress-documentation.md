@@ -680,3 +680,66 @@ Notes from that meeting:
 ![bio meeting notes](52 - falk meeting/52 DVis - Meeting (Sk, Falk) (Bio).jpg "bio meeting notes")
 
 ---
+
+## 54. New NCBI Renders. 
+
+1st October 2014
+
+Some visual tweaks leading to some new NCBI renders.
+
+Main Videos [[Video Playlist 54]](https://www.youtube.com/playlist?list=PLFdSJeh0yOsljSjBJI4GKoxgGoBOZlCxA):
+
+- 4b, 9, 10, 12, 13
+
+All Process Videos [[Video Playlist 54*]](https://www.youtube.com/playlist?list=PLFdSJeh0yOsnBgOXuzkHt4Dy3bb9x87oi):
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/CVKlLZP_2_c?list=PLFdSJeh0yOsnBgOXuzkHt4Dy3bb9x87oi" frameborder="0" allowfullscreen></iframe>
+
+Videos:
+
+- 0 ncbi render - (with direction, and edge deletions, additions) (prop edges, raw degree)
+- 1 ncbi render - (still highlighting new edge states) (coloring by deltaDegree)
+- 2 ncbi (differentPalette) (edgeStateChangeHighlights=off) [INCORRECT - visuals attributes werent encoded properly]
+- 3 ncbi (fixed deltaDegree nodeMetricValue)
+- 4a ncbi - endopen
+- 4b ncbi - endclosed
+- 5 ncbi - (same as 4b - all good)
+- 6 ncbi - activeNodes>0degree∂
+- 7 ncbi - activeNodes>1.5degree∂
+- 9 ncbi - showing transitionBallEdges between active nodes
+- 10 ncbi - slower & sizeMappedToNone
+- 11 ncbi - hop levels set to hopsFromNodes rather than sugiyama
+- 12 ncbi (now drawing self-loops) (showing hop-rings)
+- 13 ncbi - (1800frames, activeNodes>1.5degree∂)_
+
+---
+
+## 56. Email Renders
+
+Rendered a set of new email animations across the available metrics. There are two types of animations; one that maps a metric to just color, or to both color and node size.
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/bjMvZLbFHws?list=PLFdSJeh0yOslVnJu_UbG8khN9TLABqYRD" frameborder="0" allowfullscreen></iframe>
+
+[[Youtube Playlist]](https://www.youtube.com/playlist?list=PLFdSJeh0yOslVnJu_UbG8khN9TLABqYRD) Description:
+Notes on series 56:
+
+- Animation has been time-stretched so there are less periods of silence.
+- Cross hairs appear over source nodes.
+- Filtered – Only nodes who have had their metric significantly changed are 'highlighted'.
+- Numbers denote a metrics value.
+- Arrows denote positive or negative change of metric.
+- Thick edges show a connection between nodes who have changed significantly. These start from the source node, in series, they represent a propagation.
+
+Videos:
+
+- whole (color,size)
+- whole (color)
+- betweenness (color,size)
+- betweenness (color)
+- degree (color,size)
+- degree (color)
+- kshell (color,size)
+- kshell (color)
+- mod (color)
+
+---
