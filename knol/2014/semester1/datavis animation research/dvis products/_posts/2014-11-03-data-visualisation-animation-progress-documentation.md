@@ -1,7 +1,9 @@
 ---
 layout:	post
 title:	"Data Visualization of Temporal Networks (Progress Documentation)"
-date:	2014-02-01
+date_begun: 2014-02-01
+status: in progress
+date:	2014-11-07
 tags:	[data visualisation, network, animation]
 ---
 
