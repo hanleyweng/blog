@@ -13,7 +13,7 @@ There were many cool looking visualisations formed from the mapping of certain n
 
 During the early process of visualising this network, I applied a simple spring-layout algorithm to the network ('Force Atlas'), interestingly enough, the network began to resemble the side view of the cerebelum! Suggesting the topological aspects of the network reflect their physical structure!
 
-![Freeform brain network looks like the physical brain](content - 3 - 1 snapshots - archive/freeformBrainNetworkLooksLikeTheCerebelumSide.png "Freeform brain network looks like the physical brain")
+![Freeform brain network looks like the physical brain](3 - 1 snapshots - archive/freeformBrainNetworkLooksLikeTheCerebelumSide.png "Freeform brain network looks like the physical brain")
 
 
 3d animations of brains coming soon!
