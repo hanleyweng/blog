@@ -9,7 +9,7 @@ tags:	[data visualisation, network, animation]
 
 ![network cover image](-post_content/cover_image.jpg "network cover image")
 
-## About
+# About
 
 Beginning in 2014, I took up a research project to visualise temporal networks.
 
@@ -22,6 +22,10 @@ Supervised by Seokhee Hong, at the School of Information Technologies, Universit
 Note: Videos on youtube can be adjusted to up to 2x their normal speed which may be appropriate for some of the screen recordings here to overcome the lag within them. Most videos are simple links, the more significant videos will be embedded in this post. 
 
 All datasets seen here are available.
+
+---
+
+# Process
 
 ---
 
@@ -769,5 +773,44 @@ such as the order of the appearance of nodes
 or the animation with and without transitional edges.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/MQIG2rJKVHs?list=PLFdSJeh0yOslcLqpj2BleknkjbPTvOx55" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# [DRAFT] Summary
+
+---
+
+## [DRAFT] Design and Implementation of Techniques
+
+All in all the process went like this:
+
+- ...
+
+The list of features generated were: 
+
+- ...
+
+Elaborating on the design and technical evolution of each of these features: 
+
+- ...
+
+---
+
+## [DRAFT] Case Study: Email Network
+
+As a case study of the limitations and benefits of the above technqiues we can look to an email network.
+
+This dataset was my own email network:
+
+- duration: 
+- time period: 
+- underwent linear warping
+- time range: 
+- nodes were ...
+- edges were ...
+
+Observing and analysing it:
+
+- ...
 
 --- 
