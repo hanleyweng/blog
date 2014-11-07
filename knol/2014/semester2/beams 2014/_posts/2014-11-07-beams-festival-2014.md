@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Pensivity - a Beams 2014 Installation"
+title:	"[DRAFT] Pensivity - a Beams 2014 Installation"
 date:	2014-09-19
 tags:	[beams, arts, festival, installation, kinect, projector, slit-scan]
 ---
