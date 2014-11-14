@@ -795,21 +795,150 @@ or the animation with and without transitional edges.
 
 ---
 
-## [DRAFT] Design and Implementation of Techniques
+# [DRAFT] Design and Implementation of Techniques
 
-All in all the process went like this:
+This project's intent was to create renders of temporal networks. 
 
-- ...
+## Overall Process
 
-The list of features generated were: 
+Overall, the process of this project ran through these rough steps:
 
-- ...
-
-Elaborating on the design and technical evolution of each of these features: 
-
-- ...
+- The blueprinting / drafting of animations
+- An exploration of technoilogies for the render; looking into Unity, 3D, and other Graph programs before deciding on Gephi and Processing.
+- The search for temporal expansive scale-free network data using generative, scraping, and mining methodologies.
+- The generation and improvement of a rendering system to visualise such networks.
+- The choosing of three core data sets: a custom 10-node case scenario, a biological dataset, and a personal email network.
+- The refinement of the rendering system with the chosen data sets.
 
 ---
+
+## Data
+
+- Generation, Scraping, & Mining
+- Chosen Data Sets
+	- Case Scenario
+	- NCBI
+	- Immersion
+
+---
+
+## Visual Treatment
+
+#### Progression
+
+- Blueprints (Flash, AE)
+- Unity -> P5
+- Choice of Gephi above other Graph Programs
+- Feature Development
+
+### Features
+
+Visual features are ammended to the temporal network and its elements. 
+
+Elements can be nodes, edges, or groups of nodes and edges.
+
+The following features are combined under different parametres for different datasets to produce different understandings of the data.
+
+Metrics and Visual Attributes are predominantly node-focused. 
+
+#### Layout
+
+- Static, dynamic layouts were investigated but disregarded due to the added cognitive load of the additional moving elements
+- 3D Layouts - investigated twice (first unity, then during brainkdd) - but disregarded due to the additional cognitive load - program capable of it
+- Layouts List: Sugiyama, Frutcherman, Custom mix of radial and other ... , ...
+- Layouts were generated through Gephi or VisLab. (not custom program, not re-inventing the wheel)
+- Collages worked nicely for comparison
+	- Gui / control toggles / timeline - were added throughout the process to help quicken the renders - should be noted: switching between them didn't provide as much insight as the collages though.
+
+#### Visual Attributes (of elements)
+
+- Text Label (useful for email network, not really required for bio network or case-scenario network) - for email network, both constant and scale modes were useful and it was useful to toggle between them and zoom in 
+- Halo, Outline, hull, ghost
+- Color Palette, Color
+- Size 
+
+- The visual attributes of nodes determine that of their adjacent edges.
+
+#### Metrics (of elements)
+
+- Degree
+- Betweenness
+- KShell
+- Dynamic Modularity / Community <- developed from (static) global modularity
+- (All above elements are dynamic.)
+
+- Visual attributes can be mapped to a metric, as well as the amount a metric changes between steps.
+
+#### Mapping
+
+- Visual attributes are mapped to metrics or the change in a metric. One metric can be mapped to more than one visual attribute. Not all metrics are always displayed in one go. The variations of mappings leads to different understandings of the network with varying effectiveness.
+
+#### Timeline
+
+- overall: intertimeline, intratimeline, effects timeline
+	- early on noticed discrete fx preffered (1. blueprint) - less cognitive load
+- linear warping
+	- ...
+- propagation
+	- hops
+		- number of hops (1,4,8)
+	- highlights
+
+
+---
+
+### Rendering System
+
+The rendering system takes in a gexf network file, calculates various network metrics, and offers a range of visual parametres for rendering.
+
+- Data
+	- pre-requisite
+	- pre-treatment
+	- treatment
+
+- Features (where they are in code and how they're implemented)
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## [DRAFT] Case Study: Email Network
 
