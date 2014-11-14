@@ -333,6 +333,21 @@ Finally, a version of the bipartite movie network was plugged into the custom re
 
 ---
 
+## 20.5 Summarising The Search for Temporal Expansive Scale-Free Network Data
+
+14th May 2014
+
+The past few months have involved a search for scale-free, temporal, network data that were sufficiently large.
+
+The search has involved data from conferences, academia, machine learning, Marvel, Twitter, NSW Statistics, and various Movie databases.
+
+The full documentation can be found here. [[PDF]](20.5 - data exploration summary/DVIS-THEDATA.pdf)
+
+The conclusion from the search was: 
+In searching for network data that was expansive, temporal, and potentially scale-free. Of the datasets explored, Movie data appeared to fit the criteria best, with IMDB lists being the most flexible.
+
+---
+
 ## 21. NCBI May Renders
 
 9th June 2014
