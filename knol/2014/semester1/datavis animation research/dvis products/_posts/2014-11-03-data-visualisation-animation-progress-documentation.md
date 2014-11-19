@@ -165,6 +165,8 @@ Unfortunately with this implementation the maximum kcore value is only 2. We're 
 
 A modified version with higher preferential probability constant was also generated that resulted in higher maximum kcore [[12 video]](https://www.youtube.com/watch?v=RyfisGn8_IE&feature=youtu.be).
 
+The [Barabasi-Albert model](http://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) was utilised in the program.
+
 ---
 
 ## 13. Custom rendering of kshell.
@@ -814,22 +816,33 @@ Overall, the process of this project ran through these rough steps:
 
 ## Data
 
-- Generation, Scraping, & Mining
-- Chosen Data Sets
-	- Case Scenario
-	- NCBI
-	- Immersion
+A visualisation can not be created without data. For our visualisations, a search was undertaken for temporal scale-free network data that were sufficiently large (above 100 nodes). 
+
+Early attempts involved the generation of such a network with the Barabasi-Albert model. However, such artificial generation of a temporal network didn't appear organic enough, as it lacked desired metrics that could be expected from real world networks such as higher k-core values.
+
+Mining for realworld data was undertaken as an alternative to the artificial approach above. The search involved data from conferences, academia, machine learning, cultural brands, Twitter, NSW Australia Statistics, and various movie databases.* In searching for network data that was expansive, temporal, and potentially scale-free. Of the datasets explored, Movie data appeared to fit the criteria best, with IMDB lists being the most flexible. 
+
+In the end, the following three data sets were used:
+
+1. A custom-made 10-node temporal network useful for demonstrating visual effects.
+2. A biological dataset from NCBI.*
+3. A personal email network. 
 
 ---
 
 ## Visual Treatment
 
-#### Progression
+### Progression
 
-- Blueprints (Flash, AE)
-- Unity -> P5
-- Choice of Gephi above other Graph Programs
-- Feature Development
+In the early stages of visual development, blueprints and animation drafts were quickly created to convey the type of effects and speed desired. These early drafts were created with animation and video software; Adobe Flash and Adobe After Effects.
+
+[ Media ]
+
+In creating a rendering system that could actually generate a visualisation, a few different software packages were explored. Unity (with C#) was considered when the visualisation was possibly in 3 dimensions, however Unity didn’t result in the smoothest of interactions for networks. In future, interactive 3d alternatives such as Cinder or openFrameworks should be considered. Houdini was also considered - however that would shut the door on the potential for an interactive system. The selected package: the Processing library for Java, was a viable option for 2 dimensional visualisations (though it is capable of 3D), and it worked well with the Gephi Toolkit. 
+
+A variety of network programs were explored before deciding to use Gephi for network calculations. The reason Gephi was selected was due to its relative modernity, documentation, more refined handling of temporal data, its java toolkit, plugins, and its user friendly GUI component.*
+
+As different data sets were introduced, the rendering system added new features and improved on existing ones. 
 
 ### Features
 
