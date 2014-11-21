@@ -78,17 +78,16 @@ The rendering system was embedded with graphical user interface (GUI) elements s
 
 #### Visual Attributes (of elements)
 
-The elements of a network can be imbued with a variety of visual attributes. In the rendering system, nodes often contained the predominant visual attributes, often determining the visual attributes of the remaining elements. Visual attributes include an element's colour, size, halos, and associated metadata in the form of nearby text labels or symbols.
+The elements of a network can be imbued with a variety of visual attributes. In the rendering system, nodes often contained the predominant visual attributes, often determining the visual attributes of the remaining elements. Visual attributes include an element's colour, size, halos (or hulls / outlines / ghosts of a single or group of nodes), and additional attributes in the form of nearby text labels or symbols. 
 
+A Node's colour is usually pulled from a colour palette which maps to a particular metric of the node. An edge's colour is a gradient determined by the colours of its nodes.
 
+Halos around a node or group of nodes and edges can vary their visual emphasis depending on the associated metric.
 
-- Text Label (useful for email network, not really required for bio network or case-scenario network) - for email network, both constant and scale modes were useful and it was useful to toggle between them and zoom in 
-- Halo, Outline, hull, ghost
-- Color Palette, Color
-- Size 
-- Other decorations
+Text labels are often tied to nodes and, when enabled, can have a size relative to that of the node or a constant size. Like the other visual attributes, its use is determined by the network and its purpose. Certain networks where the focus is greater on the structure itself rather than specific content would benefit from no labels. If the analysed metric has only a few top values than the labels at relative sizes can be informative.
 
-- The visual attributes of nodes determine that of their adjacent edges.
+Other symbols such as crosses, rings, and arrows can serve to highlight a particular node or represent a node's metric.
+
 
 #### Metrics (of elements)
 
