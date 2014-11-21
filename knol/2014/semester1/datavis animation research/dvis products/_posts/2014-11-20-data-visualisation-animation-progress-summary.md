@@ -70,12 +70,11 @@ Metrics and Visual Attributes are predominantly node-focused.
 
 #### Layout
 
-- Static, dynamic layouts were investigated but disregarded due to the added cognitive load of the additional moving elements
-- 3D Layouts - investigated twice (first unity, then during brainkdd) - but disregarded due to the additional cognitive load - program capable of it
-- Layouts List: Sugiyama, Frutcherman, Custom mix of radial and other ... , ...
-- Layouts were generated through Gephi or VisLab. (not custom program, not re-inventing the wheel)
-- Collages worked nicely for comparison
-	- Gui / control toggles / timeline - were added throughout the process to help quicken the renders - should be noted: switching between them didn't provide as much insight as the collages though.
+There are many different types of layouts networks could be represented with. Two-dimensional layouts were consistently favoured three-dimensional layouts due to their smaller cognitive footprint. It was the minimisation of cognitive load that also lead to the use of static layouts above dynamic network layouts (layouts where the positions of elements can change over time).
+
+Particular layouts included: Sugiyama, Frutcherman-Reingold, Force Atlas, Yifan Hu, Radial Axis, Circular, Multi-Circular layouts. Layouts were generated using existing graph programs Gephi or VisLab.
+
+The rendering system was embedded with graphical user interface (GUI) elements such as timelines and control toggles to allow for rapid switching between different visualisations of a network. However, even with this functionality, it was found that comparisons were made more easily between visualisations when they were layed out next to one another in the form of collages.
 
 #### Visual Attributes (of elements)
 
