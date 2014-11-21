@@ -78,10 +78,15 @@ The rendering system was embedded with graphical user interface (GUI) elements s
 
 #### Visual Attributes (of elements)
 
+The elements of a network can be imbued with a variety of visual attributes. In the rendering system, nodes often contained the predominant visual attributes, often determining the visual attributes of the remaining elements. Visual attributes include an element's colour, size, halos, and associated metadata in the form of nearby text labels or symbols.
+
+
+
 - Text Label (useful for email network, not really required for bio network or case-scenario network) - for email network, both constant and scale modes were useful and it was useful to toggle between them and zoom in 
 - Halo, Outline, hull, ghost
 - Color Palette, Color
 - Size 
+- Other decorations
 
 - The visual attributes of nodes determine that of their adjacent edges.
 
