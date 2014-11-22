@@ -137,13 +137,20 @@ The timing of visual effects, whether within the intra-snapshot timeline or the 
 
 The rendering system is a workflow to create renders of temporal networks. It consists of three stages: data manipulation, metric calculation, and visual rendering.
 
-Data is manipulated and cleaned into a temporal network in the form of a GEXF file. Data is often cleaned and transformed into this format using spreadsheets or custom programs to parse and rearrange the data. Any labelling of the data is also done at this stage along with the generation of different visual layouts for the network represented as different files. Likewise, any global (static) metrics are calculated at this stage. The optional warping of a networks timeline to reduce non-events between snapshots is also done during this stage. 
+Data is manipulated and cleaned into a temporal network in the form of a GEXF file. Data is often collated, cleaned, and transformed into this format using spreadsheets and custom programs to parse and rearrange the data. Any labelling of the data is also done at this stage along with the generation of different visual layouts for the network represented as different files. Likewise, any global (static) metrics are calculated at this stage. The optional warping of a networks timeline to reduce non-events between snapshots is also done during this stage. 
 
 Dynamic metrics are then calculated upon a single gexf network file. This is done using the Gephi Java Toolkit 0.8.5. Once snapshot duration, gap, and overall timeframe are chosen, metrics are calculated for each snapshot. Centrality metrics such as Degree and Betweenness can be directly calculated using the toolkit. KShell is calculated as the maximum K-Core value of a node via the toolkit. Dynamic Modularity is custom calculated with the help of the toolkit's static modularity calculation. These dynamic metrics are then compressed and written to a new version of the gexf network file.
 
 The program responsible for visually rendering the gexf network file is written in java, with the aid of the Processing framework and the Gephi Toolkit. It offers a range of visual parameters for rendering the network. Snapshot durations must be set to match that used for the calculation of dynamic metrics. 
 
-The program features:
+The program features the ability to instaneously toggle between different variables. Absolute and relative metrics can be selected for mapping to different visual attributes. The display and style of text labels can be toggled. The colour palette can also be toggled, which can be quite significant depending on the data and metric for colour mapping. Highlights can be toggled that emphasize significant network elements: these include coloured rings around nodes corresponding to their change in value, crosses that bring the eye towards significant nodes, rising or falling triangles accompanied with text emphasising the relative or absolute change of a chosen metric, and thick transitional lines that denote edges between significant nodes.
+
+To allow for browsing and fine-tuning of the network and program, GUI functions were added including zooming, panning, and browsing of the timeline. 
+
+The program outputs the temporal network as a series of images. These are then compiled with After Effects, and can accompany other series of images to offer an animated collage comparing different renders of networks. 
+
+This rendering system allows for the creation of a multitude of different outputs that can highlight a variety of important factors in a temporal network.
+
 
 - the ability to quickly switch between:
 	- what metrics map to which visual attributes | if mapping absolute or relative metric
@@ -160,10 +167,6 @@ The program features:
 	- panning
 	- timeline browsing
 	- //could be an interactive system
-
-To allow for browsing and fine-tuning of the network and program, GUI functions were added including zooming, panning, and browsing of the timeline.
-
-The program outputs the temporal network as a series of images. These are then compiled with After Effects, and can accompany other series of images to offer an animated collage comparing different renders of networks.
 
 
 ---
