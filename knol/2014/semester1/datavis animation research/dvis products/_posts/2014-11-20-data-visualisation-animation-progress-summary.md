@@ -91,17 +91,19 @@ Other symbols such as crosses, rings, and arrows can serve to highlight a partic
 
 #### Metrics (of elements)
 
-- Degree
-- Betweenness
-- KShell
-- Dynamic Modularity / Community <- developed from (static) global modularity
-- (All above elements are dynamic.)
+A graphs' elements have a variety of metrics: these include measures of centrality (indicators that identify a nodes' importance) and structure.
 
-- Visual attributes can be mapped to a metric, as well as the amount a metric changes between steps.
+The system computes the centrality measures; Degree and Betweenness. In terms of structural metrics, we also compute KShell and Dynamic Modularity (also known as communities or clusters). 
+
+KShell is computed as the maximum level of k-degenerate graph a node belongs too. *
+
+Modularity was initially visualised as a global (hence static) metric. To calculate dynamic modularity, static modularity was computed via the Gephi Toolkit for every time window of the network. Matching, similar, and dissimilar modules were then computed with Jarcadian distances between neighboring timewindows, represented as evolving vectors, normalized as angles, which were mapped as colors. *
+
+All of the above metrics are dynamic throughout the temporal network. These metrics, as well as the rate of change of these metrics, are selected for mapping to the visual attributes of the rendered network.
 
 #### Mapping
 
-- Visual attributes are mapped to metrics or the change in a metric. One metric can be mapped to more than one visual attribute. Not all metrics are always displayed in one go. The variations of mappings leads to different understandings of the network with varying effectiveness.
+Visual attributes are mapped to metrics or the change in a metric. For example; a visualisation may map nodes' colors to the rate of change in Betweenness Centrality, whilst mapping their size to KShell. One metric can be mapped to more than one visual attribute. Not all metrics are always displayed in one go. The variations of mappings leads to different understandings of the network with varying effectiveness.
 
 #### Timeline
 
