@@ -135,14 +135,35 @@ The timing of visual effects, whether within the intra-snapshot timeline or the 
 
 ### Rendering System
 
-The rendering system takes in a gexf network file, calculates various network metrics, and offers a range of visual parametres for rendering.
+The rendering system is a workflow to create renders of temporal networks. It consists of three stages: data manipulation, metric calculation, and visual rendering.
 
-- Data
-	- pre-requisite
-	- pre-treatment
-	- treatment
+Data is manipulated and cleaned into a temporal network in the form of a GEXF file. Data is often cleaned and transformed into this format using spreadsheets or custom programs to parse and rearrange the data. Any labelling of the data is also done at this stage along with the generation of different visual layouts for the network represented as different files. Likewise, any global (static) metrics are calculated at this stage. The optional warping of a networks timeline to reduce non-events between snapshots is also done during this stage. 
 
-- Features (where they are in code and how they're implemented)
+Dynamic metrics are then calculated upon a single gexf network file. This is done using the Gephi Java Toolkit 0.8.5. Once snapshot duration, gap, and overall timeframe are chosen, metrics are calculated for each snapshot. Centrality metrics such as Degree and Betweenness can be directly calculated using the toolkit. KShell is calculated as the maximum K-Core value of a node via the toolkit. Dynamic Modularity is custom calculated with the help of the toolkit's static modularity calculation. These dynamic metrics are then compressed and written to a new version of the gexf network file.
+
+The program responsible for visually rendering the gexf network file is written in java, with the aid of the Processing framework and the Gephi Toolkit. It offers a range of visual parameters for rendering the network. Snapshot durations must be set to match that used for the calculation of dynamic metrics. 
+
+The program features:
+
+- the ability to quickly switch between:
+	- what metrics map to which visual attributes | if mapping absolute or relative metric
+	- the display and style of text labels
+	- toggling the display of highlights:
+		- node rings
+		- change in value : change in value method of display (relative, absolute)
+		- crosses
+		- thick transition lines
+	- toggling color palette (which is quite significant given the data and metric for color mapping)
+
+- GUI:
+	- zooming
+	- panning
+	- timeline browsing
+	- //could be an interactive system
+
+To allow for browsing and fine-tuning of the network and program, GUI functions were added including zooming, panning, and browsing of the timeline.
+
+The program outputs the temporal network as a series of images. These are then compiled with After Effects, and can accompany other series of images to offer an animated collage comparing different renders of networks.
 
 
 ---
