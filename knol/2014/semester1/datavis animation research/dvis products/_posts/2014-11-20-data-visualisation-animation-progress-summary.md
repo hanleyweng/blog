@@ -131,33 +131,6 @@ Similar to its parent, the propagation timeline also utilises a small buffer per
 
 The timing of visual effects, whether within the intra-snapshot timeline or the propagation timeline, appeared to incur less cognitive load when they are slower and discrete from one another. 
 
-- types: intertimeline, intratimeline, effects timeline, propagation timeline
-
-	- intertimeline
-		- normal
-		- linear warping
-			- reasoning
-			- process
-			- ...
-
-		- intratimeline
-
-			x- effects timeline	
-				x- early on noticed discrete fx preffered (1. blueprint) - less cognitive load (slower animation)
-				x- node and edge effects timeline lined up
-
-			- propagation
-				- propagation - what is it
-					- order of nodes/edges
-						- node by node - significant change
-						- bio / sugiyama
-						- none
-				- hops
-					- number of hops (1,4,8)
-					- ~changing durations
-				- highlights / visual fx
-
-
 ---
 
 ### Rendering System
