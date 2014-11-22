@@ -107,14 +107,55 @@ Visual attributes are mapped to metrics or the change in a metric. For example; 
 
 #### Timeline
 
-- overall: intertimeline, intratimeline, effects timeline
-	- early on noticed discrete fx preffered (1. blueprint) - less cognitive load
-- linear warping
-	- ...
-- propagation
-	- hops
-		- number of hops (1,4,8)
-	- highlights
+Temporal networks consist of dynamic nodes and edges. These dynamic elements can be introduced and removed at any point in time. The addition and deletion of these elements effect the metrics of other elements within the network. Temporal networks can be viewed as a series of static snapshots (timewindows) of the network. These snapshots are not representations of the network at a singular point intime, but rather a certain time window from one point in time to another. This is similar to photography; though photos may appear to be instant, an (often very short) exposure time is required to capture a sufficient amount of information. 
+
+[ external reference image ]
+
+The sequence of snapshots (or timewindows) taken of these networks have a start point, end point, and a duration (which is the time from end to start point). There is a duration gap between each snapshot, often of a consistent duration - this means that snapshots may or may not overlap with one another. The chosen duration of and duration between each snapshots is dependent on the chosen data and purpose of visualisation.
+
+The rendering system deals with four types of nested timelines. From parent to child, these are the: inter-snapshot, intra-snapshot, effects and propagation timeline.
+
+The inter-snapshot timeline is the overall timeline of the entire network from beginning to end. It consists of all snapshots taken of the network. The duration between each snapshot is often kept constant, however, temporal networks with sparse events can have their data compressed so there are no snapshots in which no element has changed. This warping of the timeline is done by looking at each unique timestamp of the network's elements and remapping it into sequential integers (e.g. 1,2,3,...), playback would then occur at 0.5 increments (e.g. 1.0, 1.5, 2.0, ...).
+
+The intra-snapshot timeline exists between two adjacent snapshots and determines what visuals occurs as one snapshot transitions to the next. This timeline is often set with a 10-20% buffer period at both ends of the timeline, giving users time to observe a static view of the snapshot before any animations occur. Discint bugger periods could be set for nodes and edges, however, it appeared that the animation was easier to comprehend when both were set to the same periods. A few visual effects can be tied to this timeline; such as the fading in and out of rings around nodes that denote a change in metric value, or the fading in and out of edge halos that represent their addition or deletion. Most effects however are more appropriately applied to the propagation timeline.
+
+Changes in metrics can propagate throughout a network, beginning with the addition or deletion of an element. The ordering of elements in this propagation can be represented as the number of hops they are from the change. For example, consider the propagation of the betweenness centrality metric if an edge is added between two significant clusters of nodes, the edge and its adjacent nodes would be the first to be updated, having a hop-level and order of 0, the unclassified nodes adjacent to these would be next, having a hop-level and order of 1 from the event, and so on. Elements that undergo minimal change do not carry on the process. 
+
+This propagation of change in the network can be visually represented through the use of animated thick edges that gradually extend from the point of change to other elements affected by the structural change in the network.
+
+The propagation timeline denotes the order in which nodes and their edges are animated through their changes between snapshots. This order often follows the propagation order of events, however, other orderings have been used. An alternative ordering is elements being ordered depending on their layout, with top elements ordered first - this is especially useful with the Sugiyama layout where parent nodes are placed higher up, resulting in an animation that suggests a parent-to-child significance in metric changes. There can also be no ordering at all, where all elements are animated simultaneously. The number of distinct orders in this timeline can also be used to denote the duration of the parent timeline; the intra-snapshot timeline - meaning events with more changes can be observed longer. The rendering system can also artificially cap the maximum number of orders rendered independently, choosing to collate the remaining orders together. With the datasets explored, it appears that 50% of the maximum distinct order is a good cap - allowing for the representation of propagation, and cutting out many sparse propagations as it is rare for propagations to reach their maximum. 
+
+Within the propagation timeline, core visual transitions occur such as the change in a node's color and sizes. Significant elements may be additionally highlighted with symbols to emphasize them or certain metrics they possess.
+
+Similar to its parent, the propagation timeline also utilises a small buffer period between animating different orders of elements. 
+
+The timing of visual effects, whether within the intra-snapshot timeline or the propagation timeline, appeared to incur less cognitive load when they were slower and discrete from one another. 
+
+- types: intertimeline, intratimeline, effects timeline, propagation timeline
+
+	- intertimeline
+		- normal
+		- linear warping
+			- reasoning
+			- process
+			- ...
+
+		- intratimeline
+
+			x- effects timeline	
+				x- early on noticed discrete fx preffered (1. blueprint) - less cognitive load (slower animation)
+				x- node and edge effects timeline lined up
+
+			- propagation
+				- propagation - what is it
+					- order of nodes/edges
+						- node by node - significant change
+						- bio / sugiyama
+						- none
+				- hops
+					- number of hops (1,4,8)
+					- ~changing durations
+				- highlights / visual fx
 
 
 ---
