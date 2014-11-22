@@ -151,64 +151,7 @@ The program outputs the temporal network as a series of images. These are then c
 
 This rendering system allows for the creation of a multitude of different outputs that can highlight a variety of important factors in a temporal network.
 
-
-- the ability to quickly switch between:
-	- what metrics map to which visual attributes | if mapping absolute or relative metric
-	- the display and style of text labels
-	- toggling the display of highlights:
-		- node rings
-		- change in value : change in value method of display (relative, absolute)
-		- crosses
-		- thick transition lines
-	- toggling color palette (which is quite significant given the data and metric for color mapping)
-
-- GUI:
-	- zooming
-	- panning
-	- timeline browsing
-	- //could be an interactive system
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## [DRAFT] Case Study: Email Network
 
