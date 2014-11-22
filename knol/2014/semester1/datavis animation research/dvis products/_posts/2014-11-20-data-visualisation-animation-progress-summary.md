@@ -167,15 +167,6 @@ Snapshot duration and gaps varied between renders. However, one of the more comm
 
 Versions of this network also underwent warping of the timeline in order to differentiate connections in peak times, and to reduce animation length in times of.
 
-This dataset was my own email network:
-
-- duration: 
-- time period: 
-- underwent linear warping
-- time range: 
-- nodes were ...
-- edges were ...
-
 ### Observations
 
 Observing and analysing it:
@@ -188,9 +179,9 @@ Observing and analysing it:
 
 - combination of metrics...
 
-- propagation
 - different layouts
 - different time mappings
+- propagation
 
 - ...
 
