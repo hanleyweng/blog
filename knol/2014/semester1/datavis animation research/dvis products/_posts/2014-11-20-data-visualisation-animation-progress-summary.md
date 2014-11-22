@@ -155,7 +155,17 @@ This rendering system allows for the creation of a multitude of different output
 
 ## [DRAFT] Case Study: Email Network
 
-As a case study of the limitations and benefits of the above technqiues we can look to an email network.
+### The Dataset
+
+As a case study of the limitations and benefits of the rendering system above we can look its applications to an email network.
+
+This email network is derived from the personal email data of a single author. This dataset contained the subject, timestamp, from, to, and cc fields of an email. A temporal network was formed with all emails, whereby each email is represented as a 'star' in time between a single sender and (potentially) multiple receivers. Therefore each person is a node, and a temporal directed edge is formed between a sender and receiver. The network was filtered for meaningful connections, people whom there had been a significant amount of emails to and from the author.
+
+The first email at this address, and hence the data, was May 2008 and is still in use as of the date of mining in June 2014. This dataset includes approximately 43,000 emails. Though data was available for six years, only small subsets of the dataset were focused on at any one time usually ranging from 8 to 24 months. For reference, a snapshot of 24 months filtered for meaningful connections resulted in approximately 300 nodes (people), 1500 unique global (static, with no disregard to time) connections (edges) between people, and 5400 unique temporal connections between people.
+
+Snapshot duration and gaps varied between renders. However, one of the more common settings was a 90 day duration with 10 day gaps between snapshots. 
+
+Versions of this network also underwent warping of the timeline in order to differentiate connections in peak times, and to reduce animation length in times of.
 
 This dataset was my own email network:
 
@@ -166,7 +176,21 @@ This dataset was my own email network:
 - nodes were ...
 - edges were ...
 
+### Observations
+
 Observing and analysing it:
+
+- degree
+- betweenness
+- kshell
+- static mod
+- dynamic mod
+
+- combination of metrics...
+
+- propagation
+- different layouts
+- different time mappings
 
 - ...
 
