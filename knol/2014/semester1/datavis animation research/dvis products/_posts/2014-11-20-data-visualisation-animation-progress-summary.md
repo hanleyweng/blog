@@ -169,6 +169,28 @@ Versions of this network also underwent warping of the timeline in order to diff
 
 ### Observations
 
+Using the rendering system, the network was observed and analysed under a variety of different visual parametres with a focus on different metrics. 
+
+---
+Selected Visual Attributes.
+- Linear Mapping
+- Metric Choices
+- Layout (from available layouts)
+
+Distinct Clusters
+
+Evolution of the corporate network.
+( from beginning to end, with the butterfly project inbetween )
+- beginning: jack introduction, optimisation more, continuous engineering engagement. 
+- Wunderman Melbourne. 
+- end: less optimisation, Wunderman merging. 
+
+Observing Propagations
+- Not much really found
+- Tutoring example
+
+---
+
 Observing and analysing it:
 
 - degree
