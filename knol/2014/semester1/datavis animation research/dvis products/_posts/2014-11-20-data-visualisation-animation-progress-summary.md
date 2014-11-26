@@ -171,6 +171,53 @@ Versions of this network also underwent warping of the timeline in order to diff
 
 Using the rendering system, the network was observed and analysed under a variety of different visual parametres with a focus on different metrics. 
 
+### Visual Attribute Selection
+
+...
+
+### Communities
+
+The significant communities within this network are highlighted here. 
+
+[ Graph with community outlines ]
+
+Key: Communites:
+
+- Corporate 
+
+- Company AS
+- Company AS.D1
+- Company AS.D2
+
+- Company B
+- Company BS - Office at S
+- Company BM - Office at M
+
+- University CC
+
+- University DS
+- University DS.L
+- University DS.T
+
+- High School EE
+
+The communities above are hierarchically encoded. The first letter denotes that this is a distinct entity. The second letter denotes the city of this entity (i.e. Company AS, Company BS, and University DS share the same city ). Company B is an international company with offices at S and M, Company B is also the parent company of Company AS. Any encoding after the first two letters serve to break down the hierarchical community further; Company AS is broken into departments (D1, D2) and Unviersity DS is broken down into the user's role when these connections were made (L for learning, T for teaching). Company B and AS are collectively reffered to as the corporate community. 
+
+The majority of these communities were distinct and disgtinguishable in the overall static view of the network. Finer communities such as those within the corporate community were identified during playback of the temporal network.
+
+### Evolution of the Corporate Network
+
+...
+
+### Observing Propagations
+
+...
+
+
+
+
+
+
 ---
 Selected Visual Attributes.
 - Linear Mapping
