@@ -245,9 +245,9 @@ Distinct Clusters
 
 Evolution of the corporate network.
 ( from beginning to end, with the butterfly project inbetween )
-- beginning: jack introduction, optimisation more, continuous engineering engagement. 
-- Wunderman Melbourne. 
-- end: less optimisation, Wunderman merging. 
+- beginning: J. introduction, optimisation more, continuous engineering engagement. 
+- W. Melbourne. 
+- end: less optimisation, W. merging. 
 
 Observing Propagations
 - Not much really found
