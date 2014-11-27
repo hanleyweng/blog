@@ -173,7 +173,30 @@ Using the rendering system, the network was observed and analysed under a variet
 
 ### Visual Attribute Selection
 
-...
+	...
+	- Metric Choices
+	- Linear Mapping
+	- Layout (from available layouts)
+	...
+
+Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in this case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity (which can only map to colour unlike the other metrics). 
+
+User scrubbing of the timeline of the final render was found to be more insightful than simple playback of the render.
+
+[ Image: M, M, E - University DS - snapshot-start-time 3.0 ]
+
+Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student).
+
+As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events incredibly efficiently.
+
+[ Image of layouts. ]
+1. Frutcherman-reingold
+2. Force Atlas
+3. Yifan-Hu
+4. 5. 6. 
+
+Several layouts were considered for this network. Overall, force directed methods (layout.image 1,2,3), provided the best representations of the network structure. From 1 to 2 to 3, clarity of communities increase, and consistent spacing between nodes decreases (meaning maximum-distance increases and minimum-distance decreases). It is much easier to observe between-node interactions and add visual additions such as labels to nodes when they are spaced further apart. Hence the Frutcherman-Reingold (1) layout was chosen for this dataset as it allowed freedom in the development of visual effects, room to inspect data labels, and had less edge crossings and clearer communities than that of 4, 5, or 6.
+
 
 ### Communities
 
