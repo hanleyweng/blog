@@ -7,11 +7,11 @@ date:	2014-11-21
 tags:	[data visualisation, network, animation]
 ---
 
-# [DRAFT] Summary
+# Summary
 
 ---
 
-# [DRAFT] Design and Implementation of Techniques
+# Design and Implementation of Techniques
 
 This project's intent was to create renders of temporal networks. 
 
@@ -153,7 +153,7 @@ This rendering system allows for the creation of a multitude of different output
 
 ---
 
-## [DRAFT] Case Study: Email Network
+## Case Study: Email Network
 
 ### The Dataset
 
