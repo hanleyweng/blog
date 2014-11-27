@@ -250,23 +250,6 @@ In smaller networks, propagation can have clearer effects. At time 930, 950, 985
 Considering the other effects in the network, propagation does not provide as much insight into the network as the other visual attributes, however it may be appropriate in particular instances such as small temporal networks with clearly defined communities and a few important bridges.
 
 
-
-- degree isn't suceptable to propagation
-- kshell somewhat
-- betweenness and mod are good
-	- An event can effect nodes up to 3 or 4 hops away on average.
-
-- propagation through a dense graph such as the corporate network can be visually messy - just shows the corporate network is all highly connected regardless of its subdivisions
-
-- couple observations made
-	- propagation can reach nodes that are in distinct communities and never communicated - just the effect of networks (only with betweenness, none of the others)
-	- DS.T event.
-
-
-
-
-
-
 ---
 Selected Visual Attributes.
 - Linear Mapping
