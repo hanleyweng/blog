@@ -173,12 +173,6 @@ Using the rendering system, the network was observed and analysed under a variet
 
 ### Visual Attribute Selection
 
-	...
-	- Metric Choices
-	- Linear Mapping
-	- Layout (from available layouts)
-	...
-
 Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in this case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity (which can only map to colour unlike the other metrics). 
 
 User scrubbing of the timeline of the final render was found to be more insightful than simple playback of the render.
