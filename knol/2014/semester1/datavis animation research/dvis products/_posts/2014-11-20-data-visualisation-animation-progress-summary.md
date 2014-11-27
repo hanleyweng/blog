@@ -211,7 +211,7 @@ User scrubbing of the timeline of the final render was found to be more insightf
 
 [ Image: M, M, E - University DS - snapshot-start-time 3.0 ]
 
-Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student).
+Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network at University DS.L surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student body).
 
 As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events incredibly efficiently.
 
@@ -219,7 +219,7 @@ As the temporal network was quite large, with events unevenly dispersed througho
 1. Frutcherman-reingold
 2. Force Atlas
 3. Yifan-Hu
-4. 5. 6. 
+4. ... 5. ... 6. ...
 
 Several layouts were considered for this network. Overall, force directed methods (layout.image 1,2,3), provided the best representations of the network structure. From 1 to 2 to 3, clarity of communities increase, and consistent spacing between nodes decreases (meaning maximum-distance increases and minimum-distance decreases). It is much easier to observe between-node interactions and add visual additions such as labels to nodes when they are spaced further apart. Hence the Frutcherman-Reingold (1) layout was chosen for this dataset as it allowed freedom in the development of visual effects, room to inspect data labels, and had less edge crossings and clearer communities than that of 4, 5, or 6.
 
@@ -227,11 +227,19 @@ Several layouts were considered for this network. Overall, force directed method
 
 ### Evolution of the Corporate Network
 
-...
+[ images ]
+
+When the user began interacting with the corporate network, many of those interactions were through their direct supervisor in Company AS, as seen in the degree render at time 51 (where time refers to the start-time of the snapshot). Over time, this grew to the rest of the supervisor's department AS.D1 as more people were interacted with whilst the supervisor was CCd to the communications, resulting in high betweenness (see degree and betweenness renders a time 295). Over time, additional aid was provided to another department AS.D2 which was a very tight-knit (see kshell) and distinct (see modularity) group. However, the number of distinct interactions was still smaller than AS.D1 (see degree) since AS.D2 predominantly sent large group emails (see renders at time 424). As time passed, interactions with AS.D2 became constrained to 
+
+Collaborations existed between Company AS and Company B. From time 277 to time 720 we can observe communications between Company AS and BM. At time 277, Company BM contacted the supervisor of AS.D1 with a project and initial communications were begun with the leads of Company BM. During the collaborations, at time 545, we can see the full structural extent of this network, the notion it is it's own clique (see higher kshell value), and that the supervisor of AS.D1 and one of the leads at BM have very high importance (see degree and betweenness) representing organizational structure. As the project ends and the connections dissappear at time 720, we observe that it is not the higher ups who have the last inter-company communications, but the employees under them.
+
+Over time, Company AS began interacting more with its merged parent Company B. We've seen previously a collaboration between AS and BM. Company AS and BS had more social interactions and bonding activities rather than work-related interactions. Around time 679, 712, we observe that BS became quite central structurally in the network (see kshell), but communications predominantly presided within existing work groups within Company AS (see degree and betweenness) also HR people who tend to have very high betweenness and degree centrality and eventually people who were leaders of group activities. It is interesting to observe a strong bridging arch being established between AS and BS composed of many Company B and some Company AS people who had low social interaction (see degree, betweenness) and were often CCd into emails (see kshell). As company activities were enacted to further join the companies together, the temporal network reveals the people most engaged with the communications - forming an even closer bridge between the two companies (see time 894, degree and betweenness). It was interesting to note that these were predominantly female and international employees.
+
+The render of this temporal network allowed the observation of evolving organizational structure, collaboration, and engagement.
 
 ### Observing Propagations
 
-...
+
 
 
 
