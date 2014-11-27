@@ -167,30 +167,9 @@ Snapshot duration and gaps varied between renders. However, one of the more comm
 
 Versions of this network also underwent warping of the timeline in order to differentiate connections in peak times, and to reduce animation length in times of.
 
-### Observations
-
 Using the rendering system, the network was observed and analysed under a variety of different visual parametres with a focus on different metrics. 
 
-### Visual Attribute Selection
-
-Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in this case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity (which can only map to colour unlike the other metrics). 
-
-User scrubbing of the timeline of the final render was found to be more insightful than simple playback of the render.
-
-[ Image: M, M, E - University DS - snapshot-start-time 3.0 ]
-
-Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student).
-
-As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events incredibly efficiently.
-
-[ Image of layouts. ]
-1. Frutcherman-reingold
-2. Force Atlas
-3. Yifan-Hu
-4. 5. 6. 
-
-Several layouts were considered for this network. Overall, force directed methods (layout.image 1,2,3), provided the best representations of the network structure. From 1 to 2 to 3, clarity of communities increase, and consistent spacing between nodes decreases (meaning maximum-distance increases and minimum-distance decreases). It is much easier to observe between-node interactions and add visual additions such as labels to nodes when they are spaced further apart. Hence the Frutcherman-Reingold (1) layout was chosen for this dataset as it allowed freedom in the development of visual effects, room to inspect data labels, and had less edge crossings and clearer communities than that of 4, 5, or 6.
-
+To understand how this network evolved, it should be noted that the period of this temporal network covers the user's initial collaborations with other students in University DS, the beggining of work at Company AS where a variety of departments were interacted with. Eventually Company AS and B began merging and sharing projects. Towards the end of this network's period, the user also began teaching at University DS.
 
 ### Communities
 
@@ -221,6 +200,30 @@ Key: Communites:
 The communities above are hierarchically encoded. The first letter denotes that this is a distinct entity. The second letter denotes the city of this entity (i.e. Company AS, Company BS, and University DS share the same city ). Company B is an international company with offices at S and M, Company B is also the parent company of Company AS. Any encoding after the first two letters serve to break down the hierarchical community further; Company AS is broken into departments (D1, D2) and Unviersity DS is broken down into the user's role when these connections were made (L for learning, T for teaching). Company B and AS are collectively reffered to as the corporate community. 
 
 The majority of these communities were distinct and disgtinguishable in the overall static view of the network. Finer communities such as those within the corporate community were identified during playback of the temporal network.
+
+
+
+### Visual Attribute Selection
+
+Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in this case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity (which can only map to colour unlike the other metrics). 
+
+User scrubbing of the timeline of the final render was found to be more insightful than simple playback of the render.
+
+[ Image: M, M, E - University DS - snapshot-start-time 3.0 ]
+
+Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student).
+
+As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events incredibly efficiently.
+
+[ Image of layouts. ]
+1. Frutcherman-reingold
+2. Force Atlas
+3. Yifan-Hu
+4. 5. 6. 
+
+Several layouts were considered for this network. Overall, force directed methods (layout.image 1,2,3), provided the best representations of the network structure. From 1 to 2 to 3, clarity of communities increase, and consistent spacing between nodes decreases (meaning maximum-distance increases and minimum-distance decreases). It is much easier to observe between-node interactions and add visual additions such as labels to nodes when they are spaced further apart. Hence the Frutcherman-Reingold (1) layout was chosen for this dataset as it allowed freedom in the development of visual effects, room to inspect data labels, and had less edge crossings and clearer communities than that of 4, 5, or 6.
+
+
 
 ### Evolution of the Corporate Network
 
