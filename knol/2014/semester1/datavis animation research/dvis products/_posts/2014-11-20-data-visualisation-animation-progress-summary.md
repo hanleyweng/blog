@@ -249,23 +249,3 @@ In smaller networks, propagation can have clearer effects. At time 930, 950, 985
 
 Considering the other effects in the network, propagation does not provide as much insight into the network as the other visual attributes, however it may be appropriate in particular instances such as small temporal networks with clearly defined communities and a few important bridges.
 
-
----
-Selected Visual Attributes.
-- Linear Mapping
-- Metric Choices
-- Layout (from available layouts)
-
-Distinct Clusters
-
-Evolution of the corporate network.
-( from beginning to end, with the butterfly project inbetween )
-- beginning: J. introduction, optimisation more, continuous engineering engagement. 
-- W. Melbourne. 
-- end: less optimisation, W. merging. 
-
-Observing Propagations
-- Not much really found
-- Tutoring example
-
----
