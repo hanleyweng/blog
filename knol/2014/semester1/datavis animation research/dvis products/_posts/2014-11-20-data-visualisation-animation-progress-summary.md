@@ -239,7 +239,28 @@ The render of this temporal network allowed the observation of evolving organiza
 
 ### Observing Propagations
 
+The render of the email network also visualised the propagating change on metric values induced by an event such as the sending of an email. Different metrics propagate to different depths. Degree does not propagate as it is a metric local to the node. KShell can propagate, but not nearly as much as betweenness and modularity where events can effect nodes up to three or four hops away on average in this network.
 
+Propagation through a dense subgraph such as the corporate network can be visually inconclusive as it usually reaches every node and only shows that the corporate network is highly connected regardless of its subdivisions.
+
+Propagation has been able to reach nodes that are in distinct communities, connecting nodes that have never talked with one another - this is especially evident when a connection is made temporarily between University DS and Company AS.D2 at time 717. This level of propagation is only picked up by the betweenness metric which is more sensitive than the others.
+
+In smaller networks, propagation can have clearer effects. At time 930, 950, 985, in University DS.T, we can observe a cluster of staff planning teaching material which is later introduced to students. We can also observe a hierarchical propagation at precisely time 941.5 and 950.5 where students ask a question and the betweenness value it propagates elevates up the hierarchical chain of academics even though they were not part of the original email.
+
+Considering the other effects in the network, propagation does not provide as much insight into the network as the other visual attributes, however it may be appropriate in particular instances such as small temporal networks with clearly defined communities and a few important bridges.
+
+
+
+- degree isn't suceptable to propagation
+- kshell somewhat
+- betweenness and mod are good
+	- An event can effect nodes up to 3 or 4 hops away on average.
+
+- propagation through a dense graph such as the corporate network can be visually messy - just shows the corporate network is all highly connected regardless of its subdivisions
+
+- couple observations made
+	- propagation can reach nodes that are in distinct communities and never communicated - just the effect of networks (only with betweenness, none of the others)
+	- DS.T event.
 
 
 
