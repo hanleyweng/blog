@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Visualizing Temporal Networks (Progress Documentation)"
+title:	"Visualizing Temporal Networks (Process Sketchbook)"
 date_begun: 2014-02-01
 status: in progress
 date:	2014-11-07
