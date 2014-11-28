@@ -9,6 +9,11 @@ tags:	[data visualisation, network, animation]
 
 # Summary
 
+This is a summary of the project "Visualizing Temporal Networks" in regards too:
+
+- Design and Implementation of Techniques
+- Case Study with an Email Network
+
 ---
 
 # Design and Implementation of Techniques
