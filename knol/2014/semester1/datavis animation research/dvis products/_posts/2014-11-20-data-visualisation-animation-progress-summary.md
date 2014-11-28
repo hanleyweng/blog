@@ -34,7 +34,7 @@ A visualisation can not be created without data. For our visualisations, a searc
 
 Early attempts involved the generation of such a network with the Barabasi-Albert model. However, such artificial generation of a temporal network didn't appear organic enough, as it lacked desired metrics that could be expected from real world networks such as higher k-core values.
 
-Mining for realworld data was undertaken as an alternative to the artificial approach above. The search involved data from conferences, academia, machine learning, cultural brands, Twitter, NSW Australia Statistics, and various movie databases.* In searching for network data that was expansive, temporal, and potentially scale-free. Of the datasets explored, Movie data appeared to fit the criteria best, with IMDB lists being the most flexible. 
+Mining for realworld data was undertaken as an alternative to the artificial approach above. The search involved data from conferences, academia, machine learning, cultural brands, Twitter, New South Wales and Australian Statistics, and various movie databases.* In searching for network data that was expansive, temporal, and potentially scale-free. Of the datasets explored, Movie data appeared to fit the criteria best, with IMDB lists being the most flexible. 
 
 In the end, the following three data sets were used:
 
@@ -70,7 +70,7 @@ Metrics and Visual Attributes are predominantly node-focused.
 
 #### Layout
 
-There are many different types of layouts networks could be represented with. Two-dimensional layouts were consistently favoured three-dimensional layouts due to their smaller cognitive footprint. It was the minimisation of cognitive load that also lead to the use of static layouts above dynamic network layouts (layouts where the positions of elements can change over time).
+There are many different types of layouts networks could be represented with. Two-dimensional layouts were consistently favoured over three-dimensional layouts due to their smaller cognitive footprint. It was the minimisation of cognitive load that also lead to the use of static layouts above dynamic network layouts (layouts where the positions of elements can change over time).
 
 Particular layouts included: Sugiyama, Frutcherman-Reingold, Force Atlas, Yifan Hu, Radial Axis, Circular, Multi-Circular layouts. Layouts were generated using existing graph programs Gephi or VisLab.
 
@@ -78,13 +78,13 @@ The rendering system was embedded with graphical user interface (GUI) elements s
 
 #### Visual Attributes (of elements)
 
-The elements of a network can be imbued with a variety of visual attributes. In the rendering system, nodes often contained the predominant visual attributes, often determining the visual attributes of the remaining elements. Visual attributes include an element's colour, size, halos (or hulls / outlines / ghosts of a single or group of nodes), and additional attributes in the form of nearby text labels or symbols. 
+The elements of a network can be imbued with a variety of visual attributes. In the rendering system, nodes often contained the dominant visual attributes, often determining the visual attributes of the remaining elements. Visual attributes include an element's colour, size, halos (or hulls / outlines / ghosts of a single or group of nodes), and additional attributes in the form of nearby text labels or symbols. 
 
 A Node's colour is usually pulled from a colour palette which maps to a particular metric of the node. An edge's colour is a gradient determined by the colours of its nodes.
 
 Halos around a node or group of nodes and edges can vary their visual emphasis depending on the associated metric.
 
-Text labels are often tied to nodes and, when enabled, can have a size relative to that of the node or a constant size. Like the other visual attributes, its use is determined by the network and its purpose. Certain networks where the focus is greater on the structure itself rather than specific content would benefit from no labels. If the analysed metric has only a few top values than the labels at relative sizes can be informative.
+Text labels are often tied to nodes and, when enabled, can have a size relative to that of the node or a constant size. Like the other visual attributes, its use is determined by the network and its purpose. For example; certain networks where the focus is greater on the structure itself rather than specific content would benefit from no labels. If the analysed metric has only a few top values than the labels at relative sizes can be informative.
 
 Other symbols such as crosses, rings, and arrows can serve to highlight a particular node or represent a node's metric.
 
@@ -103,17 +103,17 @@ All of the above metrics are dynamic throughout the temporal network. These metr
 
 #### Mapping
 
-Visual attributes are mapped to metrics or the change in a metric. For example; a visualisation may map nodes' colors to the rate of change in Betweenness Centrality, whilst mapping their size to KShell. One metric can be mapped to more than one visual attribute. Not all metrics are always displayed in one go. The variations of mappings leads to different understandings of the network with varying effectiveness.
+Visual attributes are mapped to metrics or the change in a metric. For example; a visualisation may map nodes' colors to the rate of change in Betweenness Centrality, whilst mapping their size to KShell. One metric can be mapped to more than one visual attribute. Not all metrics are always displayed simultaneously. The variations of mappings leads to different understandings of the network with varying effectiveness.
 
 #### Timeline
 
-Temporal networks consist of dynamic nodes and edges. These dynamic elements can be introduced and removed from the network at any point in time. The addition and deletion of these elements effect the metrics of other elements within the network. Temporal networks can be viewed as a series of static snapshots (timewindows) of the network. These snapshots are not representations of the network at a singular point intime, but rather a certain time window from one point in time to another. This is similar to photography where an (often very short) exposure time is required to capture a sufficient amount of information. 
+Temporal networks consist of dynamic nodes and edges. These dynamic elements can be introduced and removed from the network at any point in time. The addition and deletion of these elements effect the metrics of other elements within the network. Temporal networks can be viewed as a series of static snapshots (timewindows) of the network. These snapshots are not representations of the network at a singular point intime, but rather a certain time window from one point in time to another. This is similar to photography where an exposure time is required to capture a sufficient amount of information. 
 
 [ external reference image ]
 
 The sequence of snapshots (or timewindows) taken of these networks have a start point, end point, and a duration (which is the time from end to start point). There is a duration gap between each snapshot, often of a consistent duration - this means that snapshots may or may not overlap with one another. The chosen duration of, and duration between, each snapshots is dependent on the chosen data and purpose of visualisation.
 
-The rendering system deals with four types of nested timelines. From parent to child, these are the: inter-snapshot, intra-snapshot, propagation timeline.
+The rendering system deals with different types of nested timelines. From parent to child, these are the: inter-snapshot, intra-snapshot, propagation timeline.
 
 The inter-snapshot timeline is the overall timeline of the entire network from beginning to end. It consists of all snapshots taken of the network. The duration between each snapshot is often kept constant, however, temporal networks with sparse events can have their data compressed so there are no snapshots in which no element has changed. This warping of the timeline is done by looking at each unique timestamp of the network's elements and remapping it into sequential integers (e.g. 1,2,3,...), playback would then occur at 0.5 increments (e.g. 1.0, 1.5, 2.0, ...) with a duration of 1.0 .
 
@@ -123,7 +123,7 @@ Changes in metrics can propagate throughout a network, beginning with the additi
 
 This propagation of change in the network can be visually represented through the use of animated thick edges that gradually extend from the point of change to other elements affected by the initial structural change in the network.
 
-The propagation timeline denotes the order in which nodes and their edges are animated through their changes between snapshots. This order often follows the propagation order of events, however, other orderings have been used. An alternative ordering is elements being ordered depending on their layout, with top elements ordered first - this is especially useful with the Sugiyama layout where parent nodes are placed higher up, resulting in an animation that suggests a parent-to-child significance in metric changes. There can also be no ordering at all, where all elements are animated simultaneously. The number of distinct orders in this timeline can also be used to denote the duration of the parent timeline; the intra-snapshot timeline - meaning events with more changes can be observed longer. The rendering system can also artificially cap the maximum number of orders rendered independently, choosing to collate the remaining orders together. With the datasets explored, it appears that 50% of the maximum distinct order is a good cap - allowing for the representation of propagation, and cutting out many sparse propagations as it is rare for propagations to reach their maximum. 
+The propagation timeline denotes the order in which nodes and their edges are animated through their changes between snapshots. This order often follows the propagation order of events, however, other orderings have been used. An alternative ordering is elements being ordered depending on their layout, with top elements ordered first - this is especially useful with the Sugiyama layout where parent nodes are placed higher up, resulting in an animation that can insinuate a parent-to-child significance in metric changes. There can also be no ordering at all, where all elements are animated simultaneously. The number of distinct orders in this timeline can also be used to denote the duration of the parent timeline; the intra-snapshot timeline - meaning events with more changes can be observed longer. The rendering system can also artificially cap the maximum number of orders rendered independently, choosing to collate the remaining orders together. With the datasets explored, it appears that 50% of the maximum distinct order is a good cap - allowing for the representation of propagation, and cutting out many sparse propagations as it is rare for propagations to reach their maximum. 
 
 Within the propagation timeline, core visual transitions occur such as the change in a node's color and sizes. Significant elements may be additionally highlighted with symbols to emphasize them or certain metrics they possess.
 
@@ -137,7 +137,7 @@ The timing of visual effects, whether within the intra-snapshot timeline or the 
 
 The rendering system is a workflow to create renders of temporal networks. It consists of three stages: data manipulation, metric calculation, and visual rendering.
 
-Data is manipulated and cleaned into a temporal network in the form of a GEXF file. Data is often collated, cleaned, and transformed into this format using spreadsheets and custom programs to parse and rearrange the data. Any labelling of the data is also done at this stage along with the generation of different visual layouts for the network represented as different files. Likewise, any global (static) metrics are calculated at this stage. The optional warping of a networks timeline to reduce non-events between snapshots is also done during this stage. 
+Data is manipulated and cleaned into a temporal network in the form of a [GEXF (Graph Exchange XML Format)](http://gexf.net/format/) file. Data is often collated, cleaned, and transformed into this format using spreadsheets and custom programs to parse and rearrange the data. Any labelling of the data is also done at this stage along with the generation of different visual layouts for the network represented as different files. Likewise, any global (static) metrics are calculated at this stage. The optional warping of a networks timeline to reduce non-events between snapshots is also done during this stage. 
 
 Dynamic metrics are then calculated upon a single gexf network file. This is done using the Gephi Java Toolkit 0.8.5. Once snapshot duration, gap, and overall timeframe are chosen, metrics are calculated for each snapshot. Centrality metrics such as Degree and Betweenness can be directly calculated using the toolkit. KShell is calculated as the maximum K-Core value of a node via the toolkit. Dynamic Modularity is custom calculated with the help of the toolkit's static modularity calculation. These dynamic metrics are then compressed and written to a new version of the gexf network file.
 
@@ -157,19 +157,17 @@ This rendering system allows for the creation of a multitude of different output
 
 ### The Dataset
 
-As a case study of the limitations and benefits of the rendering system above we can look its applications to an email network.
+As a case study of the limitations and benefits of the rendering system above we can look at its applications with an email network.
 
-This email network is derived from the personal email data of a single author. This dataset contained the subject, timestamp, from, to, and cc fields of an email. A temporal network was formed with all emails, whereby each email is represented as a 'star' in time between a single sender and (potentially) multiple receivers. Therefore each person is a node, and a temporal directed edge is formed between a sender and receiver. The network was filtered for meaningful connections, people whom there had been a significant amount of emails to and from the author.
+This email network is derived from the personal email data of a single user. This dataset contained the subject, timestamp, from, to, and cc fields of an email. A temporal network was formed with all emails, whereby each email is represented as a 'star' in time between a single sender and (potentially) multiple receivers. Therefore each person is a node, and a temporal directed edge is formed between a sender and receiver. The network was filtered for meaningful connections, people whom there had been a significant amount of emails to and from the user.
 
 The first email at this address, and hence the data, was May 2008 and is still in use as of the date of mining in June 2014. This dataset includes approximately 43,000 emails. Though data was available for six years, only small subsets of the dataset were focused on at any one time usually ranging from 8 to 24 months. For reference, a snapshot of 24 months filtered for meaningful connections resulted in approximately 300 nodes (people), 1500 unique global (static, with no disregard to time) connections (edges) between people, and 5400 unique temporal connections between people.
 
 Snapshot duration and gaps varied between renders. However, one of the more common settings was a 90 day duration with 10 day gaps between snapshots. 
 
-Versions of this network also underwent warping of the timeline in order to differentiate connections in peak times, and to reduce animation length in times of.
+Versions of this network also underwent warping of the timeline in order to differentiate connections in peak times, and to reduce animation length during periods with little or no events.
 
 Using the rendering system, the network was observed and analysed under a variety of different visual parametres with a focus on different metrics. 
-
-To understand how this network evolved, it should be noted that the period of this temporal network covers the user's initial collaborations with other students in University DS, the beggining of work at Company AS where a variety of departments were interacted with. Eventually Company AS and B began merging and sharing projects. Towards the end of this network's period, the user also began teaching at University DS.
 
 ### Communities
 
@@ -186,8 +184,8 @@ Key: Communites:
 - Company AS.D2
 
 - Company B
-- Company BS - Office at S
-- Company BM - Office at M
+- Company BS
+- Company BM
 
 - University CC
 
@@ -197,15 +195,15 @@ Key: Communites:
 
 - High School EE
 
-The communities above are hierarchically encoded. The first letter denotes that this is a distinct entity. The second letter denotes the city of this entity (i.e. Company AS, Company BS, and University DS share the same city ). Company B is an international company with offices at S and M, Company B is also the parent company of Company AS. Any encoding after the first two letters serve to break down the hierarchical community further; Company AS is broken into departments (D1, D2) and Unviersity DS is broken down into the user's role when these connections were made (L for learning, T for teaching). Company B and AS are collectively reffered to as the corporate community. 
+The communities above are hierarchically encoded. The first letter denotes that it is a distinct entity. The second letter denotes the city of this entity (i.e. Company AS, Company BS, and University DS share the same city ). Company B is an international company with offices at S and M, Company B is also the parent company of Company AS. Any encoding after the first two letters serve to break down the hierarchical community further; Company AS is broken into departments (D1, D2) and Unviersity DS is broken down into the user's role when these connections were made (L for learning, T for teaching). Company B and AS are collectively reffered to as the corporate community. 
 
 The majority of these communities were distinct and disgtinguishable in the overall static view of the network. Finer communities such as those within the corporate community were identified during playback of the temporal network.
 
-
+To understand how this network evolved, it should be noted that the period of this temporal network covers the user's initial collaborations with other students in University DS, the beggining of work at Company AS where a variety of departments were interacted with. Eventually Company AS and B began merging and sharing projects. Towards the end of this network's period, the user also began teaching at University DS.
 
 ### Visual Attribute Selection
 
-Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in this case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity (which can only map to colour unlike the other metrics). 
+Four distinct renders were made of the network and compiled into a single collage render. Observations were optimal in the case when a single render represented only one metric (rather than combining two or three metrics in the same visualisation), and when both colour and size were used to emphasize that metric. The four renders produced represented degree, betweenness, kshell, and modularity. Modularity is a discrete metric, and hence was only mapped to colour.
 
 User scrubbing of the timeline of the final render was found to be more insightful than simple playback of the render.
 
@@ -213,7 +211,7 @@ User scrubbing of the timeline of the final render was found to be more insightf
 
 Though the rendering system was capable of quickly switching the metrics and mappings representing the network, a compiled collage was much easier to grasp and compare the aspects of the network. An example of an observation that was made easier through a collage, also known as small multiples, is the state of the network at snapshot-start-time 3.0 . In the degree view, we can observe two important people in the network at University DS.L surrounded with people of medium importance, in the betweenness view we can identify a strong collaborator who was unnoticed in the degree view, meanwhile the modularity view shows that the person of highest importance (in degree and betweenness) is in a separate community (staff) to the other two people (student body).
 
-As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events incredibly efficiently.
+As the temporal network was quite large, with events unevenly dispersed throughout time, the timeline was warped in order to distinguish discrete events (events that happened close to one another in time were spread further apart) and ommit periods where no events occured (events that were far apart in the timeline were brought closer together). Warping the timeline allowed human users to observe events with greater efficiently.
 
 [ Image of layouts. ]
 1. Frutcherman-reingold
@@ -229,11 +227,11 @@ Several layouts were considered for this network. Overall, force directed method
 
 [ images ]
 
-When the user began interacting with the corporate network, many of those interactions were through their direct supervisor in Company AS, as seen in the degree render at time 51 (where time refers to the start-time of the snapshot). Over time, this grew to the rest of the supervisor's department AS.D1 as more people were interacted with whilst the supervisor was CCd to the communications, resulting in high betweenness (see degree and betweenness renders a time 295). Over time, additional aid was provided to another department AS.D2 which was a very tight-knit (see kshell) and distinct (see modularity) group. However, the number of distinct interactions was still smaller than AS.D1 (see degree) since AS.D2 predominantly sent large group emails (see renders at time 424). As time passed, interactions with AS.D2 became constrained to 
+When the user in the dataset began interacting with the corporate network, many of those interactions were through their direct supervisor in Company AS, as seen in the degree render at time 51 (where time refers to the start-time of the snapshot). Over time, this grew to the rest of the supervisor's department AS.D1 as more people were interacted with whilst the supervisor was CCd to the communications, resulting in high betweenness (see degree and betweenness renders a time 295). Over time, additional aid was provided to another department AS.D2 which was a very tight-knit (see kshell) and distinct (see modularity) group. However, the number of distinct interactions was still smaller than AS.D1 (see degree) since AS.D2 predominantly sent large group emails (see renders at time 424). As time passed, interactions with AS.D2 became constrained to select persons within the group.
 
-Collaborations existed between Company AS and Company B. From time 277 to time 720 we can observe communications between Company AS and BM. At time 277, Company BM contacted the supervisor of AS.D1 with a project and initial communications were begun with the leads of Company BM. During the collaborations, at time 545, we can see the full structural extent of this network, the notion it is it's own clique (see higher kshell value), and that the supervisor of AS.D1 and one of the leads at BM have very high importance (see degree and betweenness) representing organizational structure. As the project ends and the connections dissappear at time 720, we observe that it is not the higher ups who have the last inter-company communications, but the employees under them.
+Collaborations existed between Company AS and Company B. From time 277 to time 720 we can observe communications between Company AS and BM. At time 277, Company BM contacted the supervisor of AS.D1 with a project and initial communications were begun with the leads of Company BM. During the collaborations, at time 545, we can see the full structural extent of this network, the notion it is it's own clique (see higher kshell value), and that the supervisor of AS.D1 and one of the leads at BM have very high importance (see degree and betweenness) representing organizational structure. As the project ends and the connections disappear at time 720, we observe that it is not the higher ups who have the last inter-company communications, but the employees under them.
 
-Over time, Company AS began interacting more with its merged parent Company B. We've seen previously a collaboration between AS and BM. Company AS and BS had more social interactions and bonding activities rather than work-related interactions. Around time 679, 712, we observe that BS became quite central structurally in the network (see kshell), but communications predominantly presided within existing work groups within Company AS (see degree and betweenness) also HR people who tend to have very high betweenness and degree centrality and eventually people who were leaders of group activities. It is interesting to observe a strong bridging arch being established between AS and BS composed of many Company B and some Company AS people who had low social interaction (see degree, betweenness) and were often CCd into emails (see kshell). As company activities were enacted to further join the companies together, the temporal network reveals the people most engaged with the communications - forming an even closer bridge between the two companies (see time 894, degree and betweenness). It was interesting to note that these were predominantly female and international employees.
+Over time, Company AS began interacting more with its merged parent Company B. We've seen previously a collaboration between AS and BM. Company AS and BS had more social interactions and bonding activities rather than work-related interactions. Around time 679, 712, we observe that BS became quite central structurally in the network (see kshell), but communications predominantly presided within existing work groups within Company AS (see degree and betweenness) also HR people who tend to have very high betweenness and degree centrality and eventually people who were leaders of group activities. It is interesting to observe a strong bridging arch being established between AS and BS composed of many Company B and some Company AS people who had low social interaction (see degree, betweenness) and were often CCd into emails (see kshell). As company activities were enacted to further join the companies together, the temporal network reveals the people most engaged with the communications - forming an even closer bridge between the two companies (see time 894, degree and betweenness). It was interesting to note that these highly engaged entities were predominantly female and international employees.
 
 The render of this temporal network allowed the observation of evolving organizational structure, collaboration, and engagement.
 
@@ -245,7 +243,7 @@ Propagation through a dense subgraph such as the corporate network can be visual
 
 Propagation has been able to reach nodes that are in distinct communities, connecting nodes that have never talked with one another - this is especially evident when a connection is made temporarily between University DS and Company AS.D2 at time 717. This level of propagation is only picked up by the betweenness metric which is more sensitive than the others.
 
-In smaller networks, propagation can have clearer effects. At time 930, 950, 985, in University DS.T, we can observe a cluster of staff planning teaching material which is later introduced to students. We can also observe a hierarchical propagation at precisely time 941.5 and 950.5 where students ask a question and the betweenness value it propagates elevates up the hierarchical chain of academics even though they were not part of the original email.
+In smaller networks, propagation can have clearer effects. At time 930, 950, 985, in University DS.T, we can observe a cluster of staff planning teaching material which is later introduced to students. We can also observe a hierarchical propagation at precisely time 941.5 and 950.5 where students ask questions and the betweenness value it propagates elevates up the hierarchical chain of academics even though they were not part of the original email.
 
 Considering the other effects in the network, propagation does not provide as much insight into the network as the other visual attributes, however it may be appropriate in particular instances such as small temporal networks with clearly defined communities and a few important bridges.
 
