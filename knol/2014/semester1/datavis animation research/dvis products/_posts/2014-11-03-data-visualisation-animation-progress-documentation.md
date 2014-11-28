@@ -793,6 +793,18 @@ or the animation with and without transitional edges.
 
 ---
 
-# [DRAFT] Summary
+## Summarising 
 
-[[ This has been moved to its own independent post. ]]
+This post was consolidated with a few notes to write a summary.
+
+![Ordering process](64 - summary post/1 printing and augmenting notes/IMG_0075.JPG)
+
+Additional observations about the email network were made and ordered for the summary. These observations can be read in the link below.
+
+![Ordering Email Observations](64 - summary post/2 email observations/3 arranging photo/IMG_0080.JPG)
+
+Summary of the design and implementation of techniques, and the case study of the email network can be found on this site under: ['Visualising Temporal Networks (Summary)'](http://hanleyweng.github.io/blog/knol/2014/semester1/datavis%20animation%20research/dvis%20products/data-visualisation-animation-progress-summary.html). 
+
+
+
+
