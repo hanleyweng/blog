@@ -1,0 +1,140 @@
+.LR-header {
+	min-height: 95px;
+}
+
+.LR-box {
+	margin: 0;
+}
+
+.LR-box-wrapper {
+	width: 300px;
+}
+
+.LR-box-container {
+	border:none;
+	padding:0;
+	width:100%;
+}
+
+.LR-site-title {
+	font-size: 30px;
+	max-width: 300px;
+}
+
+.LR-site-logo {
+	margin: 16px auto 0;
+	max-width: 300px;
+	height: 60px;
+}
+
+.LR-site-tagline {
+	font-size: 24px;
+	text-align:center;
+	margin: 30px 0 20px;
+}
+
+.LR-site-incentive {
+	text-align:center;
+	max-width: 96%;
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+.LR-site-description {
+	text-align:center;
+	font-size: 14px;
+}
+
+.LR-site-share-inner {
+	width: 96%;
+}
+
+input[type="email"].LR-sign-up-input {
+	width:227px;
+}
+
+.LR-extra-fields input[type="email"].LR-sign-up-input,.LR-extra-fields input[type="text"].LR-sign-up-input.first-name,.LR-extra-fields input[type="text"].LR-sign-up-input.last-name,.LR-extra-fields input[type="text"].LR-sign-up-input.company,.LR-extra-fields input[type="tel"].LR-sign-up-input.phone-number,.LR-extra-fields input[type="text"].LR-sign-up-input.zipcode,.LR-extra-fields input[type="text"].LR-sign-up-input.birthdate {
+	width: 266px;
+}
+
+
+input.LR-share-email-emails[type="email"] {
+	width: 72%;
+}
+
+.LR-extra-fields input[type="text"].LR-sign-up-input.half {
+	width: 116px;
+}
+
+.LR-site-share-email input[type="text"], .LR-site-share-email input[type="email"], .LR-site-share-email textarea, input.LR-share-link {
+	width: 262px;
+}
+
+input.LR-share-email-emails[type="email"] {
+	width: 215px;
+}
+
+input.LR-share-link {
+	width: 263px;
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+
+.LR-pwd-lr {
+	position: relative;
+	background:transparent;
+	clear: both;
+	width: 300px;
+	padding: 0;
+	margin: 10px auto;
+}
+
+.LR-pwd-lr a {
+	display: block;
+	float: right;
+	-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.LR-site-logo img {
+	max-width:100%;
+	padding: 0 0 10px;
+}
+
+.LR-sign-up-label {
+	font-size: 11px;
+	text-align:center;
+	max-width: 96%;
+	margin: 0 auto 5px;
+}
+
+.LR-site-connect ul  {
+	width: 270px;
+	margin:0 auto;
+}
+
+.LR-site-connect {
+	width: 271px;
+}
+
+.LR-share-email-inner {
+	width:288px;
+}
+
+.LR-extra-fields input[type="submit"].LR-sign-up-submit {
+	width:292px;
+}
+
+input[type="submit"].LR-share-email-send {
+	width:288px;
+}
+
+.LR-stats-clicks, .LR-stats-signups {
+	font-size:20px;
+}
+
+.LR-lxWrapper {
+	display:none !important;
+}

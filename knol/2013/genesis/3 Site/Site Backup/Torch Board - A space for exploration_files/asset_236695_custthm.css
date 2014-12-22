@@ -1,0 +1,25 @@
+/* Insert CSS overrides here */
+
+/* Heading Color */
+h1.LR-site-title {
+	/*color: #fff;*/
+}
+
+/* Text Color */
+.LR-content {
+	color: black;
+}
+
+h2.LR-site-tagline {
+	margin: inherit;
+	font-size: 2em;
+}
+
+/* Image Insertion - set width to fit */
+.LR-box-container img {
+	width: 100%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Insert mobile CSS overrides here */
+}

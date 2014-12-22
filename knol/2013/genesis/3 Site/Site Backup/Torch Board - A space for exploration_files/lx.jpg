@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Bad Cat | LaunchRock</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/404.css" rel="stylesheet">
+  <script type="text/javascript">
+    var _kmq = _kmq || [];
+    var _kmk = _kmk || '44efc0a7a91397b21489abf9aa21b621a298ae9f';
+    function _kms(u){
+      setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+      }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+  </script>
+</head>
+<body>
+	<div id="t404">404!</div>
+	<div id="logo1"></div>
+	<div id="copy">It looks like there should be a <span style="color: #D12045; font-style: italic">LaunchRock</span> page here, but our servers were sabotaged by an evil, 
+	internet hating cat named Hank.<br><br>If you see Hank, punch him in the face.</div>
+	<center> 
+	<a href="http://www.launchrock.com"><button id="button" class="btn btn-large btn-success" type="button">GO TO LAUNCHROCK.COM</button></a>
+  	</center>
+	<a href="http://www.launchrock.com"><div id="logo2"></div></a>
+</body>
+<script type="text/javascript">
+  _kmq.push(
+    [
+      'record', 
+      'Hank Summoned', 
+      {
+        'URL' : document.location.href 
+      }
+    ]
+  );
+</script>
+</html>
