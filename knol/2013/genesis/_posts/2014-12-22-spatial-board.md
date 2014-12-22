@@ -8,17 +8,17 @@ tags:	[Spatial Board, Moodboard, Genesis]
 collaborators:	[Liz Gillaren]
 ---
 
-Genesis is a start-up program at the University of Sydney. in mid-2013, my friend Liz Gillaren and I entered into the program with a proposal that was an extension of [Magic torch](temp acm link here - proper link later) [[PDF of Entry]]().
+Genesis is a start-up program at the University of Sydney. in mid-2013, my friend Liz Gillaren and I entered into the program with a proposal that was an extension of a previous project [Magic torch]() [[PDF of Entry]](0 initial proposal/GENESIS - Magic Torch.pdf).
 
 Genesis revealed some interesting tips about the startup scene, notably a list of relevant entities as seen in this diagram [[link]](http://www.bluechilli.com/blog/startrail-september-2013-released/) by BlueChilli.
 
-[Image of StartRail]
+![StartRail](1 startup resources/StartRail_Network_July2013.png)
 
-Our final product was: Torch Board - "a creative way to curate and record your data, offering a way particular for academics and designers to track their search history and discover new and relevant links.".
+Our final product was: "Torch Board: a creative way to curate and record your data, offering a way particular for academics and designers to track their search history and discover new and relevant links.".
 
-[Image of Torch Board]
+![Image of Torch Board](2 The Mockup/heroImage.png)
 
-For more details, see the amazing slides designed by Liz here: [[Slide Deck PDF]]().
+For more details, see the amazing slides designed by Liz here: [[Slide Deck PDF]](4 slide deck/2013Genesis_Innovation_Torchers_LizGilleran_0435743083_V2.pdf).
 
 Whilst this was quite an educational peek into the startup world, even if a concept was fully fleshed out and strategised it can only go so far. Sometimes there's much more power in doing than talking.
 
