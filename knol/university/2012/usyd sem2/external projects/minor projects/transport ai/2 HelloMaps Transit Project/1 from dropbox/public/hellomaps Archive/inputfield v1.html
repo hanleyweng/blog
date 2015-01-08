@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function input_onclick() {
+			document.getElementById('general_status').innerHTML = "Clicked!";
+		}
+		
+		function input_onkeyup() {
+			var input_value = document.getElementById('myInputField').value;
+			document.getElementById('general_status').innerHTML = input_value;
+			
+			var delay = 500;
+			input_initiateQueryAfterLastDelay(input_value, delay);
+		}
+		
+		var input_initiateQueryAfterDelay_timeoutid;
+		function input_initiateQueryAfterLastDelay(value, delay) {
+			if (input_initiateQueryAfterDelay_timeoutid) {
+				clearTimeout(input_initiateQueryAfterDelay_timeoutid);
+			}
+			input_initiateQueryAfterDelay_timeoutid = setTimeout(function() { input_initiateQuery(value) }, delay);
+		}
+		
+		function input_initiateQuery(value) {
+			document.getElementById('query_div').innerHTML = "Loading results for: "+value+"...";
+		}
+		
+	</script>
+</head>
+
+<body>
+	<div id="general_status"></div>
+	<input id="myInputField" type="text" name="name" value="value" onclick="input_onclick()" onkeyup="input_onkeyup()" /><br />
+	<div id="query_div"></div>
+
+</body>
+</html>
