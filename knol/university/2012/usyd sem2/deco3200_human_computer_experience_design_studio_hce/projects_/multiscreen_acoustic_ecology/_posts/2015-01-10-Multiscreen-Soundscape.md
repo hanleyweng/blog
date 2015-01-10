@@ -31,4 +31,6 @@ It was quite nice to have the work on the university studio computers - especial
 
 ## Reflection
 
-Again, should have documented/videoed installation when it was on the Studio computers.
+This was my first attempt at a large soundscape - I found the result to be quite aesthetically pleasing.
+
+I really should have documented/videoed installation when it was on the Studio computers. 
