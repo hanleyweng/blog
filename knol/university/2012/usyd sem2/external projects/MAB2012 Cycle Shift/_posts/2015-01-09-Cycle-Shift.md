@@ -1,9 +1,9 @@
 ---
 layout:	post
 title:	"Cycle Shift - MAB Winning Concept"
-start-date:	2012-01-01
-end-date:	2012-06-01
-date:	2012-06-01
+start-date:	2012-10-02
+end-date:	2012-10-03
+date:	2012-10-03
 tags:	[USYD, MAB, Media Architecture Biennale, Student Design Challenge, Jam, Hackathon, 24 hours, Cycle Shift, Bicycles]
 ---
 
