@@ -13,10 +13,10 @@ I thought I'd share my list of places with wifi and their speeds for the fellow 
 
 Generally there are 4 main places for WiFi:
 
-- Hotels/Hostels/Motels. (Very Slow, Often Capped)
-- Libraries. (Decent Speed, No Cap)
-- Universities. (Fast, No Cap)
-- Personal Hotspot. (Mobile, Fast, Capped)
+- Hotels/Hostels/Motels. (Very Slow, Often Limited)
+- Libraries. (Decent Speed, Unlimited)
+- Universities. (Fast, Unlimited)
+- Personal Hotspot. (Mobile, Fast, Limited)
 
 Elaborating on these:
 
