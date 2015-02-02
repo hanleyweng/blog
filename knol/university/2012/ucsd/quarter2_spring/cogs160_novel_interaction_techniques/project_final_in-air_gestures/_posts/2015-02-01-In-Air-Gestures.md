@@ -17,15 +17,15 @@ This project involved a series of iterative interfaces that explore people's ide
 
 ## Videos
 
-Mid-way through the project, we (Karen and I) presented the state of the project along with a few videos. The presentation can be found [here [PDF]]().
-
-// ^- todo: link PDF presentation
+Mid-way through the project, we (Karen and I) presented the state of the project along with a few videos. The presentation can be found [here [PDF]](3_mid_presentation/Presentation.pdf).
 
 ### Concept Video
 
 A concept video was made by Karen for the presentation demonstrating the gestures in context.
 
-// Demonstration video
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_HBtJVih8FU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+A quick proof of technical concept video was also produced [here](http://youtu.be/pUlt003IPco).
 
 ### Technical Video
 
