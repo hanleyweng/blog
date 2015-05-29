@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Private UrbanLab H-Journal - Redirect</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<script src="js/jquery-2.1.3.min.js"></script>
+
+		<style>
+			html, body {
+				margin: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			#theframe {
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+		</style>
+		
+	</head>
+<body>
+
+	<p>Redirecting to a page in: <a href="https://googledrive.com/host/0B9f2Sq8RGOj_YzAwTE9uWUFLX00">Private Journal</a></p>
+	<p>You must be an approved user to view. Request access via hanleyweng@gmail.com</p>
+
+	<script>
+		// Get tail for more precise redirect
+		var tail = location.search;
+		tail = tail.substring(1);
+
+		// Redirect
+		var url = "https://googledrive.com/host/0B9f2Sq8RGOj_YzAwTE9uWUFLX00";
+		url += tail;
+		window.location.replace(url);
+	</script>
+
+</body>
+</html>
