@@ -92,7 +92,7 @@ Art is a vast and ever-intriguing phenomenon. There are many ways to explore art
 
 One of the DeviantArt explorations involved looking at when different countries posted artworks. Early explorations were quite abstract. Gradually it moved onto something more functional and informative.
 
-In order of process:
+Images in order of process:
 
 ![01](2_hw1_horizontalvis/0a hw1v1 treemap and country-by-hour/3 draft visualisations/0 exploring country-upload-by-hour/screenshots/cropped/1.png){: .small}
 ![02](2_hw1_horizontalvis/0a hw1v1 treemap and country-by-hour/3 draft visualisations/0 exploring country-upload-by-hour/screenshots/cropped/2.png){: .small}
