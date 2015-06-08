@@ -1,9 +1,9 @@
 ---
 layout:	post
 title:	"In-Air Gestures"
-start-date:	2012-07-01
-end-date:	2012-12-01
-date:	2012-12-01
+start-date:	2012-01-01
+end-date:	2012-07-01
+date:	2012-07-01
 tags:	[UCSD, University of California San Diego, In-Air Gestures, gestures, Kinect, Computer Vision, CV, Paper, gesture-based interfaces]
 ---
 

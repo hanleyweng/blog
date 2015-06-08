@@ -1,9 +1,9 @@
 ---
 layout:	post
 title:	"DataVis - Exploring Cooper Hewitt Data (Interactive Installation)"
-start-date:	2012-07-01
-end-date:	2012-12-01
-date:	2012-12-01
+start-date:	2012-01-01
+end-date:	2012-07-01
+date:	2012-07-01
 tags:	[UCSD, University of California San Diego, ICAM130, Lev Manovich, Data Visualization, Visualisation, Mondrian, Data, Cooper-Hewitt, Museum, Installation, Interactive, Hackday, 24hrs, Multiplayer, Kinect ]
 ---
 
