@@ -113,14 +113,14 @@ A few trials were made at more abstract representations of the data. Whilst inte
 
 ## Artwork Clusters
 
-DeviantArt Artworks were also clustered by visual characteristics. The full report can be read [here](/knol/university/2012/ucsd/quarter2_spring/icam130_data_visualization/creation/2_deviantart_project/3_final_imageplot/3%20report/2%20final_wengeco_documentation_/DataVis-Clustering-dA-Clustering-Artworks-Report.html){: .cta}.
+DeviantArt Artworks were also clustered by visual characteristics. The full report can be read [here]({{ site.baseurl }}/knol/university/2012/ucsd/quarter2_spring/icam130_data_visualization/creation/2_deviantart_project/3_final_imageplot/3%20report/2%20final_wengeco_documentation_/DataVis-Clustering-dA-Clustering-Artworks-Report.html){: .cta}.
 
 ![digital](media/duplicates/plot_digital.png)
 ![traditional](media/duplicates/plot_traditional.png)
 
 ## Artwork Categories
 
-DeviantArt Categories also proved very interesting, especially along the axis of gender ratio and their evolution over time. The full report can be read [here](/knol/university/2012/ucsd/quarter2_spring/icam130_data_visualization/creation/2_deviantart_project/2_hw1_horizontalvis/4%20documentation/icam130_da_category_writeup/DataVis-Exploring-dA-Categories-Report.html){: .cta}.
+DeviantArt Categories also proved very interesting, especially along the axis of gender ratio and their evolution over time. The full report can be read [here]({{ site.baseurl }}/knol/university/2012/ucsd/quarter2_spring/icam130_data_visualization/creation/2_deviantart_project/2_hw1_horizontalvis/4%20documentation/icam130_da_category_writeup/DataVis-Exploring-dA-Categories-Report.html){: .cta}.
 
 ![overall](media/duplicates/cat_overall.jpg)
 
