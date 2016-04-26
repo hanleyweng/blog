@@ -18,10 +18,9 @@ Our final product was: "Torch Board: a creative way to curate and record your da
 
 ![Image of Torch Board](2 The Mockup/heroImage.png)
 
-For more details, see the amazing slides designed by Liz here: [[Slide Deck PDF]](4 slide deck/2013Genesis_Innovation_Torchers_LizGilleran_0435743083_V2.pdf).
-
 Whilst this was quite an educational peek into the startup world, even if a concept was fully fleshed out and strategised it can only go so far. Sometimes there's much more power in doing than talking.
 
 "A prototype is worth a thousand meetings." 
 - Mike Davidson, VP of Design
 
+ 
