@@ -17,3 +17,5 @@ Various system setups were explored and evaluated. These included hardware compo
 Additional information is under a Non-Disclosure Agreement.
 
 Overall an interesting and informative electronic project.
+
+Contact me if you're interested in the source code and documentation for the project.
