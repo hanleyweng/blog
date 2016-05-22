@@ -11,3 +11,4 @@ _private*/
 *_private*
 ~$*.xlsx
 *_BIG*
+.jekyll-metadata
