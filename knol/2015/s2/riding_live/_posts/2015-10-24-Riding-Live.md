@@ -31,7 +31,7 @@ Riding Live was created with Xavier Ho (fantastic advisor and GLSL supporter) an
 
 This installation began following contact by Veloscape, an artistic research group, to create a large projected work for the cycling-oriented event, the ‘Bespoke City Art Festival’.
 
-The initial idea was to project a real time visualization of cyclists riding past particular areas onto a wall with high visibility, a concept that won the international Media Architecture Biennale 2012 Student Design challenge held in the bike capital, Denmark. Following the acquisition and simulations (data and visual) of the City of Sydney cycling data, it was evident that a two- dimensional real time display would be visually too repetitious, quiet and lacks a narrative in the context of the evening festival.
+The initial idea was to project a real time visualization of cyclists riding past particular areas onto a wall with high visibility, an earlier concept that won the international Media Architecture Biennale 2012 Student Design challenge held in the bike capital, Denmark. Following the acquisition and simulations (data and visual) of the City of Sydney cycling data, it was evident that a two-dimensional real time display would be visually too repetitious, quiet and lacks a narrative in the context of the evening festival.
 
 Subsequently, the concept was pivoted to better promote the culture of city biking by immersing people in the work. The festival concept became an interactive visual system where passers-by could hop onto a provided bike and ride through an abstract landscape of large zooming visuals projected in front of them.
 
@@ -47,7 +47,7 @@ The graphical representations were designed so that they were visually coherent 
 
 ## Files
 
-[Working Repository of files](https://bitbucket.org/hanleyweng/astral-bikes-repo)
+This is the public [Repository of the Source Code](https://bitbucket.org/hanleyweng/astral-bikes-repo).
 
 ## User Experience & Future Work
 
