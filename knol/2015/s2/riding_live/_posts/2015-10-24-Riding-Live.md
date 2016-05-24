@@ -11,7 +11,7 @@ tags: [Installation, light projection, interactive, health, games, bike culture]
 
 ## Description
 
-Riding Live prompts participants to ride a stationary bicycle to control their journey through an immersive landscape. It aims to encourage the growth and recognition of bike culture. 
+Riding Live prompts participants to ride a bicycle to control their journey through an immersive landscape. It aims to encourage the growth and recognition of bike culture. 
 
 It was hosted at the Bespoke City Festival in October 2015 at UNSW Art and Design on a Friday night preceding the Sydney Rides Festival. 
 
@@ -37,11 +37,18 @@ Subsequently, the concept was pivoted to better promote the culture of city biki
 
 ## Process: Creation
 
-Software and hardware were developed iteratively in line with evolving logistical constraints in regards to the sourcing of materials.
+The Inspirational Moodboard drew heavily from Stan Kubrick's 'Star Gate' in Space Odyssey 2011, in addition to the work of [Ash Thorp](http://www.ashthorp.com/) and [GMUNK](http://www.gmunk.com/) along with the fantastic work out of the [(Fragment) Shader Toy Community](https://www.shadertoy.com/). 
+
+Software and hardware were developed iteratively in line with evolving logistical constraints in regards to the sourcing of materials. Balancing the performance of interactive and visual elements of the work.
 
 Hardware involved a bike with an easily mountable frame suitable for diverse public use, a fitting bike stand, a magnet and reed sensor to detect bike speed connected to computer for processing.
 
-Software drove the visuals and was comprised of GLSL shaders to warp textures into a zoom-based effect. Post-effect shaders were also used, such as bloom, chromatic aberration, and general hue shifting. [Processing](processing.org), a quick visual tool that supplements the agile process nicely, handled generic logic such as the controlling of GLSL shaders via speed of peddling and the loading of image textures. A procedural starfield was also generated, adding to the sense of movement.
+Software drove the visuals and was comprised of GLSL shaders to warp textures into a zoom-based effect. Post-effect shaders were also used, such as bloom, chromatic aberration, and general hue shifting. [Processing](processing.org), a quick visual tool that supplements the agile process nicely, handled generic logic such as the controlling of GLSL shaders via speed of peddling and the loading of image textures. A procedural starfield was also generated, adding to the sense of movement. The program was stress tested significantly to ensure it could handle the size of the projection for the duration it was intended.
+
+// screenshot 1
+
+// screenshot 2
+
 
 The graphical representations were designed so that they were visually coherent at both slow and rapid speeds. By default, with no one riding, the visuals would take 40 minutes to loop. At average cycling speed it becomes a four minute loop.
 
@@ -51,9 +58,9 @@ This is the public [Repository of the Source Code](https://bitbucket.org/hanleyw
 
 ## User Experience & Future Work
 
-Overall sentiment was very positive, from artists and non-artists, with many acknowledgements to the large abstract visuals and the works interactive attribute. 
+Overall sentiment was very positive, from artists and non-artists, with many acknowledgements to the large abstract visuals and the work's interactive attribute. 
 
-A deep informal enquiry was conducted with ten people throughout the event. There appeared a desire for more thematic visuals further grounded in real-world metaphors, facilitating a stronger sense of storytelling and progress. Requests for procedural generation and steering were also repeated, alluding to a greater desire for control in one’s individual journey with the installation.
+A deep informal enquiry was conducted with ten people throughout the event. Whilst well received, there did appear a desire for more thematic visuals further grounded in real-world metaphors, facilitating a stronger sense of storytelling and progress. Requests for procedural generation and steering were also repeated, alluding to a greater desire for control in one’s individual journey with the installation.
 
 ---
 
