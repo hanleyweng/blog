@@ -19,7 +19,7 @@ The installation was projected onto a 12m x 8m wall overlooking the central cour
 
 ## Collaborators and Thanks
 
-Riding Live was created with Xavier Ho (fantastic advisor and GLSL supporter) and Laura Fisher (amazing festival director and artistic guide). Many thanks to Andrew Kurniawan and Eugenius Lai for their help sourcing materials and with setup on the day.
+Riding Live was created with [Xavier Ho](http://jumptoglide.com/) (fantastic advisor and GLSL supporter) and [Laura Fisher](https://au.linkedin.com/in/laura-fisher-1b611846) (amazing festival director and artistic guide). Many thanks to [Andrew Kurniawan](http://akurn.com/) and [Eugenius Lai](http://www.eugeniuslai.com/) for their help sourcing materials and with setup on the day.
 
 [![bike-blue](media/select_images/bike-blue.jpg)](media/select_images/bike-blue.jpg)
 
