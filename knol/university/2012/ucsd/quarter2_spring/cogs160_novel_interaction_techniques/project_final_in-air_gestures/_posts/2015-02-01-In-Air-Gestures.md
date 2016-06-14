@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"In-Air Gestures"
+title:	"Novel In-Air Gestures (Prototypes & User Research)"
 start-date:	2012-01-01
 end-date:	2012-07-01
 date:	2012-07-01

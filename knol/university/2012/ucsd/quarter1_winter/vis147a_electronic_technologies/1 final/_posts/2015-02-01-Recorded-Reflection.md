@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Recorded Reflections"
+title:	"Recorded Reflections (Art & Hardware)"
 start-date:	2012-01-01
 end-date:	2012-06-01
 date:	2012-06-01
