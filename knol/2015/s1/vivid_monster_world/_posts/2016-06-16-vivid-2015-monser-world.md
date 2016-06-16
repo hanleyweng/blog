@@ -33,25 +33,25 @@ Starting off, was the Vivid Application process where we conceptualised multiple
 
 _Disclaimer: Usually we'd do a lot of prototypes and iterations, this particular project had a few time constraints though – so we instead chose to refine the execution of the idea with polish whilst doing core user and technical tests throughout._
 
-A few artworks were moodboarded, and mock ups by Emila Yang.
+A few artworks were moodboarded, and Emila created mock ups.
 
 ![Moodboard](post_media/images/moodboard.png)
 
-We decided to Unity early on, an engine that we believed would make prototyping and collaboration easier in this setup than Processing or OpenFrameworks. Various Unity tests were conducted first, including lighting and atmospherics.
+We decided to Unity early on (C#), an engine that we believed would make prototyping and collaboration easier in this setup than Processing or OpenFrameworks. Various Unity tests were conducted first, including lighting and atmospherics.
 
 ![Unity Scene WIP](post_media/images/unity_purple.png)
 
-2D and 3D methods of animating creatures were investigated. Unity's Animation State Machines became quite helpful. 
+Unity's Animation State Machines became quite helpful. Especially as we investigated 2D and 3D methods for animating creatures.
 
-We even tested out using motion-capture data, as well as creating finger puppets controlled by a Leap Motion.
+In the 3D realm, we tested out using motion-capture data, 3d rigged models, as well as creating finger puppets controlled by a Leap Motion.
 
 ![Leap Motion Finger Puppet Rig](post_media/images/finger-puppet - snippet - gif.gif)
 
-Considering time constraints, we went with 2D creature assets and animation. This also worked well for enlisting others whom kindly offered to help out with our animations: Emma Chee, Ingrid Lenert, & Melody Wang.
+In consideration of time constraints, we went with 2D creature assets and animation. This worked well for enlisting others whom kindly offered to help out with our animations: Emma Chee, Ingrid Lenert, & Melody Wang.
 
 ![Creatures Move Fog Test](post_media/images/constant-bg-fg-transition-visual-test 2.gif)
 
-Lots of emails were sent researching and sourcing projection materials from other countries that would be perfect for our budget, and the outdoors environment our installation would be situated. In addition to this, we sourced two ultra short throw projectors from Hitachi, rented hardware (tools, computers), and worked with ProjectStation on the design and build of the weatherproof cubby-like house to host our installation.
+Lots of international emails were sent researching and sourcing projection materials would be perfect for the outdoors environment of our installation, as well as our budget. In addition to this, we sourced two ultra short throw projectors from Hitachi, rented hardware (tools, computers), and worked with ProjectStation on the design and build of the weatherproof cubby-like house to host our installation.
 
 ![Technical Drawing](post_media/images/TechnicalDrawings_v03_p1.jpg)
 [(Technical Drawings PDF (4 pages))](post_media/TechnicalDrawings_v03.pdf)
@@ -60,7 +60,7 @@ We initially considered using Kinects for the installation, but opted to build o
 
 ![cvis](post_media/images/cvis.png)
 
-We did user and technical tests of the build throughout.
+We conducted user and technical tests of the build throughout.
 
 ![Projected Archway](post_media/images/projected_archway.jpg)
 
@@ -72,7 +72,7 @@ The software had to be wrapped in a way that could be easily switched on/off by 
 
 ![Kids Playing](post_media/images/kids_jumping.gif)
 
-It was nice to see others playing with the installation.
+Many people were involed in this project, and my thanks goes out to everyone that helped us through. In the end, it was nice to see the final installation and kids, seniors, and adults having fun with the artwork.
 
 ![Goodbye](post_media/images/goodbye.jpg)
 
