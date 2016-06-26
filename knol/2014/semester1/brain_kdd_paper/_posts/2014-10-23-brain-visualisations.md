@@ -21,7 +21,7 @@ The following are some of the images and animations of the brain coactivation ne
 
 _For those interested, I've annotated the content below with [Graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) / [Network-Theory](https://en.wikipedia.org/wiki/Network_theory) terminology. Most metrics are [Centrality based](https://en.wikipedia.org/wiki/Centrality)._
 
-During the early process of visualising this network, I applied a simple spring-layout algorithm to the network ('Force Atlas'), interestingly enough, the network began to resemble the side view of the cerebelum! Suggesting the topological aspects of the network reflect their physical structure!
+During the early process of visualising this network, I applied a simple spring-layout algorithm to the network ('Force Atlas'), interestingly and amazingly enough, the network began to resemble the side view of the cerebelum! Suggesting the topological aspects of the network reflect their physical structure!
 
 ![Freeform brain network looks like the physical brain](3 - 1 snapshots - archive/freeformBrainNetworkLooksLikeTheCerebelumSide.png "Freeform brain network looks like the physical brain")
 
