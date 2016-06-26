@@ -23,12 +23,12 @@ _For those interested, I've annotated the content below with [Graph](https://en.
 
 During the early process of visualising this network, I applied a simple spring-layout algorithm to the network ('Force Atlas'), interestingly and amazingly enough, the network began to resemble the side view of the cerebelum! Suggesting the topological aspects of the network reflect their physical structure!
 
-![Freeform brain network looks like the physical brain](3 - 1 snapshots - archive/freeformBrainNetworkLooksLikeTheCerebelumSide.png "Freeform brain network looks like the physical brain")
+![Freeform brain network looks like the physical brain](media/freeformBrainNetworkLooksLikeTheCerebelumSide.png)
 
 Force Directed Network with increasing Minimum Edge-Weight Threshold:
-![Force Directed Network with increasing Minimum Edge-Weight Threshold](media/1 gif (2 Increasing MINIMUM Edge Weight Threshold Exploration).gif)
+[![Force Directed Network with increasing Minimum Edge-Weight Threshold](media/1 gif (2 Increasing MINIMUM Edge Weight Threshold Exploration).gif)](media/1 gif (2 Increasing MINIMUM Edge Weight Threshold Exploration).gif)
 
-[![Brain KDD - Connectivity vs Edge Weight Filtering - Stats](media/Brain KDD - Connectivity vs Edge Weight Filtering - Stats.jpg)](Brain KDD - Connectivity vs Edge Weight Filtering - Stats.jpg)
+[![Brain KDD - Connectivity vs Edge Weight Filtering - Stats](media/Brain KDD - Connectivity vs Edge Weight Filtering - Stats.jpg)](media/Brain KDD - Connectivity vs Edge Weight Filtering - Stats.jpg)
 
 Continuing with explorations in 'increasing Minimum Edge-Weight Threshold', these are its effects on:
 Degree Centrality:
