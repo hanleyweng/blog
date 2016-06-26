@@ -1,8 +1,8 @@
 ---
 layout:	post
-title:	"Brain Co-activation Network Visualisations"
+title:	"Brain Network Visualisations"
 date:	2014-08-03
-tags:	[brain, coactivation, network, kdd, Processing, animation]
+tags:	[brain, coactivation, network, kdd, Processing, animation, gephi, data, visualisation]
 ---
 
 ![decreasing max-edge-weight-threshold - kshell, betweenness - triptic](media/4 _abc brainCoactivation-∂maximumEdgeWeight-Triptic.gif)
