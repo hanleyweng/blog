@@ -1,0 +1,43 @@
+.timeline {
+	background-color: lightgray;
+}
+
+/*title*/
+.timeline-header {
+	background-color: white;
+	display: none;
+}
+.timeline-header a.follow-button {
+	display: none;
+}
+
+/*stream*/
+.stream {
+	background-color: lightsteelblue;
+}
+
+/*olist*/
+ol.h-feed {
+	margin: auto;
+	max-width: 600px;
+}
+
+/*list entry*/
+li.tweet {
+	background-color: white;
+	margin: 10px 0;
+	border-radius: 2px;
+	border-bottom: 2px solid gray;
+}
+/*hide tweet header information*/
+li.tweet div.header a.customisable-highlight {
+	position: absolute;
+	left: -57px;
+}
+li.tweet div.header div.h-card.p-author {
+	display: none;
+}
+
+button.load-more {
+	background-color: yellowgreen;
+}

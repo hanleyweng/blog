@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body {
+	    background-color: #d0e4fe;
+	    margin: 0;
+	}
+	div.twitter-section {
+		background-color: pink;
+		height: 100%;
+		/*width: 600px;*/
+		width: 200px;
+		position: fixed;
+	}
+	div.twitter-section iframe {
+		height: 100%;
+		width: 100% !important;
+	}
+
+</style>
+
+<head>
+	<title>Hastebuds</title>
+</head>
+
+
+
+<body>
+
+	<div class="twitter-section">
+
+		<a class="twitter-timeline" 
+		href="https://twitter.com/Hastebuds" 
+		data-widget-id="548022280870035456"
+		data-chrome="nofooter">
+			Tweets by @Hastebuds
+		</a> 
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	</div>
+
+</body>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script>
+
+// ---------
+function resizeTwitterSection() {
+	$('.twitter-section').css( 'width', '100%' );
+}
+
+// ---------
+
+var expandTweetsTimerAttempts = 0;
+function expandTweetsTimer() {
+	setTimeout( function() {
+
+		// set iframeBody
+		var iframeBody = $("iframe#twitter-widget-0").contents().find('body');
+
+		var prvExpandedTweets = iframeBody.find( 'li.tweet.with-expansion' ).length;
+
+		iframeBody.find( 'li.tweet.with-expansion' ).not( '.expanded' ).trigger('click'); // Try Expanding Tweets
+		resizeTwitterSection(); //resize twitter section (this is currently, needlessly, called multiple times)
+
+		// Continue to Expand Tweets if there's still some unexpanded
+		var expandedTweets = iframeBody.find( 'li.tweet.with-expansion' ).length;
+		var unexpandedTweets = iframeBody.find( 'li.tweet.with-expansion' ).not( '.expanded' ).length;
+
+		// if there are no tweets yet to expand - try again
+		// if there are still unexpanded tweets - try again
+		// if there were zero tweets expanded this round - try again
+		if (expandedTweets == 0 || unexpandedTweets != 0 || prvExpandedTweets == expandedTweets ) {
+			if (++expandTweetsTimerAttempts < 40) {
+				expandTweetsTimer();
+			}
+		}
+
+	}, 500);
+}
+
+expandTweetsTimer();
+
+
+// ---------
+
+// Add twitter widget styling
+var quitStyleCount = 0;
+var $iframeHead;
+var twitterStylesTimer = window.setInterval(function(){
+
+    $iframeHead = $("iframe#twitter-widget-0").contents().find('head');
+
+    if( !$('#twitter-widget-styles', $iframeHead).length ){ //If our stylesheet does not exist yet, place it
+       
+        // Add style
+        $iframeHead.append('<link rel="stylesheet" type="text/css" href="twitter-iframe-stylesheet.css" id="twitter-widget-styles">');
+
+    } else if( $('#twitter-widget-styles', $iframeHead).length || ++quitStyleCount > 40) {    //If stylesheet exists or we've been trying for too long then quit
+        clearInterval(twitterStylesTimer);
+    }
+
+}, 200);
+
+// ---------
+
+// Find and augment 'Load More' Button
+var augmentMoreButtonAttempts = 0;
+var $iframeBody;
+var augmentMoreButtonTimer = window.setInterval(function() {
+
+	$iframeBody = $("iframe#twitter-widget-0").contents().find('body');
+
+	if ( !$('button.auto-expander', $iframeBody).length ) {
+
+		// Load More Button
+        var iframeBody = $("iframe#twitter-widget-0").contents().find('body');
+        iframeBody.find( 'button' ).addClass('auto-expander');
+        iframeBody.find( 'button' ).click(function() {
+			// alert( "Handler for .click() called." );
+			expandTweetsTimerAttempts = 0;
+			expandTweetsTimer();
+		});
+
+	} else if( $('button.auto-expander', $iframeBody.length || ++augmentMoreButtonAttempts > 40 )) {
+		clearInterval(augmentMoreButtonTimer);
+	}
+
+}, 200);
+
+// ---------
+
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,7 @@
+Twitter Customization.txt
+	http://codepen.io/nerijusgood/pen/Ggqygo
+	
+	http://stackoverflow.com/questions/15533967/styling-the-new-twitter-widget-embedded-timeline
+
+	https://twitter.com/settings/widgets/new
+
