@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "T-Shirt Screenprint"
+title:  "T-Shirt Screenprint - Sacred Geometry Visual"
 date:   2015-05-03
 tags: [T-Shirt, Screenprint, Processing, Sacred Geometry]
 ---
 
 As a fun excercise organised by Grumpy Sailor, we headed to [Bobbin and Ink](http://www.bobbinandink.com/) (lovely people) to do some screen printing! 
 
-
-// Insert real-life photo of shirt.
+![T-Shirt Photo](1 metron cube/3 photo/IMG_0834.JPG)
 
 ## Process
 
@@ -33,3 +32,7 @@ Then I proceeded to create a parametric template for a metron cube in [Processin
 The parametric nature allowed dots, lines, outlines, etc. to be easily adjusted for the composition I desired, highlighting the inner dodecahedron. The final image was photoshopped/projected over a body at different sizes to get a feel for the desired final size. 
 
 ![](1 metron cube/0 init/screenshots/Screen Shot 2015-05-03 at 1.05.12 pm copy.png)
+
+Finally we screenprinted out our designs at Bobbin and Ink!
+
+![screen printing image](1 metron cube/3 photo/bobbin_ink_screen_print.png)
