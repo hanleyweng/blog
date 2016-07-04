@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Visualizing Temporal Networks (Summary Writeup) (Niche)"
+title:	"Visualizing Temporal Networks (Summary Academic Writeup)"
 date_begun: 2014-02-01
 status: in progress
 date:	2014-11-21
