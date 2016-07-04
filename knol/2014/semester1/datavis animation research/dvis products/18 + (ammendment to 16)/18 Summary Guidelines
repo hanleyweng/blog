@@ -1,0 +1,80 @@
+DVis Animation Interface Summary Guidelines
+
+UI
+	should have good affordances
+	clean, with no visual clutter
+	basic small multiple toggles
+	basic theme/preset toggles
+	timeline control
+
+Animation
+	Nodes
+	emphasize nodes transitioning in/out
+	nodes should have sufficient animation time in/out to stay in users' memories
+	node animations should have the 'anticipation' principle leaving/arriving
+
+	Edges
+	emphasize edges transitioning in/out(~)
+	emphasize edges changing weights
+	edges can have a long-lasting trail
+	edges can have a more emphasized signature at time of introduction
+	edge tails can fade out over time (depends on context)
+
+	Layout
+	ability to select a global fixed layout or dynamic local layout
+
+	Overall
+	staged - remove, move, add
+	option to change the staging - order and synchrony/asynchrony
+	ability to render out the animation frame by frame in hq
+
+	Independence
+	independent of Visual Mapping & Graph Layout
+
+Navigation
+	Panning & Zooming
+	should be allowed during animation
+	ideally performed intuitively without buttons
+
+	Timeline
+	click anywhere to jump to that point in time
+	for now - don't worry too much about what happens when some clicks a point in time, just pick something
+	select a range rather than a specific time
+	range selection can be detailed
+	use natural language
+
+	Play Button
+	ideally speed is adjustable
+
+	Independence
+	independent of Theme & Graph Layout
+
+Themes
+	Dynamic Metrics
+	ability to map to a live metric
+
+	Visual Mapping
+	some preset themes to start off with will do nicely
+	later controls should be provided in order of information/control-hierarchy
+	add polygonal-halo encoding as a possibility
+
+	Animation Mapping
+	various effects
+	can tie in with visual mapping
+	see 'Animation'
+
+Additional Windows
+	Key
+	having a key provides a nice touch
+
+	Small Multiples
+
+	Live Aggregated Text
+	use natural language
+
+	Metadata
+	must be integrated well, ideally with the timeline
+	keypoints should be represented, especially with inconsistent timestamps
+
+
+

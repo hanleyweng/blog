@@ -1,0 +1,60 @@
+series 62 0, 1 text descriptions.txt
+
+0a. Nodes drawn in order of their distance from an edge event. Nodes that are part of a dissappearing / appearing edge are drawn first, followed by their adjacent nodes, and so on.
+---
+0. "Ordering of Node Appearances"
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+
+0b. Nodes are all drawn simultaneously
+---
+0. "Ordering of Node Appearances"
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+
+
+0c. Nodes are all drawn according to the Sugiyama layout. Topmost (source) nodes are drawn first followed by lower nodes.
+---
+0. "Ordering of Node Appearances"
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+
+0. "Ordering of Node Appearances"
+---
+0a. Nodes drawn in order of their distance from an edge event. Nodes that are part of a dissappearing / appearing edge are drawn first, followed by their adjacent nodes, and so on.
+0b. Nodes are all drawn simultaneously
+0c. Nodes are all drawn according to the Sugiyama layout. Topmost (source) nodes are drawn first followed by lower nodes.
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+
+
+1b. Not Displayed: The visual thick line connecting nodes that have undergone significant change.
+---
+b. Nodes are drawn simultaneously.
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+
+
+
+0b. Displayed: The visual thick line connecting nodes that have undergone significant change.
+1b. Not Displayed: The visual thick line.
+---
+b. Nodes are drawn simultaneously.
+---
+Series 62: Network renders of NCBI data as of November 2014. Size is mapped to Overall Degree of Nodes. Color is mapped to change in degree (red is negative, blue is postive). Degree changes greater than 1 are circled and labeled with degree change value.
+Data: NCBI
+
+
+
+
+
+
+NCBI data note
+	- data source: 21 NCBI-May
+	- given 6 unique snapshots (setp29,31,33,35,37,39)
+		- step40 was the Exact same as step39
+	- from those 6 unique snapshots we produce 5 tweens

@@ -1,0 +1,26 @@
+DVis - Rendering Test on MBP11 and MBP14-2.txt
+
+- simultaneous test started at 00:24
+	- MBP11 running one
+	- MBP14 running one
+
+	- // note MBP11 is on 5% battery - charging - and hasn't increased in battery since start
+
+	- MBP14 finished at 01:22
+
+	- MBP14 - continued rendering after 01:22 completion
+		- now started rendering 2 more simultaneously on MBP14
+		- managed to finish one by 2:02, other one nearly done
+		- other one finished at 2:09
+
+		- Starting 2 more simultaneously at 2:09
+		- one finished at 2:47
+		- //other one left on as I went to bed
+
+	- MBP11 one finally finished at 2:53
+		- finally finished at 2:53
+			- wow, that took 2.5 hours!
+				^ - compared to other mbp which took 1hr
+				 - followed by 2 simultaneously in 40-50mins
+
+	- i.e. MBP14 definitely superior - and quite significantly as well for this particular task. Therefore it'll be good to upgrade or have a dedicated rendering machine around! (potentially one with more gb of ram than 16gb).
