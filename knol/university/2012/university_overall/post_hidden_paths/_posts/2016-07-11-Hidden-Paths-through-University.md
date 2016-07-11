@@ -18,7 +18,7 @@ My University plan covered the extent of my tertiary education - but changed eve
 At the start of each semester (or prior) I would note down every possible subject I may want to attend (either officially or unofficially), prioritising pre-requisites that opened the door to more interesting categories of courses down the road. I then tried to attend parts of each course during the first week (or the previous semester to suss out the teacher and content) - as to get a better feeling of which courses should be taken officially, and which would simply be sit-ins.
 
 The photo below is an example of one of these pre-semester plan (UCSD Spring Quarter).
-[![Spring UCSD Subject Selection](assets/Spring v1 Planner Subject Selection.jpg)](Spring v1 Planner Subject Selection.jpg)
+[![Spring UCSD Subject Selection](assets/Spring v1 Planner Subject Selection.jpg)](assets/Spring v1 Planner Subject Selection.jpg)
 
 An important realisation was that many core courses can often be substituted with another course of similar material - and such courses can sometimes be found in completely different departments (e.g. one core 'Information Visualisation' was taught, and could be substituted, across: Archaeology, Computer Science, Design, and Architecture). In undergrad - you can even sometimes elect to substitute in a post-graduate course! So you are not restricted to your faculty, nor your graduate-status, nor even your University (e.g. Exchange Universities and Colleges can sometimes offer better teachings on a subject - and more fun).
 
