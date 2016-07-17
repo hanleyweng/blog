@@ -18,3 +18,5 @@ permalink: /:categories/:title.html
 
 # Excludes - (Wow! Including these reduced render time from 90 to 13 seconds)
 exclude: ["*_private", "*_private*","_TO UPLOAD*", "_TO BE UPLOADED*"]
+
+include: ["_posts_assets"]
