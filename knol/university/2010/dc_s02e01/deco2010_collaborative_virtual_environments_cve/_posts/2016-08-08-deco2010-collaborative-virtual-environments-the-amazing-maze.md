@@ -7,7 +7,7 @@ tags: [Student, Class, USYD, University of Sydney, CVE, Game, Scripting, Linden 
 
 ![Amazing Maze Snapshot](_posts_assets/cover.png)
 
-As part of the core subject DECO2010, we were tasked to build a Collaborative Virtual Environment. This was undertaken in Second Life.
+As part of the core subject DECO2010, we were tasked to build a Collaborative Virtual Environment in Second Life. We achieved this by proposing and building an interactive maze game that was dependent on multiplayer collaboration.
 
 ## Extract from the [Proposal for The Amazing Maze](_posts_assets/iDECO_Proposal_The_Amzaing_Maze.pdf)
 
