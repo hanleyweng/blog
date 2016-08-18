@@ -12,3 +12,7 @@ _private*/
 ~$*.xlsx
 *_BIG*
 .jekyll-metadata
+
+Iconr
+*Iconr*
+Icon?
