@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MKTG1001 Marketing Principles (Course Comment)"
-date:   2011-12-01
+date:   2010-12-01
 tags: [Student, Class, USYD, University of Sydney, Semester, SIT, Marketing]
 ---
 

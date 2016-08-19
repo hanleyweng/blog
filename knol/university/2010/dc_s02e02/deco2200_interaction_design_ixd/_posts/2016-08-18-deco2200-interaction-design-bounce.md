@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DECO2200 - Bounce - A different Social Network Interface"
-date:   2011-12-07
+date:   2010-12-07
 tags: [Student, Class, USYD, University of Sydney, Semester, Interaction, Design]
 ---
 

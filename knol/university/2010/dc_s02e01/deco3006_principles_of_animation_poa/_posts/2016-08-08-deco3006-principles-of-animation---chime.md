@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "*Chime* - DECO3006 Principles of Animation"
-date:   2011-06-01
+date:   2010-06-01
 tags: [Student, Class, USYD, University of Sydney, Semester, animation, character sheet, loops]
 ---
 

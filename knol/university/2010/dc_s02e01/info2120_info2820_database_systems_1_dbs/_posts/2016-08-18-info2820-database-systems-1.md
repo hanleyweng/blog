@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "INFO2120/2820 Database Systems 1 (Exam Cheat Sheet)"
-date:   2011-06-01
+date:   2010-06-01
 tags: [Student, Class, USYD, University of Sydney, Semester, Database, SIT]
 ---
 

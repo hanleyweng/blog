@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DECO2010 Collaborative Virtual Environments - The Amazing Maze (Game)"
-date:   2011-06-01
+date:   2010-06-01
 tags: [Student, Class, USYD, University of Sydney, CVE, Game, Scripting, Linden Scripting Language (LSL), Semester]
 ---
 

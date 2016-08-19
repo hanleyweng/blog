@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DECO2200 Interaction Design (Course Summary)"
-date:   2011-12-08
+date:   2010-12-08
 tags: [Student, Class, USYD, University of Sydney, Semester, Interaction, Design]
 ---
 

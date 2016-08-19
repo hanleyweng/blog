@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AWSS2016 Graphic Design (Summary)"
-date:   2011-12-01
+date:   2010-12-01
 tags: [Student, Class, USYD, University of Sydney, Semester, Graphic Design]
 ---
 

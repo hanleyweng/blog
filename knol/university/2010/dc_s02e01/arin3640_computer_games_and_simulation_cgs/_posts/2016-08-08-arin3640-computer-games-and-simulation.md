@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ARIN3640 Computer Games and Simulation (Course Summary)"
-date:   2011-06-01
+date:   2010-06-01
 tags: [Student, Class, USYD, University of Sydney, ARIN3640, Game, Digital Cultures, Semester]
 ---
 

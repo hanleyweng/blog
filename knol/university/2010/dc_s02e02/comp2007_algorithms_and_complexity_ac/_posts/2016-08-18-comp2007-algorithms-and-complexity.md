@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "COMP2007/COMP2907 Algorithms and Complexity (Study Sheets)"
-date:   2011-12-01
+date:   2010-12-01
 tags: [Student, Class, USYD, University of Sydney, Semester, SIT, Algorithms, Complexity, COMP]
 ---
 
