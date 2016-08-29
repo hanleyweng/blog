@@ -57,23 +57,23 @@ It has been stated that “Incoming students at Gallaudet University will be req
 
 SignWriting is used in every inhabited continent. In Brazil, the SignWriting has been in use with the Brazilian Sign Language [LiBraS](https://en.wikipedia.org/wiki/Brazilian_Sign_Language) since at least 1997, in required courses at University of Santa Catarina at Florianopolis (UFSC), the preffered method of transcribing LiBraS as of 2001 - and recommended to all Deaf schools.
 
-SignWriting is a 2-Dimensional Graphical interpretation of 3-Dimensional Sign Languages, it is written vertically and from the point of view of the signer. (Traditionally it was written horizontally, and from the point of view of the viewer). Most publications also assume the right hand is dominant.
+SignWriting is a 2-Dimensional Graphical interpretation of 3-Dimensional Sign Languages, it is written vertically and from the point of view of the signer. (Initially it was written horizontally, and from the point of view of the viewer). Most publications also assume the right hand is dominant.
 
 _(P.S. When reading SignWritten words with faces, I find the perspective a bit confusing, but perhaps I just need to take some time to become accustomed.)_
 
 _(P.S. 2. Also find it a bit odd that the ASL alphabet is usually presented from the viewer-perspective. Here’s a [drawing from the signer-perspective](https://au.pinterest.com/pin/107523509827901705/) ._ )
 
-The disadvantages of SignWritings is that as a 2-Dimensional Language, with infinite potential layouts, it requires specialised software to type, and its detailed glyphs makes it unsuitable for rapid note-taking.
+The disadvantages of SignWriting is that as a 2-Dimensional Language, with infinite potential layouts, it requires specialised software to type, and its detailed glyphs makes it unsuitable for rapid note-taking.
 
 SignWriting has already made huge leaps into being encodable by computers, with the [Sutton SignWriting (Unicode Block)](https://en.wikipedia.org/wiki/Sutton_SignWriting_(Unicode_block)) a part of Unicode Version 8.0 released June 2015.
 
-_(P.S. If you are having trouble viewing the unicode blocks in the above link, your Operating System - System Fonts may not support it yet, you can download a font with the Unicode Blocks here - then reload your browser: [SignWriting 2010 TrueType Font](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf) + [SignWriting 2010 Filling TrueType Font](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.ttf)
+_(P.S. If you are having trouble viewing the unicode blocks in the above link, your Operating System - System Fonts may not support it yet, you can download a font with the Unicode Blocks here - then reload your browser: [SignWriting 2010 TrueType Font](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010.ttf) + [SignWriting 2010 Filling TrueType Font](https://cdn.rawgit.com/Slevinski/signwriting_2010_fonts/master/fonts/SignWriting%202010%20Filling.ttf) )_
 
 However, Unicode only supports 1-Dimensional characters - and as such; only the individual components of SignWriting have been accepted.
 
 From a personal point of view, the state and evolution of SignWriting appears quite analagous to other pictorial languages such as early chinese, japanese, korean or malay. In these written languages’ infancy, there were no gridded rules for placing glyphs - much like SignWriting. They were written vertically; some evolving to adopt horizontal writing with time, but eventually all were somewhat forced to adopted horizontal alternatives with the adoption of digital technology originating from the western world. In any one of these languages, thousands of possible words could be composed with glyphs, but only a subset of the most common 10Ks words or so were selected to be Unicoded [(such as Chinese,Japanese,Korean - as part of Unicode CJK Unified Ideographs Packs)](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs).
 
-Though pictorial characters like Japanese are character-encoded (meaning one Unicode character always has the same meaning), the act of Typography means that self-expression through is not lost. (Yes, like english, asian characters also have many different ‘Fonts’, their own equivalents of ComicSans, Helvetica, Times New Roman, etc.). SignWriting could also have its own ‘Fonts’, such as ‘SignWriting Blocks, SignWriting Handwriting, ASLwritten, etc.’)
+Though pictorial characters like Japanese are character-encoded (meaning one Unicode character always has the same meaning), the act of Typography means that self-expression is not lost. _(Yes, like english, asian characters also have many different ‘Fonts’, their own equivalents of ComicSans, Helvetica, Times New Roman, etc.). SignWriting have its own ‘Fonts’: ‘SignWriting Blocks, SignWriting Handwriting’._
 
 Similar to CJK characters, I believe SignWriting could benefit from having a Horizontal Writing option. However, unlike these other languages; modern algorithms can also be used to help identify common SignWritten words - even with variable glyph placement, and, like CJK, help form a set of SignWriting Unified Ideographs for submission to Unicode. Paving the way towards official recognition of Individual Sign Languages in tech, culture, and government.
 
@@ -81,7 +81,7 @@ Similar to CJK characters, I believe SignWriting could benefit from having a Hor
 
 Presently, SignWriting is the closest we have to an official written form of ASL. Upon rough preliminary research, it is also the closest thing signers from phonetic-language countries have to a written signed language.
 
-Focusing on making SignWriting easier to write and read can make it more prevalent and help all Sign Languages. New variations of SignWriting such as ASLwritten could potentially initially be expressed as a typeset of SignWriting - along their road to becoming official languages independent of SignWriting. _It is still important to promote other written sign languages for different cultures - as common actions signed by one country may be significantly different to another._
+Focusing on making SignWriting easier to write and read can make it more prevalent and help all Sign Languages. New variations of SignWriting such as ASLwritten could initially be expressed as a typeset of SignWriting - along their road to becoming official languages independent of SignWriting. _It is still important to promote other written sign languages for different cultures - as common actions signed by one country may be significantly different to another._
 
-SignWriting has made huge leaps in recent years, in allowing Sign Languages to be encoded. However there is still a lot much to do. One additional problem that will need to be tackled is the evolving nature of 1. SignWriting, and 2. Individual Signed Languages - however I strongly believe that modern technologies have the capabilities to support such dynamic languages.
+SignWriting has made huge leaps in recent years, in allowing Sign Languages to be encoded. However there is still a lot to do. One additional problem that will need to be tackled is the evolving nature of 1. SignWriting, and 2. Individual Signed Languages - however I strongly believe that modern technologies have the capabilities to support such dynamic languages.
 
