@@ -1,0 +1,1 @@
+﻿package{	public class greeterfilename{		public static function sayHello(theWord:String):String{			var greeting:String = "Hello, " + theWord;			return greeting;		}	}}

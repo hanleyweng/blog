@@ -1,0 +1,1 @@
+﻿package {	public function on_enter_frame(event:Event) {		stage.addEventListener(Event.ENTER_FRAME,on_enter_frame);		trace ("hello")		theText.text ="hi"	}}
