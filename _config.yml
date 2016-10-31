@@ -4,7 +4,7 @@ email: hanleyweng@gmail.com
 main_site: hanleyweng.com
 main_site_url: http://hanleyweng.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hanley Weng's Process Blog. A personal journal of creative work with emerging technologies. Here be experiments in Interactive Media Art, Physical Installations, Games, Machine Learning, Algorithms, Data Visualisation, Maps, etc.
+  Hi! I'm Hanley Weng, an Interaction Designer. This is a journal of work, processes, thoughts, and learnings. Here be Interactive Art Installations, Data Visualisations, Visual Explorations, Design Computing, and experiments in Interaction Design. 
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://hanleyweng.github.io" # the base hostname & protocol for your site
 twitter_username: hanleyweng
