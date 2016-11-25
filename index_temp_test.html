@@ -4,27 +4,33 @@ layout: default
 
 <style>
   .post-collection {
-    background: beige;
+    /*background: beige;*/
   }
     .post-entry {
-      border: 1px solid;
+      /*border: 1px solid;*/
+      margin: 30px 0;
     }
     .post-entry .thumb {
-      background: orange;
+      /*background: orange;*/
       width: 100px;
       height: 100px;
       float: left;
 
       background-image: url(/blog/site-images/blank-text.png);
-      background-color: pink;
+      /*background-color: pink;*/
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
+
+      border-radius: 5px;
     }
     .post-entry .text {
       min-height: 100px;
-      background: cyan;
-      margin-left: 120px;
+      /*background: cyan;*/
+      margin-left: 115px;
+    }
+    .post-entry h2 {
+      margin-bottom: 0;
     }
 </style>
 
@@ -43,6 +49,7 @@ layout: default
   <div class="post-collection">
     {% for post in site.posts %}
       <div class="post-entry">
+        <!-- THUMBNAIL -->
 
           <!-- DETERMINE IF THERE'S A COVER IMAGE -->
 
@@ -63,36 +70,23 @@ layout: default
           {% capture cover_image %}{% file_exists {{ cover_path }} %}{% endcapture %}
 
           {% if cover_image == "true" %}
-            <!-- <div class="thumb" style="background-image:url( {{ post.url | prepend: site.baseurl | append: '/../_cover_image/original.jpg'}} )"> -->
             <div class="thumb" style="background-image:url( {{ cover_path | prepend: site.baseurl }} )">
-              <!-- exists -->
             </div>
           {% else %}
             <div class="thumb">
-              <!-- absent -->
             </div>
           {% endif %}
 
+        <!-- TEXT -->
         <div class="text">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h2>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
       </div>
     {% endfor %}
   </div>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
