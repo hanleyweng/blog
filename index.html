@@ -59,14 +59,19 @@ layout: default
           {% assign path = post.path | remove_first:'_posts/' | split:'/' %}
           {% for folder in path %}
               {% unless forloop.last %}
-                {% assign folders_array = folders_array | push: folder %}
+                {% assign folder_name = folder %}
+                {% assign folders_array = folders_array | push: folder_name %}
               {% endunless %}
           {% endfor %}
           
           {% assign post_path = folders_array | join:'/' %} <!-- (different from post.path) -->
+          
+          <!-- {% assign post_path = post_path | split:' ' | join:'%20' %} -->
+          <!-- TEMP: force spaces into %20, (cgi_escape, encoding, methods didn't work) ~Future: Split all directory-words by '-' -->
+          <!-- NOTE: In General, these methods don't perform for paths with " " in them -->
 
           {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %}
-          
+
           {% capture cover_image %}{% file_exists {{ cover_path }} %}{% endcapture %}
 
           {% if cover_image == "true" %}
