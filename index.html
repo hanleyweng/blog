@@ -51,47 +51,8 @@ layout: default
       <div class="post-entry">
         <!-- THUMBNAIL -->
 
-          <!-- DETERMINE IF THERE'S A COVER IMAGE -->
-
-          <!-- Array, via: https://talk.jekyllrb.com/t/how-do-you-add-items-to-an-array-in-jekyll/324/2 -->
-          {% assign folders_array = "" | split:"|" %}
-          <!-- Determine Directory, via: http://stackoverflow.com/questions/31760004/loop-through-a-directory-and-its-sub-directories-files-in-liquid -->
-          {% assign path = post.path | remove_first:'_posts/' | split:'/' %}
-          {% for folder in path %}
-              {% unless forloop.last %}
-                {% assign folder_name = folder %}
-                {% assign folders_array = folders_array | push: folder_name %}
-              {% endunless %}
-          {% endfor %}
-          
-          {% assign post_path = folders_array | join:'/' %} <!-- (different from post.path) -->
-          
-          <!-- {% assign post_path = post_path | split:' ' | join:'%20' %} -->
-          <!-- TEMP: force spaces into %20, (cgi_escape, encoding, methods didn't work) ~Future: Split all directory-words by '-' -->
-          <!-- NOTE: In General, these methods don't perform for paths with " " in them -->
-
-          {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %}
-
-          {% capture cover_image %}{% file_exists {{ cover_path }} %}{% endcapture %}
-
-          {% if cover_image == "true" %}
-            <div class="thumb" style="background-image:url( {{ cover_path | prepend: site.baseurl }} )">
-            </div>
-          {% else %}
-            <!-- Temp Check for PNG as well -->
-            {% assign cover_path2 = post_path | prepend: '/' | append: '/_cover_image/original.png' %}
-            
-            {% capture cover_image2 %}{% file_exists {{ cover_path2 }} %}{% endcapture %}
-
-            {% if cover_image2 == "true" %}
-              <div class="thumb" style="background-image:url( {{ cover_path2 | prepend: site.baseurl }} )">
-              </div>
-            {% else %}
-              <div class="thumb">
-              </div>
-            {% endif %}
-            
-          {% endif %}
+        <div class="thumb">
+        </div>
 
         <!-- TEXT -->
         <div class="text">
