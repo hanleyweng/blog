@@ -88,7 +88,7 @@ _Research was undertaken, investigating web technologies (like webgl, canvas, sv
 
 As the ideas refined, user folows and diagrams were sketched and formulated into evolving technical specifications and design documents.
 
-![Sam Joe Sketch](media/Sam & Joe Diagram sketch.jpg)
+![Sam Joe Sketch](media/Sam-&-Joe-Diagram-sketch.jpg)
 
 ![Sam Joe Diagram](media/sam-joe-story-structure - 00_Nov_06_TTACAD-61.png)
 
