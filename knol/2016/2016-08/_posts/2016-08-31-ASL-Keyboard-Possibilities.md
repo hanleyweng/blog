@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"ASL Keyboard Possibilities"
+title:	"(Ramble) ASL Keyboard Possibilities"
 date:	2016-08-31
 tags:	[signlanguage, ASL, SignWriting, Research]
 ---

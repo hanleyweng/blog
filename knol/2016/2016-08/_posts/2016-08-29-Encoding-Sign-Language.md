@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Encoding Sign Language (Benefits & Hurdles)"
+title:	"(Ramble) Encoding Sign Language (Benefits & Hurdles)"
 start-date: 	2016-08-28
 date:	2016-08-29
 tags:	[signlanguage, ASL, SignWriting, Research]

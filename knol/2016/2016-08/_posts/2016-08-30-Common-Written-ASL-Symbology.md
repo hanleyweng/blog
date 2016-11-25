@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Common Written ASL Symbologies"
+title:	"(Ramble) Common Written ASL Symbologies"
 date:	2016-08-30
 tags:	[signlanguage, ASL, SignWriting, Research]
 ---
