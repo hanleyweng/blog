@@ -73,8 +73,19 @@ layout: default
             <div class="thumb" style="background-image:url( {{ cover_path | prepend: site.baseurl }} )">
             </div>
           {% else %}
-            <div class="thumb">
-            </div>
+            <!-- Temp Check for PNG as well -->
+            {% assign cover_path2 = post_path | prepend: '/' | append: '/_cover_image/original.png' %}
+            
+            {% capture cover_image2 %}{% file_exists {{ cover_path2 }} %}{% endcapture %}
+
+            {% if cover_image2 == "true" %}
+              <div class="thumb" style="background-image:url( {{ cover_path2 | prepend: site.baseurl }} )">
+              </div>
+            {% else %}
+              <div class="thumb">
+              </div>
+            {% endif %}
+            
           {% endif %}
 
         <!-- TEXT -->
