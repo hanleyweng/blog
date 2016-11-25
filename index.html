@@ -21,7 +21,15 @@ layout: default
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
+      border-radius: 5px;
+    }
+    .post-entry .thumb .cover {
+      width: 100%;
+      height: 100%;
 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
       border-radius: 5px;
     }
     .post-entry .text {
@@ -51,7 +59,29 @@ layout: default
       <div class="post-entry">
         <!-- THUMBNAIL -->
 
+          <!-- Array, via: https://talk.jekyllrb.com/t/how-do-you-add-items-to-an-array-in-jekyll/324/2 -->
+          {% assign folders_array = "" | split:"|" %}
+          <!-- Determine Directory, via: http://stackoverflow.com/questions/31760004/loop-through-a-directory-and-its-sub-directories-files-in-liquid -->
+          {% assign path = post.path | remove_first:'_posts/' | split:'/' %}
+          {% for folder in path %}
+              {% unless forloop.last %}
+                {% assign folder_name = folder %}
+                {% assign folders_array = folders_array | push: folder_name %}
+              {% endunless %}
+          {% endfor %}
+          
+          {% assign post_path = folders_array | join:'/' %} <!-- (different from post.path) -->
+
+          {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %}
+          {% assign cover_path2 = post_path | prepend: '/' | append: '/_cover_image/original.png' %}
+
+        <!-- Note: If Custom Plugins were permitted, we'd be doing this: -->
+        <!-- {% capture cover_image2 %}{% file_exists {{ cover_path2 }} %}{% endcapture %}{% if cover_image2 == "true" %}... -->
+
         <div class="thumb">
+          <!-- BRUTE FORCING the display of a cover-image for now, as github-pages can't run custom plugins like 'file_exists' -->
+          <div class="cover" style="background-image: url( {{ cover_path | prepend: site.baseurl }} ), url( {{ cover_path2 | prepend: site.baseurl }})" onError="style.display = 'none';">
+          </div>
         </div>
 
         <!-- TEXT -->
@@ -64,6 +94,8 @@ layout: default
       </div>
     {% endfor %}
   </div>
+
+  <script>console.log("NOTE: Temporarily brute-forcing the display of cover images for now. - Until a nice method can be found without using a custom jekyll-plugin - likely going to be JS.")</script>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
