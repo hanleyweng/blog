@@ -35,16 +35,94 @@ layout: default
   </style>
 <![endif]-->
 
-
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
+<!--   {% for static_file in site.static_files %}
+    <script>
+      console.log({{ static_file.path }})
+    </script>
+  {% endfor %} -->
+
   <div class="post-collection">
     {% for post in site.posts %}
       <div class="post-entry">
-        <div class="thumb">thumb</div>
+        <div class="thumb">
+
+        <!-- <div class="thumb" style="background-image:url( {{ post.url | prepend: site.baseurl | append: '/../_cover_image/original.jpg'}} )" onError="style.display = 'none';"> -->
+
+<!--           {% capture tata %}
+            {{ post.url | prepend: site.baseurl | append: '/../_cover_image/original.jpg'}}
+          {% endcapture %} -->
+
+<!-- 
+/knol/2016/2016-06/still-here.html/../_cover_image/original.jpg
+/knol/2016/2016-06/_cover_image/original.jpg
+
+This Works:
+
+/knol/2016/2016-06/_cover_image/original.jpg
+
+But Not THIS Sadly:
+
+/knol/2016/2016-06/still-here.html/../_cover_image/original.jpg
+
+ -->
+
+
+          {% capture cover_image %}{% file_exists /knol/2016/2016-06/still-here.html/../_cover_image/original.jpg %}{% endcapture %}
+
+          {% if cover_image == "true" %}
+            exists
+          {% else %}
+            absent
+          {% endif %}
+
+
+          <img src="{{ post.url | prepend: site.baseurl | append: '/../_cover_image/original.jpg'}}" onError="style.display = 'none';">
+
+          thumb {{post.directory}}
+          <!-- <img src="{{ post.url | prepend: site.baseurl }}/../_cover_image/original.jpg"> -->
+        </div>
+        <!-- post.directory turns up nothing, post.path is the entire path. -->
         <div class="text">
+
+          <!-- DETERMINE IF THERE'S A COVER IMAGE -->
+
+          <!-- Array, via: https://talk.jekyllrb.com/t/how-do-you-add-items-to-an-array-in-jekyll/324/2 -->
+          {% assign folders_array = "" | split:"|" %}
+          <!-- Determine Directory, via: http://stackoverflow.com/questions/31760004/loop-through-a-directory-and-its-sub-directories-files-in-liquid -->
+          {% capture directory %}
+              {% assign path = post.path | remove_first:'_posts/' | split:'/' %}
+              {% for folder in path %}
+                  {% unless forloop.last %}
+                    {% assign folders_array = folders_array | push: folder %}
+                    {{ folder }}/
+                  {% endunless %}
+              {% endfor %}
+          {% endcapture %}
+          Directory: {{ directory }}
+          <!-- Folders: {{ folders_array | join:'/' }} -->
+          
+          <!-- {% assign post_path = {{ folders_array | join:'/' }} %} -->
+          {% assign post_path = folders_array | join:'/' %}
+
+          POST_PATH: {{ post_path }}
+
+          {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %}
+          COVER-PATH: {{ cover_path }}
+
+          {% capture cover_image %}{% file_exists {{ cover_path }} %}{% endcapture %}
+
+          {% if cover_image == "true" %}
+            exists
+          {% else %}
+            absent
+          {% endif %}
+
+          <!-- {{ site.baseurl }} -->
+          <!-- {{ post.url | append: '/../_cover_image/original.jpg'}} -->
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h2>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
