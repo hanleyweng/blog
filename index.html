@@ -79,7 +79,7 @@ layout: default
 
         <div class="thumb">
           <!-- BRUTE FORCING the display of a cover-image for now, as github-pages can't run custom plugins like 'file-exists' -->
-          <div class="cover" style="background-image: url( {{ cover_path | prepend: site.baseurl }} ), url( {{ cover_path2 | prepend: site.baseurl }})" onError="style.display = 'none';">
+          <div class="cover" style="background-image: url( {{ cover_path | prepend: site.baseurl }} ), url( {{ cover_path2 | prepend: site.baseurl }});" onError="style.display = 'none';">
           </div>
         </div>
 
@@ -88,6 +88,7 @@ layout: default
           <h2>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
+          {{ post_path }}
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
       </div>
