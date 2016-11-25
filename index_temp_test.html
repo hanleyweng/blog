@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<style>
+  .post-collection {
+    background: beige;
+  }
+    .post-entry {
+      border: 1px solid;
+    }
+    .post-entry .thumb {
+      background: orange;
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+    .post-entry .text {
+      min-height: 100px;
+      background: cyan;
+      margin-left: 100px;
+    }
+</style>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <div class="post-collection">
+    {% for post in site.posts %}
+      <div class="post-entry">
+        <div class="thumb">thumb</div>
+        <div class="text">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
