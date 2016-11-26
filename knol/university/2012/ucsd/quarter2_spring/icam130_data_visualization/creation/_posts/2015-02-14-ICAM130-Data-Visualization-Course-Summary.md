@@ -40,14 +40,14 @@ And for the main project of ICAM130 (and bit of an independent study):
 [Detailed explorations were conducted on DeviantArt artworks. (The full project has been summarised as a post.)](2_deviantart_project/DataVis-Exploring-dA-Summary.html)
 
 
-- [Producing reports on: DeviantArt Categories.](2_deviantart_project/2_hw1_horizontalvis/4%20documentation/icam130_da_category_writeup/DataVis-Exploring-dA-Categories-Report.html)
+- [Producing reports on: DeviantArt Categories.](2_deviantart_project/2_hw1_horizontalvis/4-documentation/icam130_da_category_writeup/DataVis-Exploring-dA-Categories-Report.html)
 
 ![deviantArt gender ratio image](assets_post/dat-cat-square.png)
 
 <!--![deviantArt categories in Traditional Art](assets_post/da-cat_traditional.png)-->
 
 
-- [And reports from: Clustering DeviantArt Arworks.](2_deviantart_project/3_final_imageplot/3%20report/2%20final_wengeco_documentation_/DataVis-Clustering-dA-Clustering-Artworks-Report.html)
+- [And reports from: Clustering DeviantArt Arworks.](2_deviantart_project/3_final_imageplot/3-report/2-final_wengeco_documentation_/DataVis-Clustering-dA-Clustering-Artworks-Report.html)
 
 ![deviantArt Digital Art cluster](assets_post/da-clusters-plot_digital.png)
 
