@@ -73,15 +73,18 @@ layout: default
           
           {% assign post_path = folders_array | join:'/' %} <!-- (different from post.path) -->
 
-          {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %}
-          {% assign cover_path2 = post_path | prepend: '/' | append: '/_cover_image/original.png' %}
+          <!-- {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original.jpg' %} -->
+          <!-- {% assign cover_path2 = post_path | prepend: '/' | append: '/_cover_image/original.png' %} -->
+
+          {% assign cover_path = post_path | prepend: '/' | append: '/_cover_image/original-100sq.jpg' %}
 
         <!-- Note: If Custom Plugins were permitted, we'd be using: file-exists -->
 
         <div class="thumb">
           <!-- BRUTE FORCING the display of a cover-image for now, as github-pages can't run custom plugins like 'file-exists' -->
-          <div class="cover" style="background-image: url( {{ cover_path | prepend: site.baseurl }} ), url( {{ cover_path2 | prepend: site.baseurl }});" onError="style.display = 'none';">
+          <div class="cover" style="background-image: url( {{ cover_path | prepend: site.baseurl }} );">
           </div>
+          <!-- onError="style.display = 'none';" //<- Only relevant in images -->
         </div>
 
         <!-- TEXT -->
