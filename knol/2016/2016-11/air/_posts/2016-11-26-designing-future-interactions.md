@@ -1,6 +1,6 @@
 ---
 layout:	post
-title:	"Designing Air-Gestures. Designing future interactions, today."
+title:	"Designing Modern Interactions (Air-Gestures)"
 date:	2016-11-01
 tags:	[process, air-gestures, deep learning]
 ---
