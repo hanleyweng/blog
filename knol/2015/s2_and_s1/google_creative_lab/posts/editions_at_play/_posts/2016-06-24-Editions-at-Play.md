@@ -19,7 +19,7 @@ The library of books is small and cosy for now, but there's more to come. Keep a
 
 ## team & role
 
-Role: Creative Technologist. Immersed in Design & Development Teams. Consulting, Experimenting, Prototyping, and Crafting on Technological Design Possibilities.
+Role: Fiver (Designer, Technologist). Immersed in Design & Development Teams. Consulting, Experimenting, Prototyping, and Crafting on Technological Design Possibilities.
 Worked with outstanding people, including designers, developers, publishers, and writers.
 
 ![team photo](media/team_photo.jpg)
@@ -130,6 +130,7 @@ The evolving library of unprintables can be found at [Editions at Play](https://
 
 ## Press
 
+- [Cannes Shortlist](http://www.canneslionsarchive.com/winners/entry/767231/editions-at-play)
 - [Wired](http://www.wired.com/2016/02/googles-new-interactive-e-books-would-be-impossible-to-print/)
 - [Fast Company](http://www.fastcodesign.com/3056411/innovation-by-design/how-google-is-reimagining-books)
 - [The Guardian](https://www.theguardian.com/books/2016/feb/03/publishers-developers-digital-technology-unprintable-fiction-google-editions-play)
@@ -137,7 +138,5 @@ The evolving library of unprintables can be found at [Editions at Play](https://
 - [Vice: Motherboard](http://motherboard.vice.com/read/google-thinks-the-future-of-books-is-somewhere-between-a-game-and-an-app)
 - [The Bookseller](http://www.thebookseller.com/news/google-launches-new-store-for-mobile-first-books-321998)
 - [Engadget](https://www.engadget.com/2016/02/03/google-editions-at-play-e-books/)
-
-- [Cannes Shortlist](http://www.canneslionsarchive.com/winners/entry/767231/editions-at-play)
 
 ![ image of EAP About Book Front Cover ](media/EAP-About-Book-front-cover.jpg)

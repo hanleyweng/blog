@@ -15,7 +15,7 @@ Urban Housing Lab at Sydney promotes research that connects urban governance, pl
 
 My time in the lab involved consulting with experts in data and urban planning; Nichole Gurran, Somwrita Sarkar, Catherine Gilbert.
 
-There was some general branding, social media setups, visual and interactive assets. Data was researched, mined (with manual and custon automated methods), aggregated, cleaned, analysed (sometimes with the aid of machine learning and pattern recognition), and visualised for insights and internal conveyance of findings. Such visualisations included chart-based, geo-spatial, and temporal visualisations. 
+There was some general branding, social media setups, visual and interactive assets. Data was researched, mined (with manual and custom automated methods), aggregated, cleaned, analysed (sometimes with the aid of machine learning and pattern recognition), and visualised for insights and internal conveyance of findings. Such visualisations included chart-based, geo-spatial, and temporal visualisations. 
 
 These evolving visualisations took the form of posters, iOS Apps, reports, and custom Web-Based CMS Applications such as a private Multilayered Geospatial Choropleth Visualisation System akin to Tableau / CartoDB / ArcGIS - but with more bespoke features.
 

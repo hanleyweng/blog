@@ -5,17 +5,17 @@ date:	2016-08-31
 tags:	[signlanguage, ASL, SignWriting, Research]
 ---
 
-Previously we established that it is feasible to categorise ASL Handshapes so that the full gamut can theoretically be accessed with 5-10 base shapes x 6-10 modifiers (i.e. button-presses). Let's now look at existing systems to see how a SignWritten-ASL keyboard could potentially be designed.
+Previously we established that it is feasible to categorize ASL Handshapes so that the full gamut can theoretically be accessed with 5-10 base shapes x 6-10 modifiers (i.e. button-presses). Let's now look at existing systems to see how a SignWritten-ASL keyboard could potentially be designed.
 
 ## Drawing Inspiration
 
 The iOS system keyboards are a nice place to draw inspiration as they encourage bare minimalism and function. In investigating the various Chinese and Japanese keyboards, some key notes were made.
 
-In the 9-button Chinese (Pinyin-10key, Stroke) and Japanese (Kana) keyboards - the Keys never change, they don't even have alternative views in their native tounge such as 'numbers-section' (which are printed in english).
+In the 9-button Chinese (Pinyin-10key, Stroke) and Japanese (Kana) keyboards - the Keys never change, they don’t even have alternative views in their native tongue such as ‘numbers-section’ (which are printed in English).
 
-The only alternatives are a QWERTY based keyboard with the english-alphabet, for typing phonentic-versions of these pictorial languages (Chinese:PinYin) (Japanese:Romanji).
+The only alternatives are a QWERTY-based keyboard with the English-alphabet, for typing phonetic versions of these pictorial languages (Chinese:PinYin) (Japanese:Romaji).
 
-All keyboard variations are Static (their keys don't ever change to accomodate more native characters), and include auto-suggestions for entered characters. Auto-Suggestions are how a variety of words can be accessed with just a few button-taps.
+All keyboard variations are Static (their keys don’t ever change to accommodate more native characters) and include auto-suggestions for entered characters. Auto-Suggestions are how a variety of words can be accessed with just a few button taps.
 
 ## Importance of a Static Keyboard
 

@@ -33,7 +33,7 @@ tags:	[process, air-gestures, deep learning]
 	}
 </style>
 
-_This post is about designing future interactions for the present day. It uses the design of Air-Gestures as a case study, and touches on a Design Process, Technological Capabilities, and Design Considerations._
+_This post is about designing future interactions for the present day. It uses the design of Air-Gestures as a case study and touches on a Design Process, Technological Capabilities, and Design Considerations._
 
 <div class="side-note">
 	( Throughout this post I have side-notes. You don’t have to read them. They simply let me geek out with as many design & technology buzzwords as I want. 😀 )
@@ -45,9 +45,9 @@ _This post is about designing future interactions for the present day. It uses t
 
 We live in an age of chatbots, contextual user interfaces, autonomous vehicles, deep learning, and drones. Yet somehow our interaction paradigms are still performed through touchscreens and cursors.
 
-Somehow, we are still glued to our screens. The only interaction paradigm we have for controlling a device without giving it our visual attention 🙈 is voice. Whilst I love voice dictation and assistants, they can be inconsistent, slow, and fail in noisy environments. 
+Somehow, we are still glued to our screens. The only interaction paradigm we have for controlling a device without giving it our visual attention 🙈 is our voice. Whilst I love voice dictation and assistants, they can be inconsistent, slow, and fail in noisy environments.
 
-For decades we’ve been fascinated with using hand-gestures, however these have been horrendously unuseable in commercial applications*. Deep Neural Networks have the capability to improve accuracy and recognition to an unrecognisable quality.
+For decades we’ve been fascinated with using hand-gestures, however, these have been horrendously unusable in commercial applications*. Deep Neural Networks have the capability to improve accuracy and recognition to an unrecognisable quality.
 
 <div class="side-note">
 	<p>

@@ -5,7 +5,7 @@ date:   2015-10-24
 tags: [Physical Computing talk]
 ---
 
-The slides for my recent talk on Physical Computing. A bit broad, but hopefully something tickles your fancy and can give an idea on what you might want to explore next. 
+The slides for my recent talk on Physical Computing. A bit broad, but hopefully something tickles your fancy and can give an idea of what you might want to explore next. 
 
 Thanks to [Jennifer Nunez](http://www.jennifernunez.com.au/) for the design template, and to her and [Daisy Smith](http://daisymarie128.github.io/) for coming out to answer student questions in the field.
 
