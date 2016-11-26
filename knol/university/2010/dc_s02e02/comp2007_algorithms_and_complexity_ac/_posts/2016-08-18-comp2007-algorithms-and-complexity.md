@@ -17,5 +17,5 @@ Resources:
 
 - Study Sheet for Final Exam [[2 page pdf]](_posts_assets/AC_Exam_Sheet v2.pdf):
 
-[![Algorithms and Complexity - Exam Sheet Thumbnail](_posts_assets/AC_Exam_Sheet v2 - thumbnail.png)](AC_Exam_Sheet v2.pdf)
+[![Algorithms and Complexity - Exam Sheet Thumbnail](_posts_assets/AC_Exam_Sheet v2 - thumbnail.png)](_posts_assets/AC_Exam_Sheet v2.pdf)
 
