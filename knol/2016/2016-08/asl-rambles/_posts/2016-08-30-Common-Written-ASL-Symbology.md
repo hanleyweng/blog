@@ -5,6 +5,8 @@ date:	2016-08-30
 tags:	[signlanguage, ASL, SignWriting, Research]
 ---
 
+_(This is a continuation of yesterday's post: ['Encoding Sign Language'](Encoding-Sign-Language.html))_
+
 In thinking more about a SignWritten-ASL Keyboard, I've been taking inspiration from Chinese and Japanese Keyboard input systems on iOS, especially the 9-button keyboards.
 
 _(Update 2016-08-31: I mistakingly thought that these iOS keyboards change their layout dynamically, they in fact do not, something I've taken into account in my next post.)_

@@ -5,7 +5,9 @@ date:	2016-08-31
 tags:	[signlanguage, ASL, SignWriting, Research]
 ---
 
-Previously we established that it is feasible to categorize ASL Handshapes so that the full gamut can theoretically be accessed with 5-10 base shapes x 6-10 modifiers (i.e. button-presses). Let's now look at existing systems to see how a SignWritten-ASL keyboard could potentially be designed.
+_(This post began with: ['Encoding Sign Language'](Encoding-Sign-Language.html))_
+
+[Previously](Common-Written-ASL-Symbology.html) we established that it is feasible to categorize ASL Handshapes so that the full gamut can theoretically be accessed with 5-10 base shapes x 6-10 modifiers (i.e. button-presses). Let's now look at existing systems to see how a SignWritten-ASL keyboard could potentially be designed.
 
 ## Drawing Inspiration
 
