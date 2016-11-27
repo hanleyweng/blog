@@ -1,7 +1,7 @@
 ---
 layout:	post
 title:	"Apple TV Game Design Possibilities"
-date:	2016-07-31
+date:	2016-07-30
 tags:	[AppleTV, interaction, game, tvOS10]
 ---
 
