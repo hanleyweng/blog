@@ -22,19 +22,19 @@ Woke up on Wednesday and had an idea, so I spent a few minutes sketching and ver
 
 ## 💡 English to ASL App
 
-The app allows you to look up words straight from your homescreen, translates text from camera feeds into ASL in real time, and allows the live translation of voice to ASL. 
+The app allows you to look up words straight from your home-screen, translates text from camera feeds into ASL in real time, and allows the live translation of voice to ASL. 
 
-[![Interaction Paraidgms Sketch](ASL-words-sketch.jpg)](ASL-words-sketch.jpg)
+[![Interaction Paradigms Sketch](ASL-words-sketch.jpg)](ASL-words-sketch.jpg)
 
-We already knew, or quickly verified, that we could use Spotlight Search, real-time iOS10 Live Dictation, and text recognition (OCR) in videos. *
+We already knew, or quickly verified, that we could use Spotlight Search, iOS10 Live Dictation, and real-time text recognition (OCR) in videos. *
 
 <div class="side-note">
 	<p>* Using: CSSearchableItem, SFSpeechRecognizer, Google Cloud Vision API / Microsoft Computer Vision API.</p>
 </div>
 
-Note: Currently only word translations are possible (Pidgin Signed English, PSE), not grammar (which would need more data and Neural Machine Translation, NMT). 
+_Note: Currently only word translations are possible (Pidgin Signed English, PSE), not grammar (which would need more data and Neural Machine Translation, NMT)._
 
-Note: Translating English to ASL from real time Camera feeds may be costly - and the economics need to be considered. Translating text in photographs, or at a slow framerate should still be free.
+_Note: Translating English to ASL from real time Camera feeds may be costly - and the economics need to be considered. Translating text in photographs, or at a slow framerate should still be free._
 
 ## 🔨 Buildable in a few hours
 
