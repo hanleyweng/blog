@@ -8,6 +8,5 @@ Place Original Image here:
         - original.jpg
 
 ---
-Search for All cover_images using the following command:
-Terminal: find knol -path "*/_cover_image/original.jpg"
-// Future: Improve on this command, to batch generate 100x100 thumbs - e.g. using image-magic.
+Generate cover-images from all "*/_cover_image/original.jpg" by:
+- Going into 'knol' and running ./thumbnail-gen.sh (uses image-magic)
