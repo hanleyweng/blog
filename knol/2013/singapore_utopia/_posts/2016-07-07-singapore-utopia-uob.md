@@ -68,11 +68,11 @@ We decided to switch from using UITableView and Storyboard in XCode to a SpriteK
 
 Some of the other surrounding works / events:
 
-![](assets/other-drywall.JPG)
+![](assets/other-drywall-2.jpg)
 
 ![](assets/misc/IMG_0501.jpg)
 
-![](assets/other-neublik.JPG)
+![](assets/other-neublik-2.jpg)
 
 Here is an overview of the process:
 
