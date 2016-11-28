@@ -10,7 +10,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    // border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -32,15 +32,38 @@
 }
 
 .site-nav {
-    float: right;
+    // float: right;
+    text-align: center;
+
     line-height: 56px;
 
     .menu-icon {
         display: none;
     }
 
-    .page-link {
+    // H: Left,Center,Right Links
+    .col-links {
+        display: inline-block;
+    }
+    .left-links {
+
+    }
+    .center-links {
+        text-transform: uppercase;
+        font-size: 1.25em;
+        // font-weight: bold;
+        // font-weight: 400;
+        margin: 0 1.5em;
         color: $text-color;
+    }
+    .right-links {
+
+    }
+    // .
+
+    .page-link {
+        // color: $text-color;
+        color: #aaa;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -48,6 +71,13 @@
             margin-left: 20px;
         }
     }
+    .page-link.active {
+        color: $text-color;
+    }
+    .page-link.h-main-link {
+        color: $text-color;
+    }
+
 
     @include media-query($on-palm) {
         position: absolute;
@@ -87,12 +117,41 @@
             padding-bottom: 5px;
         }
 
+        // H
+        .col-links {
+            display: block;
+        }
+        .center-links {
+            display: none;
+        }
+        //.
+
         .page-link {
+            font-size: 1.25em;
             display: block;
             padding: 5px 10px;
         }
     }
 }
+
+// H: Site Blog SubHeader
+.site-blog-header {
+    /*background-color: orange;*/
+    text-align: center;
+    padding-bottom: 10px;
+
+    @include media-query($on-palm) {
+        margin-top: 10px;
+    }
+}
+    .site-blog-header .h-title {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        word-spacing: 0.2em;
+    }
+    .site-blog-header .links {
+        display: none;
+    }
 
 
 

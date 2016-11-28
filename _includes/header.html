@@ -1,19 +1,10 @@
 <!-- Temp Styling -->
 <style>
-
-  .site-blog-header {
-    /*background-color: orange;*/
-    text-align: center;
-    padding-bottom: 10px;
+  .site-nav {
+    /*Note: blog doesn't currently contain the font 'europa' */
+    font-family: "europa", "Helvetica", "Arial", sans-serif;
+    font-size: 0.85em;
   }
-    .site-blog-header .h-title {
-      font-size: 1.5em;
-      text-transform: uppercase;
-      word-spacing: 0.2em;
-    }
-    .site-blog-header .links {
-      display: none;
-    }
 </style>
 
 <header class="site-header">
@@ -30,13 +21,19 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="http://www.hanleyweng.com/work/">Portfolio</a>
-        <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
+        <div class="left-links col-links">
+          <a class="page-link" href="http://www.hanleyweng.com/work/">Portfolio</a>
+          <a class="page-link active" href="{{ site.baseurl }}/">Blog</a>
+        </div>
 
-        <a class="page-link h-main-link" href="http://www.hanleyweng.com/">Hanley</a>
+        <div class="center-links col-links">
+          <a class="page-link h-main-link" href="http://www.hanleyweng.com/">Hanley</a>
+        </div>
 
-        <a class="page-link" href="http://www.hanleyweng.com/about/">About</a>
-        <a class="page-link" href="http://www.hanleyweng.com/contact/">Contact</a>
+        <div class="right-links col-links">
+          <a class="page-link" href="http://www.hanleyweng.com/about/">About</a>
+          <a class="page-link" href="http://www.hanleyweng.com/contact/">Contact</a>
+        </div>
       </div>
     </nav>
 
