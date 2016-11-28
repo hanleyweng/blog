@@ -11,12 +11,6 @@ _ICAM130 Data Visualization Series: This is the introductory post to a series of
 
 ---
 
-<style>
-	.page-content a {
-		border-bottom: 2px solid;
-	}
-</style>
-
 ![cover image - deviantArt upload times - beads](assets_post/da-uploads-like-beads-1.png)
 
 Data Visualisation at UCSD, taught by Lev Manovich, was one of the funner courses I've experienced.
