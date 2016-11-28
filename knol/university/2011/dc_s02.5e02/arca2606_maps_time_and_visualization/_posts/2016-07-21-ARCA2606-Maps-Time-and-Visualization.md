@@ -6,9 +6,36 @@ tags: [Student, Class, USYD, University of Sydney, Archaeology, Visualization, D
 ---
 
 <style>
-	.page-content a {
-		border-bottom: 2px solid;
+	/* may have to replace ems, with translate3D() */
+	a {
+		/*text-decoration: none;*/
+		position: relative;
+		transition: all 0.2s ease;
 	}
+	a:link {
+		border-bottom: 0.2em solid;
+		text-decoration: none;
+		color: #2a7ae2;
+		top: 0.0em;
+	}
+	a:hover {
+		color: #51b4ff;
+		border-bottom: 0.4em solid;
+		top: -0.1em;
+		padding-bottom: 0.05em;
+	}
+	a:active {
+		color: #2a7ae2;
+		border-bottom: 0.2em solid #51b4ff;
+		top: 0.05em;
+		padding-bottom: 0.0em;
+	}
+	a:visited {
+		color: #7e27ca;
+		border-bottom: 0.1em solid #DEDEDE;
+		top: 0.0em;
+	}
+
 </style>
 
 
