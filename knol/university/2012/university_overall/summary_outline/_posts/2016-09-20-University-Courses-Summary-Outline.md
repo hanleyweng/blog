@@ -5,12 +5,6 @@ date:	2013-01-02
 tags:	[Personal, University, Outline, Directory]
 ---
 
-<style>
-	.page-content a {
-		border-bottom: 1px solid;
-	}
-</style>
-
 The following is a hyperlinked directory to my university courses and activities that were undertaken during the Bachelor of Design Computing degree at the University of Sydney (with exchange at the University of California, San Diego).
 
 - 2009
