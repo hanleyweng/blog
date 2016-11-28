@@ -3,6 +3,20 @@ layout: default
 ---
 
 <style>
+  .h-description-heading {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+  }
+
+  a.to-top {
+    display: block;
+    padding: 20px;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+  }
+
   .post-collection {
     /*background: beige;*/
   }
@@ -53,7 +67,9 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- <h1 class="page-heading">Posts</h1> -->
+
+  <p class="h-description-heading">– Here be posts on process, random rambles, and short sketches in design, art, and interaction.</p>
 
   <div class="post-collection">
     {% for post in site.posts %}
@@ -101,7 +117,9 @@ layout: default
 
   <script>console.log("NOTE: Temporarily brute-forcing the display of cover images for now. - Until a nice method can be found without using a custom jekyll-plugin - likely going to be JS.")</script>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- Temporarily Hidden RSS-Subscription Link, as there site-structures might still change - e.g. replacing underscores with dashes -->
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  <a href="#top" class="to-top">Back to Top</a>
 
 </div>
 
