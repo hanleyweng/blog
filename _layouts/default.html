@@ -5,6 +5,7 @@
 
   <body>
 
+<!-- Temp Style Test. To be moved into SASS -->
 <style>
   /* may have to replace ems, with translate3D() */
   a {
@@ -12,7 +13,7 @@
     position: relative;
     transition: all 0.2s ease;
   }
-  
+
   a:visited {
     color: #7e27ca;
     border-bottom: 0.1em solid #DEDEDE;
@@ -37,6 +38,28 @@
     top: 0.05em;
     padding-bottom: 0.0em;
   }
+
+  /* Site Header Fix */
+  .site-header a {
+    border-color: transparent;
+  }
+  .site-header a:hover, .site-header a:active {
+    border-color: initial;
+  }
+  .site-header a.active {
+    border-color: #EEE;
+  }
+
+  /* h2 a (for post-collection) */
+  .post-collection h2 a {
+    border-bottom: 0.2em solid transparent;
+    top: 0;
+    padding-bottom: 0;
+  }
+  .post-collection h2 a:hover, h2 a:active {
+    border-color: initial;
+  }
+
 
 </style>
 

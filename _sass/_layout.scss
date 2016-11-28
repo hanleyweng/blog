@@ -147,10 +147,14 @@
         margin-top: 10px;
     }
 }
-    .site-blog-header .h-title {
+    .site-blog-header a.h-title {
         font-size: 1.5em;
         text-transform: uppercase;
         word-spacing: 0.2em;
+        color: black;
+    }
+    .site-blog-header a.h-title:hover {
+        color: #51b4ff;
     }
     .site-blog-header .links {
         display: none;
