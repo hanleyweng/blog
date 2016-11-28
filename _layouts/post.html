@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<!-- Temporary Style: To be moved into sass -->
+<style>
+  .post .post-footer .back-to-posts {
+    margin: auto;
+    text-align: center;
+  }
+  .post .post-footer .back-to-posts a {
+    padding: 10px;
+    padding-right: 30px;
+    display: block;
+  }
+  .post .post-footer .back-to-posts a span.arrow {
+    color: #CCC;
+  }
+</style>
+
 <div class="post">
 
   <script src="{{ site.baseurl }}/js/post.js"></script>
@@ -18,10 +34,12 @@ layout: default
   	<hr>
   	<p class="post-meta">
   		Tags: {{ page.tags | join: ', ' }}
-  		
-  		<br/>
-  		Categories: {{ page.categories | join: ' > ' }}
+  		<!-- <br/>
+  		Categories: {{ page.categories | join: ' > ' }} -->
   	</p>
+    <div class="back-to-posts">
+      <a href="{{ site.baseurl }}/" class="blog-link"><span class="arrow">◀</span> All Blog Posts </a>
+    </div>
   	<p class="post-meta">
   		
   	</p>
