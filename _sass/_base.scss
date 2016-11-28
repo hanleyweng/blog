@@ -98,7 +98,8 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        // text-decoration: underline; // H
+        border-bottom: 1px solid;
     }
 }
 
