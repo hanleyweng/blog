@@ -77,8 +77,12 @@
     .page-link.active {
         color: $text-color;
     }
-    .page-link.h-main-link {
+    a.page-link.h-main-link {
         color: $text-color;
+
+        border: none;
+        top: 0;
+        padding: 0;
     }
 
 
@@ -90,6 +94,8 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+        z-index: 1;
 
         .menu-icon {
             display: block;
