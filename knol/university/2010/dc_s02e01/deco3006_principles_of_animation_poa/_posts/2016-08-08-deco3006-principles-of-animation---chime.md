@@ -17,7 +17,7 @@ Tutorials were really fun and helpful in aiding an understanding of the Principl
 
 In undertaking the final animation:
 
-a storyboard was [created](_posts_assets/1b [Storyboard] Chimes - Hanley Weng - 309248434.swf) and [revised](_posts_assets/storyboard5.swf), revised version:
+a storyboard was [created](_posts_assets/1b [Storyboard] Chimes - Hanley Weng - 309248434.swf) and [revised](_posts_assets/storyboard5.swf), revised version (Flash):
 
 <object>
 	<embed src="_posts_assets/storyboard5.swf">

@@ -16,15 +16,15 @@ DECO2200 Interaction Design (IxD) was a great course taught by Martin Tomitsch a
 - Tutorials were quite helpful in getting us familiar with:
 	- Tools/Structure of the Web (HTML,CSS,JS)
 	- Basic Graphics Design
-	- The Design Process - including Sketching, brainstorming, and presenting on the importance of [feedback](_posts_assets/10-21 - IxD_Feedback [Compressed].pdf)
+	- The Design Process - including Sketching, brainstorming, and presenting on the importance of [feedback](_posts_assets/10-21---IxD_Feedback-Compressed.pdf)
 
 ![Affinity Diagrams](_posts_assets/affinity1.jpg)
 
 ![Brainstorm Sketch of a Microwave Interface](_posts_assets/04 Microwave - Geni Design.jpg)
 
-- Assignments included the redesign of the [Cargo Bar Website](http://cargobar.com.au/), [research](_posts_assets/IxD - A2a - Social Network Research.pdf) into Social Networks, and the consequent prototype and development of a Social Interface titled 'Bounce' ([Presentation Slides](_posts_assets/10-27 - Bounce_Presentation_[Extended].pdf)) with Nadine Denten.
+- Assignments included the redesign of the [Cargo Bar Website](http://cargobar.com.au/), [research](_posts_assets/IxD - A2a - Social Network Research.pdf) into Social Networks, and the consequent prototype and development of a Social Interface titled 'Bounce' ([Presentation Slides](_posts_assets/10-27---Bounce_Presentation_-Extended.pdf)) with Nadine Denten.
 
-[![Bounce Presentation Cover Image](_posts_assets/10-27 - Bounce_Presentation - cover.jpg)](_posts_assets/10-27 - Bounce_Presentation_[Extended].pdf)
+[![Bounce Presentation Cover Image](_posts_assets/10-27 - Bounce_Presentation - cover.jpg)](_posts_assets/10-27---Bounce_Presentation_-Extended.pdf)
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/gxG-jgrLyIo" frameborder="0" allowfullscreen></iframe>
 

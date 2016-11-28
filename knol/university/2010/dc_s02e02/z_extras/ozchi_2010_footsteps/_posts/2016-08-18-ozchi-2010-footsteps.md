@@ -23,11 +23,11 @@ This paper introduces Footsteps, an urban game that pairs geographically separat
 
 Process Video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y-OyLuh8Nl4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAujWu2MNDg?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Final Concept Video:
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/DoHWEam1ZhM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fibIdGbM9Xc?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Process
 
