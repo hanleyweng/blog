@@ -14,7 +14,23 @@ layout: default
   }
   .post .post-footer .back-to-posts a span.arrow {
     color: #CCC;
+    /*padding: 0;*/
+    transition: all 0.2s ease;
   }
+    a.blog-link {
+      color: #333;
+      border: none;
+      top: 0;
+      left: 0.0em;
+    }
+    a.blog-link:hover {
+      color: #51b4ff;
+      left: -0.8em;
+    }
+    .post .post-footer .back-to-posts a.blog-link:hover span.arrow {
+      padding-right: 5px;
+    }
+
 </style>
 
 <div class="post">
