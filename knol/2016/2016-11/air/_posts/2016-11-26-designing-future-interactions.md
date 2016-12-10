@@ -51,7 +51,7 @@ For decades we’ve been fascinated with using hand-gestures, however, these hav
 
 <div class="side-note">
 	<p>
-	* See the horrifying 😱 unreliability of classical template matching in Samsung Smart TVs, or the Kinect which can only sense your hand positions at best - ignorant of the articulations of each finger. No wonder In-Air Gestural interfaces and research was centred around tiring hand movements, gorilla arm, and performing the most simple of commands. (Nicely enough, the Leap Motion uses Machine Learning, though it relies on infrared-sensor-friendly environments.)
+	* See the horrifying 😱 unreliability of classical template matching in Samsung Smart TVs, or the Kinect which can only sense your hand positions at best - ignorant of the articulations of each finger. No wonder In-Air Gestural interfaces and research was centred around tiring hand movements, gorilla arm, and performing the most simple of commands. (Wonderfully enough, the Leap Motion uses Machine Learning, though in this particular scenario we're looking for a bit broader consumer accessibility.)
 	</p>
 </div>
 
