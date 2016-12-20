@@ -56,7 +56,7 @@
     	transition: background-color 50ms;
 	}
 		#input-field.wrong {
-			background-color: pink;
+			background-color: red;
 		}
 		#input-field.correct {
 			background-color: lightgreen;
@@ -73,7 +73,6 @@
 			<div class="internal-progress"></div>
 		</div>
 		<div id="emoji-display">🏁</div>
-		<!-- <input type="text" id="input-field"> -->
 		<textarea id="input-field"></textarea>
 		<p>To Start, Type: 🏁</p>
 	</div>
@@ -97,11 +96,9 @@ $(document).ready(function() {
 
 	// Update Progress Bar Continuously.
 	window.setInterval(function() {
-
 		// Update Progress Bar
 		if (_playing) {
 			updateProgressBar();
-
 			if (progress_n100 >= 100) {
 				// Update intro.message with score
 				var msg = 'You scored '+score+' and missed '+misses+'. '+ 'That\'s 1 emoji every '+_test_duration_s/score.toFixed(2) + ' seconds. 😊';
@@ -114,7 +111,6 @@ $(document).ready(function() {
 				_playing = false;
 			}
 		}
-		
 	}, 50);
 
 	$('#input-field').on('input', function() {
