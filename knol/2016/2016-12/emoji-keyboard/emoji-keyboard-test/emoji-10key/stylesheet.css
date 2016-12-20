@@ -185,7 +185,9 @@ html, body {
 	#search-results {
 		height: 57%;
 		background-color: rgb(235,239,242);
-		overflow: auto;
+		/*overflow: auto;*/
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 		#search-results table {
 			width: 100%;
