@@ -101,7 +101,7 @@ $(document).ready(function() {
 			updateProgressBar();
 			if (progress_n100 >= 100) {
 				// Update intro.message with score
-				var msg = 'You scored '+score+' and missed '+misses+'. '+ 'That\'s 1 emoji every '+_test_duration_s/score.toFixed(2) + ' seconds. 😊';
+				var msg = 'You scored '+score+' and missed '+misses+'. '+ 'That\'s 1 emoji every '+(_test_duration_s/score).toFixed(2) + ' seconds. 😊';
 				$('.intro.message p').html(msg)
 				// Reset Display Emoji
 				progress_n100 = 0;
