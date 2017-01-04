@@ -2682,6 +2682,7 @@
 		// Get Value
 		var val = $(this).val();
 		if (val == '') { return; }
+		val = val.toLowerCase();
 		console.log(val);
 
 		updateResults(val);
@@ -2714,6 +2715,7 @@
 				$(this).toggleClass("selected");
 			});
 			// ~ Clear Search Results // $('#search-results').html('');
+			$('#keyboard-type-area input').val('');
 
 			// Get Emoji
 			var emoji = $(this).attr('emoji');
