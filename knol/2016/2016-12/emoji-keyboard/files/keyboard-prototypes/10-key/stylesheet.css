@@ -141,6 +141,36 @@ html, body {
 		outline: none;
 	}
 
+#keyboard-switcher {
+	position: relative;
+	z-index: 1;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1em;
+}
+
+	#content-container.speed-mode #keyboard-switcher {
+		display: none;
+	}
+
+	#keyboard-switcher a {
+		color: royalblue;
+		text-decoration: none;
+		margin-right: 5px;
+		padding: 3px;
+		background-color: #fcfcfc;
+	}
+		#keyboard-switcher a:hover {
+			border-bottom: 2px solid;
+		}
+		#keyboard-switcher a.active {
+			border-bottom: 3px solid;
+		}
+
+
+
 #keyboard-area {
 	width: 100%;
 	/*background-color: antiquewhite;*/
@@ -154,60 +184,21 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-
-	/*Note: in 24-key version, predicted results is used to simply contain all results. */
 	#predicted-results {
-		height: 47%;
+		height: 14%;
 		/*background-color: #DDD;*/
-		/*background-color: rgb(187,194,202);*/
-
-		background-color: rgb(235,239,242);
-		overflow-x: scroll;
-		-webkit-overflow-scrolling: touch;
+		background-color: rgb(187,194,202);
 	}
-	a {
-		text-decoration: none;
-	}
-	a:hover {
-		border-bottom: 2px solid;
-	}
-	table a, table a:hover { border: none; }
-
-	#predicted-results .container {
-		display: table-cell;
-		padding: 0 0.5em;
-	}
-	#predicted-results .container:first-child {
-		background-color: rgb(245,249,252);
-	}
-
-	#predicted-results div.column {
-		/*background: orange;*/
-		/*padding: 5px;*/
-		display: table-cell;
-	}
-	#predicted-results div.column div.link {
-		/*background: yellow;*/
-		font-size: 3.5em;	
-	}
-	#predicted-results div.column div.link a {
-		border: none;
-		padding: 0 0.05em;
-	}
-	#predicted-results div.column div.link a:hover {
-		border-radius: 10px;
-				background-color: white !important;
-	}
-/*		#predicted-results table {
+		#predicted-results table {
 			width: 100%;
 			height: 100%;
 			font-size: 3em;
 			text-align: center;
-		}
-		#predicted-results table.three-rows tr {
-			height: 33%;
+			table-layout: fixed;
 		}
 			#predicted-results td {
+				/*border: 1px solid black;*/
+				/*background: yellow;*/
 				vertical-align: bottom;
 			}
 			#predicted-results a {
@@ -215,18 +206,16 @@ html, body {
 				height: 100%;
 				display: block;
 				text-decoration: none;
-				width: 1.36em;
+				/*background: orange;*/
 			}
 			#predicted-results a.result-emoji:hover {
 				border-radius: 10px;
 				background-color: white !important;
-			}*/
+			}
 	#search-results {
-		height: 0%;
+		height: 57%;
 		background-color: rgb(235,239,242);
-		/*overflow: auto;*/
-		overflow-y: scroll;
-		-webkit-overflow-scrolling: touch;
+		overflow: auto;
 	}
 		#search-results table {
 			width: 100%;
@@ -255,7 +244,7 @@ html, body {
 
 	#keyboard-categories {
 		background-color: rgb(220,224,227);
-		height: 38%;
+		height: 14%;
 		/*height: 50px;*/
 		/*overflow: auto;*/
 		margin: 0;
@@ -266,7 +255,7 @@ html, body {
 			border-collapse: collapse;
 			width: 100%;
 			text-align: center;
-			/*height: 100%;*/
+			height: 100%;
 			margin: 0;
 			padding: 0;
 			table-layout: fixed;
@@ -277,8 +266,6 @@ html, body {
 			/*background: yellow;*/
 			margin: 0;
 			padding: 0;
-			/* Note: A border here actually widens the height a bit */
-			border: 1px solid white;
 		}
 		#keyboard-categories a {
 			/* temporary styling until i get my own images to be background-images */
@@ -291,9 +278,6 @@ html, body {
 			overflow: hidden;
 			margin: 0;
 			padding: 0;
-		}
-		#keyboard-categories a:hover {
-			background-color: white;
 		}
 		#keyboard-categories a.selected {
 			background-color: rgb(150,154,157);

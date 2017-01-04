@@ -136,10 +136,39 @@ html, body {
 	background-image: url("sandpaper.png");
 
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 	#input-field:focus {
 		outline: none;
 	}
+
+#keyboard-switcher {
+	position: relative;
+	z-index: 1;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1em;
+}
+
+	#content-container.speed-mode #keyboard-switcher {
+		display: none;
+	}
+
+	#keyboard-switcher a {
+		color: royalblue;
+		text-decoration: none;
+		margin-right: 5px;
+		padding: 3px;
+		background-color: #fcfcfc;
+	}
+		#keyboard-switcher a:hover {
+			border-bottom: 2px solid;
+		}
+		#keyboard-switcher a.active {
+			border-bottom: 3px solid;
+		}
 
 #keyboard-area {
 	width: 100%;
@@ -157,7 +186,7 @@ html, body {
 
 	/*Note: in 24-key version, predicted results is used to simply contain all results. */
 	#predicted-results {
-		height: 17%;
+		height: 15%;
 
 		background-color: rgb(235,239,242);
 		overflow-x: scroll;
@@ -231,7 +260,7 @@ html, body {
 	#keyboard-categories {
 		background-color: rgb(220,224,227);
 		width: 100%;
-		height: 68%;
+		height: 80%;
 		/*height: 50px;*/
 		/*overflow: auto;*/
 		margin: 0;
@@ -239,7 +268,16 @@ html, body {
 		display: table;
 
 		/* ~ */
-		border-right: 1px solid white;
+		/*border-right: 1px solid white;*/
+
+		background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("iphone6-portrait-UIKeyboardTypeDefault.png");
+		/*background-image: ;*/
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: bottom;
+
+		/*border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;*/
 	}
 		#keyboard-categories table {
 			border-collapse: collapse;
@@ -277,11 +315,12 @@ html, body {
 		#keyboard-categories a.selected {
 			background-color: rgb(150,154,157);
 		}
+
 		#keyboard-type-area {
 			margin: 0;
 			padding: 0;
 			background: white;
-			border-radius: 5px;
+			border-radius: 0px !important;
 		}
 		#keyboard-type-area input {
 			width: 95%;
@@ -292,10 +331,11 @@ html, body {
 			line-height: 1.5em;
 			margin: auto;
 			display: block;
+			padding: 0.9em 0;
 		}
 
 	#excess-row {
-		height: 15%;
+		height: 5%;
 		background-color: darkgray;
 
 		background-color: #000000;
