@@ -143,6 +143,13 @@
     }
 }
 
+// H: Hide desktop-only content - currently just "Hanley's Blog{ of Experiments}"
+@include media-query($on-palm) {
+    .desktop-only {
+        display: none;
+    }
+}
+
 // H: Site Blog SubHeader
 .site-blog-header {
     /*background-color: orange;*/
