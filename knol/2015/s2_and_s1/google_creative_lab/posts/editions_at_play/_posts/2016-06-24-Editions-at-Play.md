@@ -7,7 +7,7 @@ tags: [Google, Creative Lab, Sydney, Editions at Play, Visual Editions, eBooks, 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5Bh6moo6XhQ" frameborder="0" allowfullscreen></iframe>
 
-## about
+## About
 
 Editions At Play is an experiment in Unprintable Books. Initiated by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the mobile web.
 
@@ -17,7 +17,7 @@ The library of books is small and cosy for now, but there's more to come. Keep a
 
 ![image of the 4 books](media/4-books.gif)
 
-## team & role
+## Team & Role
 
 Role: Fiver (Designer, Technologist). Immersed in Design & Development Teams. Consulting, Experimenting, Prototyping, and Crafting on Technological Design Possibilities.
 Worked with outstanding people, including designers, developers, publishers, and writers.
@@ -34,7 +34,7 @@ Some of these amazing people:
 - Alan Trotter, Reif Larsen, Joe Dunthorne, Sam Riviere,
 - Tommy Lee Edwards, I Speak Machine, Penguin Random House
 
-## process snapshots
+## Process Snapshots
 
 Most of the process is black boxed, however I can share some snapshots during the design and creation process. 
 
