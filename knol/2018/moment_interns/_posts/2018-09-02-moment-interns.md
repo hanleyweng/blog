@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Moment Interns empowering the VI community (link)"
+title:  "Moment Interns designing with the VI community (link)"
 date:   2018-08-31
 tags: [accessibility, Moment, Interns, Blind]
 ---
@@ -11,7 +11,7 @@ For the last few months, we've had some amazing summer interns at Moment.
 - [Lauren Fox](http://lauren-fox.com/)
 - [Chanel Luu Hai](http://chanel-luuhai.com/)
 - [Alina Peng](https://www.alinapeng.com/)
-- [Alexis Trevizo])(http://sites.bxmc.poly.edu/~alexistrevizo/portfolio2017/home.html)
+- [Alexis Trevizo](http://sites.bxmc.poly.edu/~alexistrevizo/portfolio2017/home.html)
 
 Stephanie Rymer and I had the pleasure of providing day-to-day guidance - though each and every intern was already highly autonomous and skilled. Our roles were mainly facilitating their journey and the connections they would need to make in their research.
 
@@ -23,3 +23,4 @@ The original brief was to: "Design a near-future product or service that improve
 
 [Also their design process here.](https://medium.com/design-intelligence/thea/home)
 
+<iframe src="https://player.vimeo.com/video/286066959?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

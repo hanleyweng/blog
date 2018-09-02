@@ -18,4 +18,4 @@ JEKYLL - Instructions
 - Installation: https://jekyllrb.com/docs/installation/macos/
 
 - CD to directory
-- Run: " jekyll serve "
+- Run: " jekyll serve --baseurl /blog "
