@@ -7,7 +7,7 @@ tags:	[data, visualisation, analysis, geospatial, urban, planning, nda]
 
 ![picture of sydney](media/sydney_img11.jpg)
 
-## about
+## About
 
 We live in a digital age where we now collect massive amounts of data about the social, spatial, economic, and demographic aspect of our cities and suburbs. However, a lot of the data is inaccessible, dif cult to interpret, or spread across several agencies and spatial scales. Further, innovative experiments in the UK and the USA have shown the big potential offered by big urban data. In response Urban Lab Sydney is seeking to address this gap for Sydney by working with Councils to enable big data driven predictive analytics for cities.
 
@@ -21,7 +21,7 @@ These evolving visualisations took the form of posters, iOS Apps, reports, and c
 
 Some of the most prominent tools included: Web technologies, d3 js, tableau, leaflet js, Processing, Swift, Objective-C, Unfolding Maps, Excel, and Weka. 
 
-## some wip snapshots
+## Some WIP Snapshots
 
 Unfortunately there's are quite a few insights and graphics that aren't public. Instead I'll share here some of the wip snapshots during the project.
 
@@ -49,7 +49,7 @@ Unfortunately there's are quite a few insights and graphics that aren't public. 
 
 
 
-## key learnings
+## Key Learnings
 
 - universal accessibility is important
 - desired briefs need to be actively re-evaluated

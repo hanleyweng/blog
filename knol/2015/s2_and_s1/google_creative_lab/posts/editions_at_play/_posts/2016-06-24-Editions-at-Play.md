@@ -13,7 +13,7 @@ Editions At Play is an experiment in Unprintable Books. Initiated by Visual Edit
 
 These are books that might be data-led, locative, generative, algorithmic, sensor-based, fluid, non-linear, expandable, cookie-ish, personalised, proximal, augmented, real-time, time-sensitive, adaptive, collaborative, and share-y.
 
-The library of books is small and cosy for now, but there's more to come. Keep an eye out on [Editions at Play](editionsatplay.withgoogle.com) for future releases!
+The library of books is small and cosy for now, but there's more to come. Keep an eye out on [Editions at Play](https://editionsatplay.withgoogle.com) for future releases!
 
 ![image of the 4 books](media/4-books.gif)
 
@@ -50,11 +50,11 @@ Given the brief of investigating a form of books for the mobile web (eventually 
 
 ![moodboard image](media/moodboards pdf thumbs wip.png)
 
-This included animated moodboard, we were crafting something that was inherently digital after all - something that couldn't be printed.
+This included animated moodboards, we were crafting something that was inherently digital after all - something that couldn't be printed.
 
 ![Alan Trotter animated moodboard](media/AT_VisualBoard - trimmed_at_moodboard 2.gif)
 
-Analysed and visualised data helped provide insights and guide us along our path. (Playing with data tools like Gephi, Weka, Julia.)
+Data analysis and visualization helped provide insights and guide us along our path. (Playing with data tools like Gephi, Weka, Julia.)
 
 ![books examples - graphed with undirected betweenness centrality](media/data - 2b undirected betweenness centrality.jpg)
 
